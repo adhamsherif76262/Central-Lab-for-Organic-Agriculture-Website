@@ -24,13 +24,25 @@ video {
     margin-bottom: 50px !important;
 }
 
+#Our_Mission_Section,
+#Our_Vision_Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 25%; */
+    /* margin-right: 5%; */
+    /* margin-top: 0px; */
+    /* margin-bottom: 50px !important; */
+}
+
 #Vision_Img,
 #Mission_Img {
+
     max-width: 750px;
-    margin-left: 25%;
-    margin-right: 25%;
+    /* margin-left: auto; */
+    /* margin-left: 5%; */
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 #Title_H1 {
@@ -191,9 +203,27 @@ p,
     #Current_Director_Image {
         max-width: 450px;
     }
+
+    #Vision_Img,
+    #Mission_Img {
+
+        max-width: 600px;
+        /* margin-left: auto; */
+        /* margin-left: 5%; */
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 600px) {
+
+    #Current_Director_H2,
+    #Current_Director_Speech_H2,
+    #Second_p_H2 {
+        padding: 50px;
+        font-size: 30px;
+    }
+
     #Introductory_Video_Section {
         width: 95%;
         margin-left: 2.5%;
@@ -204,6 +234,12 @@ p,
 
     #Current_Director_Image {
         max-width: 350px;
+    }
+
+
+    #Vision_Img,
+    #Mission_Img {
+        max-width: 450px;
     }
 
     .episode__content {
@@ -224,6 +260,13 @@ p,
         /* margin-right: 150px !important; */
     }
 
+    .LI_En,
+    .LI_Ar {
+        /* margin: 0 0 15px 0; */
+        font-size: 30px;
+        line-height: 3rem;
+    }
+
     /* .episode__content_Last{
         overflow-x: hidden;
     } */
@@ -242,7 +285,26 @@ p,
     }
 }
 
+@media (max-width: 450px) {
+
+    #Vision_Img,
+    #Mission_Img {
+        max-width: 350px;
+    }
+
+
+}
+
 @media (max-width: 400px) {
+
+    #First_p,
+    #Second_p,
+    #Current_Director_Speech {
+        font-size: 25px;
+        padding: 20px;
+        line-height: 3rem;
+    }
+
     #Introductory_Video_Section {
         width: 100%;
         margin-left: 0.5%;
@@ -263,8 +325,15 @@ p,
     p,
     li {
         margin: 0 0 15px 0;
-        font-size: 30px;
+        font-size: 25px;
         line-height: 3rem;
+    }
+
+    .LI_En,
+    .LI_Ar {
+        /* margin: 0 0 15px 0; */
+        font-size: 22px;
+        line-height: 2.5rem;
     }
 
     .episode__number_Ar {
@@ -280,5 +349,37 @@ p,
 
     .episode__number_En {
         padding-right: 50px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    #Current_Director_H2,
+    #Current_Director_Speech_H2,
+    #Second_p_H2 {
+        margin-bottom: 100px;
+        margin-top: 100px;
+        padding: 0px;
+        font-size: 25px;
+    }
+
+    #First_p,
+    #Second_p,
+    #Current_Director_Speech {
+        font-size: 20px;
+        padding: 20px;
+        line-height: 2rem;
+    }
+
+    #Vision_Img,
+    #Mission_Img {
+        max-width: 300px;
+    }
+
+    .LI_En,
+    .LI_Ar {
+        /* margin: 0 0 15px 0; */
+        font-size: 20px;
+        line-height: 2rem;
     }
 }
