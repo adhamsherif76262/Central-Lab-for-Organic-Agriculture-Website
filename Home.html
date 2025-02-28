@@ -51,6 +51,13 @@
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="https://daniellaharel.com/raindrops/js/raindrops.js"></script>
     <script>
+        if (!(location.href.includes("/Home") || location.href.includes("/home"))) {
+            // console.log("The Page URL Before Modifications  " + location.href)
+            location.href += "/Home";
+            // console.log("The Page URL After Modifications  " + location.href)
+        } else {
+            // console.log("The URL Is On Home Page")
+        }
         localStorage.setItem("Permenant_Language", "عربي");
         // localStorage.setItem("Permenant_Language", "English");
             function To_Top() {
@@ -76,7 +83,7 @@
     <script src="./JAVASCRIPT/Arabic_Lang_Button.js"></script>
     <script src="./JAVASCRIPT/English_Lang_Button.js"></script>
     <script src="./JAVASCRIPT/Home.js"></script>
-    <!-- <script>
+     <!-- <script>
         // location.reload();
         // localStorage.clear()
         // alert(localStorage.getItem("Permenant_Language"))
