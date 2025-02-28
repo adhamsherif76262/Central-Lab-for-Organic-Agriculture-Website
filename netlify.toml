@@ -1,0 +1,44 @@
+[[redirects]]
+from = "/Home"
+to = "https://www.youtube.com/"
+status = 200
+
+[[redirects]]
+from = "/HTML/Institute_Sections"
+to = "https://www.youtube.com/"
+status = 200
+
+[[redirects]]
+from = "/HTML/Helping_Units"
+to = "https://www.youtube.com/"
+status = 200
+
+[[redirects]]
+from = "/HTML/Institute_Branches"
+to = "https://www.youtube.com/"
+status = 200
+
+[[redirects]]
+from = "/HTML/Patents"
+to = "https://www.youtube.com/"
+status = 200
+
+[[redirects]]
+from = "/HTML/Previous_Presidents"
+to = "https://www.youtube.com/"
+status = 200
+
+[[redirects]]
+from = "/HTML/Research_Projects"
+to = "https://www.youtube.com/"
+status = 200
+
+[[redirects]]
+from = "/HTML/Overview"
+to = "https://www.youtube.com/"
+status = 200
+
+[[redirects]]
+from = "/HTML/Collaborations"
+to = "https://www.youtube.com/"
+status = 200
