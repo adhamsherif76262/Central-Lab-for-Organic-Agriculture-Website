@@ -48,7 +48,8 @@ video {
 }
 
 #Current_Director_H2,
-#Current_Director_Speech_H2 {
+#Current_Director_Speech_H2,
+#Second_p_H2 {
     color: black;
     padding: 50px;
     font-size: 50px;

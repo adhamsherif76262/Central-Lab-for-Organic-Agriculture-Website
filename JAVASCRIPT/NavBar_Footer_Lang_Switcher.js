@@ -147,7 +147,7 @@ var Navigation_Bar_Section_En = `
     <div id="Nav_Container_Div">
         <div id="Logo_Div">
             <a href=".${IMAGESpath}/Home.html">
-                <img id="Lab_Logo" src=".${IMAGESpath}/Images/Logos/LOGO.jpeg" alt="">
+                <img id="Lab_Logo" src=".${IMAGESpath}/Images/Logos/LOGO-removebg-preview.png" alt="">
             </a>
             <h1 id="Title_H1_En" style="color: black; margin: 0;">Central Lab for Organic Agriculture</h1>
         </div>

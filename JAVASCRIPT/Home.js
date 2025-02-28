@@ -289,10 +289,10 @@ var Activities_Section_En = `
 `;
 
 var Current_Director_H2_Ar = `
-مدير المعمل  الأستاذ الدكتور : سعد جعفر
+مدير المعمل  الأستاذ الدكتور : سعد عبد الخالق جعفر
 `;
 var Current_Director_H2_En = `
-Laboratory Director : Prof. Dr. Saed Geffar
+Laboratory Director : <br> <br> Prof. Dr. Saad Abd El-Khalek Jaafar
 `;
 var Current_Director_Speech_H2_Ar = `
     كلمة مدير المعمل المركزى للزراعة العضوية 
@@ -323,16 +323,10 @@ var Second_p_H2_En = `
 Summary of the Laboratory’s Role
 `;
 var Second_p_Ar = `
-معملنا مسؤول عن تنفيذ قانون الزراعة العضوية ومراقبة مدخلات الإنتاج للمزارع العضوية، وإنشاء قاعدة بيانات حول الزراعة العضوية في مصر، ولاسيما تسجيل مكاتب التفتيش وإصدار الشهادات العضوية العاملة في مصر لضمان النزاهة، بهدف تعزيز القدرة التنافسية لمصر في السوق المتخصصة للمنتجات العضوية.<br>
-أيضًا، يقوم المعمل بإجراء أبحاث ودراسات حول خصوبة التربة ووقاية النبات من الأمراض والآفات التي تصيب المحاصيل الاقتصادية، من خلال استخدام البدائل الحديثة لنظم إدارة التربة، بما يضمن الحفاظ على خصوبتها على المدى الطويل. كما يعمل المعمل على تطبيق نظم المكافحة المتكاملة للآفات في إطار الزراعة العضوية، وذلك وفقًا لقانون الزراعة العضوية المصري رقم ١٢ لسنة ٢٠٢٠ ولائحته التنفيذية رقم ١٦٩ لسنة ٢٠٢١، وبما يتماشى مع المعايير الدولية للزراعة العضوية. تهدف هذه الجهود إلى الحد من استخدام المواد الكيميائية في الإنتاج الزراعي، وتحقيق إنتاج غذائي عالي الجودة بكمية كافية، مع تعزيز نظام التنوع البيولوجي.<br>
-إضافةً إلى ذلك، يتولى المعمل المركزي للزراعة العضوية إنتاج الأسمدة والمخصبات ومحسنات التربة والمبيدات الحيوية، إلى جانب بعض المواد الكيميائية الطبيعية لمكافحة الآفات والأمراض، تحت إشراف نخبة من الأساتذة والباحثين في المجالات المختصة. يهدف المعمل إلى تشجيع الإنتاج العضوي لمختلف المحاصيل، وزيادة صادرات مصر، وتقليل استخدام المبيدات في الزراعة المصرية، إلى جانب توفير قاعدة بيانات شاملة للمزارع العضوية وشركات التصدير في مصر، مما يساعد في وضع الخطط المستقبلية لتطوير القطاع.<br>
-علاوة على ذلك، يقوم المعمل بتنظيم دورات تدريبية لكلٍّ من القطاعين العام والخاص في مجالات إدارة المزارع العضوية، بما يشمل تغذية النبات، وخصوبة التربة، وحماية النباتات، ومعاملات ما بعد الحصاد. كما يضطلع المعمل بدور إرشادي مهم، حيث ينظم دورات تدريبية وإرشادية، وورش عمل، وأيامًا ميدانية، وزيارات حقلية للمزارعين والعاملين في قطاعات إنتاج واستيراد وتصدير المدخلات الزراعية العضوية، بهدف تدريبهم على نظم ومعايير الزراعة العضوية، بما يضمن جودة وفاعلية وتكامل عملية الإنتاج العضوي.<br>
+المعمل مسؤول عن تنفيذ قانون الزراعة العضوية، ومراقبة مدخلات الإنتاج، وتسجيل مكاتب التفتيش وإصدار الشهادات لضمان النزاهة وتعزيز تنافسية المنتجات المصرية. يجري أبحاثًا حول خصوبة التربة ومكافحة الآفات باستخدام البدائل الحديثة، ويطبق نظم المكافحة المتكاملة وفقًا للمعايير الدولية. كما ينتج الأسمدة والمبيدات الحيوية لدعم الزراعة العضوية وتقليل استخدام المبيدات. ينظم دورات تدريبية وإرشادية للمزارعين والعاملين في القطاع، ويوفر قاعدة بيانات للمزارع العضوية وشركات التصدير لدعم تطوير القطاع.
 `;
 var Second_p_En = `
-The Central Laboratory for Organic Agriculture is responsible for implementing the Organic Agriculture Law, monitoring production inputs for organic farms, and establishing a database on organic farming in Egypt. This includes registering inspection offices and certifying organic certification bodies operating in Egypt to ensure integrity and enhance Egypt’s competitiveness in the specialized organic products market.<br>
-The laboratory also conducts research and studies on soil fertility and plant protection from diseases and pests affecting economic crops through modern alternatives for soil management systems, preserving long-term soil fertility, and integrated pest management under organic farming systems. This is carried out in accordance with Egyptian Organic Agriculture Law No. 12 of 2020 and its Executive Regulation No. 169 of 2021, aligning with international organic agriculture standards to minimize the use of chemicals, ensure the production of high-quality food in sufficient quantities, and promote biodiversity conservation.<br>
-Additionally, the Central Laboratory for Organic Agriculture produces fertilizers, soil amendments, bio-pesticides, and certain natural chemical substances for pest and disease control, under the supervision of leading professors and researchers in the relevant fields. Our objective is to promote organic production across various crops, increase Egypt’s exports, and reduce the use of pesticides in Egyptian agriculture. Moreover, the laboratory provides a database of organic farms and export companies in Egypt to support future planning.<br>
-The laboratory also organizes training courses for both the public and private sectors on organic farm management, including plant nutrition, soil fertility, plant protection, and post-harvest handling. Additionally, it plays an advisory role by organizing training and awareness programs, workshops, field days, and on-site visits for farmers and stakeholders involved in the production, import, and export of organic agricultural inputs. These initiatives aim to train them on organic farming systems and standards, ensuring the quality, effectiveness, and integration of the organic production process.<br>
+  The laboratory is responsible for implementing the Organic Agriculture Law, monitoring production inputs, registering inspection offices, and issuing certificates to ensure integrity and enhance the competitiveness of Egyptian products. It conducts research on soil fertility and pest control using modern alternatives and implements integrated pest management systems in accordance with international standards. It also produces bio-fertilizers and bio-pesticides to support organic agriculture and reduce the use of chemical pesticides. Additionally, it organizes training and guidance courses for farmers and sector workers, and provides a database for organic farms and exporting companies to support sector development.
 `;
 
     function Home_Load_Content_Ar() {
@@ -354,6 +348,7 @@ The laboratory also organizes training courses for both the public and private s
         Current_Director_Speech_H2.style.direction = "rtl";
         Current_Director_H2.innerHTML = Current_Director_H2_Ar;
         Current_Director_H2.style.direction = "rtl";
+        Second_p_H2.innerHTML = Second_p_H2_Ar;
         Second_p.innerHTML = Second_p_Ar;
         Second_p.style.direction = "rtl";
         Our_Mission_Section.innerHTML = Our_Mission_Section_Ar;
@@ -378,6 +373,7 @@ The laboratory also organizes training courses for both the public and private s
         Current_Director_Speech_H2.style.direction = "ltr";
         Current_Director_H2.innerHTML = Current_Director_H2_En;
         Current_Director_H2.style.direction = "ltr";
+        Second_p_H2.innerHTML = Second_p_H2_En;
         Second_p.innerHTML = Second_p_En;
         Second_p.style.direction = "ltr";
         Our_Mission_Section.innerHTML = Our_Mission_Section_En;
