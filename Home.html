@@ -61,12 +61,17 @@
         localStorage.setItem("Permenant_Language", "عربي");
         // localStorage.setItem("Permenant_Language", "English");
             function To_Top() {
-            window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-            });
-            // window.scroll({ top: 0, behavior: "smooth" });
-            // alert("top btn clicked");
+                const audio = new Audio("./Audios/click_effect-86995.mp3");
+
+                audio.currentTime = 0; // Reset audio before playing again
+                audio.play();
+
+                window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+                });
+                // window.scroll({ top: 0, behavior: "smooth" });
+                // alert("top btn clicked");
             }
 
         function Hide_Overflow(){

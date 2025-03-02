@@ -4,42 +4,22 @@ to = "https://www.youtube.com/"
 status = 200
 
 [[redirects]]
-from = "/HTML/Institute_Sections"
+from = "/HTML/Insights_Resources"
 to = "https://www.youtube.com/"
 status = 200
 
 [[redirects]]
-from = "/HTML/Helping_Units"
+from = "/HTML/Research_Departements"
 to = "https://www.youtube.com/"
 status = 200
 
 [[redirects]]
-from = "/HTML/Institute_Branches"
-to = "https://www.youtube.com/"
-status = 200
-
-[[redirects]]
-from = "/HTML/Patents"
+from = "/HTML/Services"
 to = "https://www.youtube.com/"
 status = 200
 
 [[redirects]]
 from = "/HTML/Previous_Presidents"
-to = "https://www.youtube.com/"
-status = 200
-
-[[redirects]]
-from = "/Previous_Presidents"
-to = "https://www.youtube.com/"
-status = 200
-
-[[redirects]]
-from = "/HTML/Research_Projects"
-to = "https://www.youtube.com/"
-status = 200
-
-[[redirects]]
-from = "/HTML/Overview"
 to = "https://www.youtube.com/"
 status = 200
 

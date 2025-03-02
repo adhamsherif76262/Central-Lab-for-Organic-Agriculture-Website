@@ -64,6 +64,10 @@
         <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <script src="https://daniellaharel.com/raindrops/js/raindrops.js"></script>
         <script>
+            if (localStorage.getItem("Permenant_Language") === null || localStorage.getItem("Permenant_Language") ===
+                "") {
+                location.href = "../Home.html";
+            }
             jQuery('#waterdrop').raindrops({
                 color: '#1c1f2f',
                 canvasHeight: 150,
@@ -72,6 +76,10 @@
             });
 
             function To_Top() {
+                const audio = new Audio("../Audios/click_effect-86995.mp3");
+
+                audio.currentTime = 0; // Reset audio before playing again
+                audio.play();
                 window.scrollTo({
                     top: 0,
                     behavior: "smooth"
