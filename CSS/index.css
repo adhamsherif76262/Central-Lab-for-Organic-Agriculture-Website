@@ -23062,7 +23062,7 @@ p {
 }
 
 .u-font-arial.u-custom-font {
-  font-family: Arial, sans-serif !important;
+  font-family: Omnes-Arabic-HairLine-Bold !important;
 }
 
 .u-font-courier-new.u-custom-font {
@@ -23074,7 +23074,8 @@ p {
 }
 
 .u-font-roboto.u-custom-font {
-  font-family: Roboto, sans-serif !important;
+  /* font-family: Roboto, sans-serif !important; */
+  font-family: Omnes-Arabic-HairLine-Bold !important;
 }
 
 .u-font-open-sans.u-custom-font {
@@ -23090,11 +23091,13 @@ p {
 }
 
 .u-font-roboto-condensed.u-custom-font {
-  font-family: 'Roboto Condensed', sans-serif !important;
+  /* font-family: 'Roboto Condensed', sans-serif !important; */
+  font-family: Omnes-Arabic-HairLine-Bold !important;
 }
 
 .u-font-oswald.u-custom-font {
-  font-family: Oswald, sans-serif !important;
+  /* font-family: Oswald, sans-serif !important; */
+  font-family: Omnes-Arabic-HairLine-Bold !important;
 }
 
 .u-font-raleway.u-custom-font {
@@ -23118,7 +23121,8 @@ p {
 }
 
 .u-font-roboto-slab.u-custom-font {
-  font-family: 'Roboto Slab', serif !important;
+  /* font-family: 'Roboto Slab', serif !important; */
+  font-family: Omnes-Arabic-HairLine-Bold !important;
 }
 
 .u-font-playfair-display.u-custom-font {
@@ -30780,6 +30784,7 @@ span.product-remove:after {
   height: 100%;
   width: 100%;
 }
+
 /**Controls the carousel Arrows**/
 .u-gallery-nav,
 .u-carousel-control {
@@ -32612,9 +32617,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto, sans-serif;
+  /* font-family: Roboto, sans-serif; */
+  font-family: Omnes-Arabic-HairLine-Bold !important;
 }
 
+/*  */
 /*end-variables font-family*/
 /*begin-variables color*/
 .u-overlap.u-overlap-transparent .u-header,
@@ -32641,7 +32648,8 @@ h6 {
 }
 
 .u-custom-font.u-heading-font {
-  font-family: Roboto, sans-serif !important;
+  /* font-family: Roboto, sans-serif !important; */
+  font-family: Omnes-Arabic-HairLine-Bold !important;
 }
 
 /*end-variables font*/
@@ -52482,6 +52490,18 @@ blockquote {
 /*begin-variables base-font-size*/
 html {
   font-size: 16px;
+}
+
+@font-face {
+  font-family: Omnes-Arabic-HairLine-Bold;
+  src: url(../Fonts/ArbFONTS-OMNES-ARABIC-BOLD.ttf);
+}
+
+.footer-site-info a {
+  /* text-decoration: underline !important; */
+  /* color: #0D6EFD !important; */
+  /* color: #b0b0b0 !important; */
+  color: #478AC9 !important;
 }
 
 /*end-variables base-font-size*/

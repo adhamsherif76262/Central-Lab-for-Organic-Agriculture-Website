@@ -3,6 +3,18 @@
     src: url(../Fonts/ArbFONTS-OMNES-ARABIC-BOLD.ttf);
 }
 
+.gem-contacts a {
+    color: #478AC9 !important;
+    text-decoration: none;
+}
+
+.footer-site-info a {
+    text-decoration: none !important;
+    /* color: #0D6EFD !important; */
+    /* color: #b0b0b0 !important; */
+    color: #478AC9 !important;
+}
+
 .Footer_Ar {
     direction: rtl;
 }
