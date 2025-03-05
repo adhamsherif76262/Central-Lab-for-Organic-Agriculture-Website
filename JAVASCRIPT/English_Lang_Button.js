@@ -47,10 +47,22 @@ function LangBtnEnClick() {
       console.log(Contact_H1);
       Page_Title.innerHTML = "Collaborations";
       break;
-    case location.href.includes("/Services") ||
-      location.href.includes("/services"):
+    case location.href.includes("/Main_Services") ||
+      location.href.includes("/main_services"):
       Page_Title.innerHTML = "Services";
-      Helping_Units_Load_Content_En();
+      Services_Load_Content_En();
+      break;
+
+    case location.href.includes("/Services_Product_1") ||
+      location.href.includes("/services_product_1"):
+      Page_Title.innerHTML = "Product 1";
+      Services_Product_1_Load_Content_En();
+      break;
+
+    case location.href.includes("/Services_Product_2") ||
+      location.href.includes("/services_product_2"):
+      Page_Title.innerHTML = "Product 2";
+      Services_Product_2_Load_Content_En();
       break;
 
     case location.href.includes("/Previous_Presidents") ||
@@ -65,7 +77,7 @@ function LangBtnEnClick() {
       Page_Title.innerHTML = "AERI Institute Branches Page";
       Institute_Branches_Load_Content_En();
       break;
-      
+
     case location.href.includes("/Research_Projects") ||
       location.href.includes("/research_projects"):
       console.log("Heloo from Research Projects ENG");
@@ -160,7 +172,7 @@ function LangBtnEnClick() {
     default:
       console.log("Heloo from Home ENG");
       Page_Title.innerHTML = "Home";
-        Home_Load_Content_En();
+      Home_Load_Content_En();
       break;
   }
 }

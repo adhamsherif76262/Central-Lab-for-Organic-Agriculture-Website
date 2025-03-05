@@ -51,10 +51,22 @@ function LangBtnArClick() {
       Page_Title.innerHTML = "التعاونات";
       break;
 
-    case location.href.includes("/Services") ||
-      location.href.includes("/services"):
+    case location.href.includes("/Main_Services") ||
+      location.href.includes("/main_services"):
       Page_Title.innerHTML = "الخدمات";
-      Helping_Units_Load_Content_Ar();
+      Services_Load_Content_Ar();
+      break;
+
+    case location.href.includes("/Services_Product_1") ||
+      location.href.includes("/services_product_1"):
+      Page_Title.innerHTML = "منتج 1";
+      Services_Product_1_Load_Content_Ar();
+      break;
+
+    case location.href.includes("/Services_Product_2") ||
+      location.href.includes("/services_product_2"):
+      Page_Title.innerHTML = "منتج 2";
+      Services_Product_2_Load_Content_Ar();
       break;
 
     case location.href.includes("/Previous_Presidents") ||
@@ -169,7 +181,7 @@ function LangBtnArClick() {
     default:
       console.log("Heloo from Home AR");
       Page_Title.innerHTML = "الرئيسية";
-        Home_Load_Content_Ar();
+      Home_Load_Content_Ar();
       break;
   }
 }
