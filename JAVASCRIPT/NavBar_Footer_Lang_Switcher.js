@@ -134,7 +134,7 @@ var Navigation_Bar_Section_Ar = `
                     <li><a href="./${HTMLpath}Collaborations.html" title="Home" rel="noopener">التعاون</a></li>
                     <li><a href="./${HTMLpath}Insights_Resources.html" title="Departments" rel="noopener">رؤي و أحداث</a></li>
                     <li><a href="./${HTMLpath}Previous_Presidents.html" title="Services" rel="noopener">المديرين</a></li>
-                    <li><a href="./${HTMLpath}Services.html" title="Portfolio" rel="noopener">الخدمات</a></li>
+                    <li><a href="./${HTMLpath}Main_Services.html" title="Portfolio" rel="noopener">الخدمات</a></li>
                     <li><a href="./${HTMLpath}Research_Departements.html" title="Insights_Events" rel="noopener">الأقسام</a></li>
                     <li><a href=".${IMAGESpath}/Home.html" title="Collaborations" rel="noopener">الرئيسية</a></li>
 
@@ -190,7 +190,7 @@ var Navigation_Bar_Section_En = `
                 <ul>
                     <li><a href=".${IMAGESpath}/Home.html" title="Home" rel="noopener">Home</a></li>
                     <li><a href="./${HTMLpath}Research_Departements.html" title="Departments" rel="noopener">Departments</a></li>
-                    <li><a href="./${HTMLpath}Services.html" title="Services" rel="noopener">Services</a></li>
+                    <li><a href="./${HTMLpath}Main_Services.html" title="Services" rel="noopener">Services</a></li>
                     <li><a href="./${HTMLpath}Previous_Presidents.html" title="Portfolio" rel="noopener">Directors</a></li>
                     <li><a href="./${HTMLpath}Insights_Resources.html" title="Insights_Events" rel="noopener">Insights & Events</a></li>
                     <li><a href="./${HTMLpath}Collaborations.html" title="Collaborations" rel="noopener">Collaborations</a></li>
