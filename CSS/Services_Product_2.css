@@ -714,7 +714,7 @@
     li {
         margin: 0;
         padding: 0;
-        margin-bottom: 24px;
+        /* margin-bottom: 24px; */
     }
 
     p:last-child,
