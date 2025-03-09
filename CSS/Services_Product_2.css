@@ -1,5 +1,8 @@
     /** Card 2 Css Rules **/
     @import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i');
+    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+    @import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+    @import url('https://fonts.googleapis.com/css?family=Oswald:300|Roboto:300,500');
 
     body {
         font-family: 'Muli', sans-serif;
@@ -360,7 +363,6 @@
 
     /** Modal 1 Css Rules **/
     /* Please ❤ this if you like it! */
-    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 
     *,
     *::before,
@@ -446,7 +448,7 @@
         /* position: absolute !important ;
         top: -275px;
         right: -120px; */
-        z-index: 110;
+        z-index: 1100;
         width: 40px;
         border-radius: 3px;
         height: 30px;
@@ -492,7 +494,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: 100;
+        z-index: 1000;
         overflow-x: hidden;
         background-color: rgba(31, 32, 41, .75);
         pointer-events: none;
@@ -642,7 +644,6 @@
     }
 
     /** Inner List 1 Css Rules**/
-    @import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
 
     ul {
         list-style: none;
@@ -707,7 +708,6 @@
     }
 
     /** List 1 Css Rules **/
-    @import url('https://fonts.googleapis.com/css?family=Oswald:300|Roboto:300,500');
 
     p,
     ul,
@@ -781,7 +781,7 @@
         outline: 0;
         cursor: pointer;
         font-size: 1.4rem;
-        font-family: Oswald;
+        /* font-family: Oswald; */
         text-transform: uppercase;
         transition: color 300ms ease-in-out;
     }
@@ -823,7 +823,7 @@
     [open] .details__summary:after {
         opacity: 0;
         transform: translateY(25%);
-    }
+}
 
     .details__content {
         padding-top: 0;

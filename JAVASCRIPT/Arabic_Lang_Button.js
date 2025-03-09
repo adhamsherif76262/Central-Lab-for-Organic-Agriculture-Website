@@ -35,7 +35,7 @@ function LangBtnArClick() {
   switch (true) {
     case location.href.includes("/Insights_Resources") ||
       location.href.includes("/insights_resources"):
-      Page_Title.innerHTML = "رؤي و أحداث<";
+      Page_Title.innerHTML = "رؤي و أحداث";
       IS_Load_Content_Ar();
       break;
 

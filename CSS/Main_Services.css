@@ -620,7 +620,7 @@ body {
     background-color: wheat !important;
     padding-left: 44px;
     transition: 1s;
-    z-index: 1000;
+    z-index: 998;
     /* width: 80% !important; */
     width: fit-content !important;
 }
@@ -632,7 +632,7 @@ body {
     background-color: wheat !important;
     padding-right: 44px !important;
     transition: 1s;
-    z-index: 1000;
+    z-index: 998;
     /* width: 80% !important; */
     width: fit-content !important;
 }
