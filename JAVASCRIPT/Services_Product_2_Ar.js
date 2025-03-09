@@ -879,7 +879,7 @@ var Services_Section_Ar= `
                                                             كود التسجيل
                                                         </summary>
                                                         <div class="details__content">
-                                                            <img src="../Images/Products Registration codes/Chelated Calcium - Calcivin 10% Gel Registration code.png"
+                                                            <img src="../Images/Products Registration codes/Chelated Calcium Gel Registration code.png"
                                                                 alt="كود تسجيل المنتج">
                                                         </div>
                                                     </details>
