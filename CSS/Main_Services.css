@@ -18,8 +18,36 @@ body {
     font-weight: bold;
     font-size: 35px;
     margin-top: 50px;
+    line-height: 3rem !important;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
+#Training_H2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+    line-height: 3rem !important;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#Products_H2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 3rem !important;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/** Services Section CSS Rules **/
 #Services_Section_Ar {
     direction: rtl;
     /* overflow-x: hidden !important; */
@@ -135,6 +163,7 @@ body {
     z-index: 100;
     margin-bottom: 25px;
     font-family: Omnes-Arabic-HairLine-Bold !important;
+    line-height: 3rem;
     /* margin-top: 50px; */
 }
 
@@ -227,6 +256,254 @@ body {
     line-height: 2.4rem;
 }
 
+
+/** Training Section CSS Rules **/
+* {
+    padding: 0;
+    -webkit-user-select: none;
+    user-select: none;
+    margin: 0;
+}
+
+#Training_Section {
+    margin-top: 2rem;
+    margin-bottom: 5rem !important;
+    width: 90%;
+    margin: auto;
+    font-size: 25px;
+    /* line-height: 3rem; */
+}
+
+#Training_Section_Ar a,
+#Training_Section_En a {
+    text-decoration: none;
+}
+
+#Training_Section_En ul,
+#Training_Section_Ar ul {
+    list-style: none;
+}
+
+.nav__list {
+    padding: 0;
+    margin: 0;
+}
+
+/** * Hidden fallback */
+[hidden] {
+    display: none;
+    visibility: hidden;
+}
+
+/** * Styling navigation */
+header {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
+}
+
+/** * Styling top level items */
+.nav a,
+.nav label {
+    display: block;
+    padding: 0.85rem !important;
+    color: #fff;
+    background-color: #151515;
+    box-shadow: inset 0 -1px #1d1d1d;
+    transition: all 0.25s ease-in;
+}
+
+.nav a:focus,
+.nav label:focus,
+.nav a:hover,
+.nav label:hover {
+    color: rgba(255, 255, 255, 0.5);
+    background: #030303;
+}
+
+.nav label {
+    cursor: pointer;
+}
+
+/** * Styling first level lists items */
+.group-list a,
+.group-list label {
+    padding-left: 2rem;
+    background: #252525;
+    box-shadow: inset 0 -1px #373737;
+}
+
+.group-list a:focus,
+.group-list label:focus,
+.group-list a:hover,
+.group-list label:hover {
+    background: #131313;
+}
+
+/** * Styling second level list items */
+.sub-group-list a,
+.sub-group-list label {
+    padding-right: 4rem;
+    background: #353535;
+    box-shadow: inset 0 -1px #474747;
+}
+
+.sub-group-list a:focus,
+.sub-group-list label:focus,
+.sub-group-list a:hover,
+.sub-group-list label:hover {
+    background: #232323;
+}
+
+/** * Styling third level list items */
+.sub-sub-group-list a,
+.sub-sub-group-list label {
+    padding-left: 6rem;
+    background: #454545;
+    box-shadow: inset 0 -1px #575757;
+}
+
+.sub-sub-group-list a:focus,
+.sub-sub-group-list label:focus,
+.sub-sub-group-list a:hover,
+.sub-sub-group-list label:hover {
+    background: #333;
+}
+
+/** * Hide nested lists */
+.group-list,
+.sub-group-list,
+.sub-sub-group-list {
+    height: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.nav__list input[type="checkbox"]:checked+label+ul {
+    /* reset the height when checkbox is checked */
+    max-height: 5000px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/** * Rotating chevron icon */
+#Training_Section_Ar label>span {
+    float: left;
+    transition: transform 0.65s ease;
+    margin-right: 25px;
+}
+
+#Training_Section_En label>span {
+    float: right;
+    transition: transform 0.65s ease;
+    margin-left: 25px;
+}
+
+#Training_Section_Ar input[type="checkbox"]:checked+label>span {
+    transform: rotate(-90deg);
+}
+
+#Training_Section_En input[type="checkbox"]:checked+label>span {
+    transform: rotate(90deg);
+}
+
+/** Products Section **/
+.rolldown-list {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.rolldown-list li {
+    padding: 1em;
+    margin-bottom: 0.125em;
+    display: block;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.rolldown-list li {
+    visibility: hidden;
+    animation: rolldown 0.7s 1;
+    transform-origin: 50% 0;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 1.5s;
+    animation-delay: 0.25s;
+}
+
+.rolldown-list li:nth-child(2n) {
+    background-color: #444;
+}
+
+.rolldown-list li:nth-child(2n+1) {
+    background-color: #333;
+}
+
+#myList {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    /* position: absolute;
+    width: 50%;
+    left: 50%;
+    margin-left: -25%; */
+}
+
+#myList a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    transition-duration: 0.75s;
+}
+
+#myList a:hover {
+    color: black;
+}
+
+#myList li {
+    transition-duration: 0.75s;
+}
+#myList li:hover {
+    cursor: pointer;
+    background-color: #FFB100;
+}
+
+#btnReload {
+    float: right;
+    color: #333;
+    background: #ccc;
+    text-transform: uppercase;
+    border: none;
+    padding: 0.5em 1em;
+}
+
+#btnReload:hover {
+    background: #ddd;
+}
+
+@keyframes rolldown {
+    0% {
+        visibility: visible;
+        transform: rotateX(180deg) perspective(500px);
+}
+
+    75% {
+        visibility: visible;
+        transform: rotateX(-20deg);
+    }
+
+    100% {
+        visibility: visible;
+        transform: rotateX(0deg);
+    }
+}
+
+
 @media screen and (max-width : 1300px) {
 
     body {
@@ -316,6 +593,16 @@ body {
 }
 
 @media screen and (max-width : 1000px) {
+
+    #Title_H1,
+    #Training_H2,
+    #Products_H2 {
+        font-size: 35px;
+    }
+
+    #myList a {
+        font-size: 25px;
+    }
 
     #Services_Section_Ar .tilesWrap li,
     #Services_Section_En .tilesWrap li {
@@ -471,6 +758,12 @@ body {
     #Services_Section_En .tilesWrap li:before {
         padding: 0px !important;
     }
+
+    #Title_H1,
+    #Training_H2,
+    #Products_H2 {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width : 450px) {
@@ -480,13 +773,20 @@ body {
         /* width: 70%; */
     }
 
-    #Services_Section_Ar .tilesWrap li,
     #Services_Section_En .tilesWrap li {
         padding-left: 0px !important;
         padding-right: 0px !important;
         margin-top: 50px;
         /* width: 50px; */
         margin-right: 15px;
+    }
+
+    #Services_Section_Ar .tilesWrap li {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-top: 50px;
+        /* width: 50px; */
+        margin-left: 15px !important;
     }
 
     #Sixth_List_Item_Inner_OL {
@@ -512,6 +812,44 @@ body {
 }
 
 @media screen and (max-width : 400px) {
+    #myList a {
+        font-size: 20px;
+    }
+
+    #Services_Section_Ar .tilesWrap li h3,
+    #Services_Section_En .tilesWrap li h3 {
+        font-size: 20px;
+    }
+
+    .tilesWrap li p {
+        font-size: 20px;
+    }
+
+    .list-type5_En a {
+        font-size: 20px !important;
+    }
+
+    .list-type5_Ar a {
+        font-size: 25px !important;
+    }
+
+    #Services_Section_Ar .tilesWrap li h2 {
+        font-size: 100px !important;
+    }
+
+    #Services_Section_En .tilesWrap li h2 {
+        font-size: 100px !important;
+    }
+
+    #Services_Section_Ar .tilesWrap li:before,
+    #Services_Section_En .tilesWrap li:before {
+        font-size: 25px;
+    }
+
+    #Training_Section {
+        font-size: 20px;
+    }
+
     #Services_Section_En .tilesWrap li {
         padding-left: 0px !important;
         padding-right: 0px !important;
