@@ -1,5 +1,7 @@
 var Title_H1 = document.getElementById('Title_H1');
 var First_p = document.getElementById('First_p');
+var Certificates_Section_H2 = document.getElementById("Certificates_Section_H2");
+var Certificates_Section = document.getElementById("Certificates_Section");
 var Second_p_H2 = document.getElementById("Second_p_H2");
 var Second_p = document.getElementById("Second_p");
 var Activities_Section = document.getElementById("Activities_Section");
@@ -8,6 +10,13 @@ var Current_Director_Speech_H2 = document.getElementById("Current_Director_Speec
 var Current_Director_Speech = document.getElementById("Current_Director_Speech");
 var Our_Mission_Section = document.getElementById("Our_Mission_Section");
 var Our_Vision_Section = document.getElementById("Our_Vision_Section");
+
+var Certificates_Section_H2_Ar = `
+الشهادات الحاصل عليها المعمل
+`;
+var Certificates_Section_H2_En = `
+Certificates Obtained by the Laboratory
+`;
 
 var Our_Mission_Section_Ar =`
   <img id="Mission_Img" src="./Images/Mission & Vision/Our Mission Ar .png" alt="">
@@ -338,6 +347,8 @@ var Second_p_En = `
         });
         Title_H1.innerHTML = Title_H1_Ar;
         Title_H1.style.direction = "rtl";
+        Certificates_Section_H2.innerHTML = Certificates_Section_H2_Ar;
+        Certificates_Section_H2.style.direction = "rtl";
         First_p.innerHTML = First_p_Ar;
         First_p.style.direction = "rtl";
         Activities_Section.innerHTML = Activities_Section_Ar;
@@ -363,6 +374,8 @@ var Second_p_En = `
         });
         Title_H1.innerHTML = Title_H1_En;
         Title_H1.style.direction = "ltr";
+        Certificates_Section_H2.innerHTML = Certificates_Section_H2_En;
+        Certificates_Section_H2.style.direction = "ltr";
         First_p.innerHTML = First_p_En;
         First_p.style.direction = "ltr";
         Activities_Section.innerHTML = Activities_Section_En;

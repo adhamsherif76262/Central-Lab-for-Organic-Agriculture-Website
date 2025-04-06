@@ -9,6 +9,56 @@
     src: url(../Fonts/ArbFONTS-OMNES-ARABIC-BOLD.ttf);
 }
 
+/***Certificates Section***/
+
+@keyframes display {
+    0% {
+        transform: translateX(500px);
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    60% {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+}
+
+#Certificates_Section {
+    position: relative;
+    width: 100vw;
+    height: 850px;
+    margin-top: 50px !important;
+    margin: auto;
+}
+
+.pic-ctn>img {
+    position: absolute;
+    top: 0;
+    left: calc(38% - 100px);
+    opacity: 0;
+    animation: display 20s infinite;
+}
+
+img:nth-child(2) {
+    animation-delay: 10s;
+}
+
+
 video {
     width: 90%;
     margin-left: 5%;
@@ -59,6 +109,7 @@ video {
     margin-right: auto;
 }
 
+#Certificates_Section_H2,
 #Current_Director_H2,
 #Current_Director_Speech_H2,
 #Second_p_H2 {
@@ -194,7 +245,23 @@ p,
     margin: auto;
 }
 
+@media (max-width: 1300px) {
+    .pic-ctn>img {
+        left: calc(35% - 100px);
+    }
+}
+
+@media (max-width: 1000px) {
+    .pic-ctn>img {
+        left: calc(30% - 100px);
+    }
+}
+
 @media (max-width: 800px) {
+    .pic-ctn>img {
+        left: calc(25% - 100px);
+    }
+
     #Current_Director_Image_Container {
         padding: 0px !important;
         margin: 0px !important;
@@ -215,8 +282,28 @@ p,
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+    .pic-ctn>img {
+        left: calc(25% - 160px);
+    }
+}
 
+@media (max-width: 600px) {
+    #Certificates_Section {
+        position: relative;
+        width: 100vw;
+        height: 650px;
+        margin-top: 50px !important;
+        margin: auto;
+    }
+
+    .pic-ctn>img {
+        left: calc(25% - 100px);
+        max-width: 450px;
+        /* max-height: 200px; */
+    }
+
+    #Certificates_Section_H2,
     #Current_Director_H2,
     #Current_Director_Speech_H2,
     #Second_p_H2 {
@@ -279,6 +366,22 @@ p,
     }
 }
 
+@media (max-width: 500px) {
+    #Certificates_Section {
+        position: relative;
+        width: 100vw;
+        height: 500px;
+        margin-top: 50px !important;
+        margin: auto;
+    }
+
+    .pic-ctn>img {
+        left: calc(35% - 100px);
+        max-width: 350px;
+        /* max-height: 200px; */
+    }
+}
+
 @media (max-width: 576px) {
     .episode__content .story {
         font-size: 15px;
@@ -296,6 +399,20 @@ p,
 }
 
 @media (max-width: 400px) {
+
+    #Certificates_Section {
+        position: relative;
+        width: 100vw;
+        height: 500px;
+        margin-top: 50px !important;
+        margin: auto;
+    }
+
+    .pic-ctn>img {
+        left: calc(27% - 100px);
+        max-width: 350px;
+        /* max-height: 200px; */
+    }
 
     #First_p,
     #Second_p,
@@ -353,7 +470,22 @@ p,
 }
 
 @media (max-width: 350px) {
+    #Certificates_Section {
+        position: relative;
+        width: 100vw;
+        height: 350px;
+        margin-top: 50px !important;
+        margin: auto;
+        margin-top: -50px !important;
+    }
 
+    .pic-ctn>img {
+        left: calc(35% - 100px);
+        max-width: 300px;
+        /* max-height: 200px; */
+    }
+
+    #Certificates_Section_H2,
     #Current_Director_H2,
     #Current_Director_Speech_H2,
     #Second_p_H2 {
@@ -382,4 +514,11 @@ p,
         font-size: 18px;
         line-height: 2rem;
     }
+}
+@media (max-width: 325px) {
+
+    .pic-ctn>img {
+        left: calc(34% - 100px);
+        max-width: 300px;
+   }
 }
