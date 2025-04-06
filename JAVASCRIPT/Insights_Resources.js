@@ -93,7 +93,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item2">
                             <div class="fill" style="background-color:#b33f4a;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_2_1.png" alt="sofa"
@@ -122,7 +122,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item3">
                             <div class="fill" style="background-color:#7fc2f4;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_3_1.jpg" alt="sofa"
@@ -152,7 +152,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item1">
                             <div class="fill" style="background-color:#48c3af;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_4_1.jpg" alt="sofa"
@@ -183,7 +183,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item2">
                             <div class="fill" style="background-color:#b33f4a;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_6_1.png" alt="sofa"
@@ -212,7 +212,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item3">
                             <div class="fill" style="background-color:#7fc2f4;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_7_1.jpg" alt="sofa"
@@ -244,7 +244,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item1">
                             <div class="fill" style="background-color:#48c3af;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_8_1.png" alt="sofa"
@@ -272,7 +272,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item2">
                             <div class="fill" style="background-color:#b33f4a;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_9_1.png" alt="sofa"
@@ -299,7 +299,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item1">
                             <div class="fill" style="background-color:#48c3af;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_10_1.jpg" alt="sofa"
@@ -326,7 +326,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item2">
                             <div class="fill" style="background-color:#b33f4a;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_11_1.png" alt="sofa"
@@ -354,7 +354,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item3">
                             <div class="fill" style="background-color:#7fc2f4;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_12_1.png" alt="sofa"
@@ -422,7 +422,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item3">
                             <div class="fill" style="background-color:#7fc2f4;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_15_1.png" alt="sofa"
@@ -449,7 +449,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item1">
                             <div class="fill" style="background-color:#48c3af;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_16_1.png" alt="sofa"
@@ -476,7 +476,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item2">
                             <div class="fill" style="background-color:#b33f4a;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_17_1.png" alt="sofa"
@@ -525,7 +525,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item3">
                             <div class="fill" style="background-color:#7fc2f4;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/December/Slide_2_1.png" alt="sofa"
@@ -553,7 +553,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item1">
                             <div class="fill" style="background-color:#48c3af;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/December/Slide_3_1.png" alt="sofa"
@@ -581,7 +581,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item2">
                             <div class="fill" style="background-color:#b33f4a;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/December/Slide_4_1.png" alt="sofa"
@@ -626,7 +626,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item1">
                             <div class="fill" style="background-color:#48c3af;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/December/Slide_6_1.png" alt="sofa"
@@ -653,7 +653,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item2">
                             <div class="fill" style="background-color:#b33f4a;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/January/Slide_1_1.jpg" alt="sofa"
@@ -682,7 +682,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item3">
                             <div class="fill" style="background-color:#7fc2f4;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/January/Slide_2_1.png" alt="sofa"
@@ -710,7 +710,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item1">
                             <div class="fill" style="background-color:#48c3af;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/January/Slide_3_1.png" alt="sofa"
@@ -738,7 +738,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item2">
                             <div class="fill" style="background-color:#b33f4a;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/January/Slide_4_1.png" alt="sofa"
@@ -764,7 +764,7 @@ var Extension_Activity_Section_Ar = `
                         <div class="item item3">
                             <div class="fill" style="background-color:#7fc2f4;">
                                 <div class="inner-content">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_Ar">
 
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/January/Slide_5_1.png" alt="sofa"
@@ -863,7 +863,7 @@ var Extension_Activity_Section_En = `
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_2_1.png"
                                                 alt="vegetable pest control" class="img img-responsive" />
@@ -890,7 +890,7 @@ var Extension_Activity_Section_En = `
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_3_1.jpg"
                                                 alt="anise farming" class="img img-responsive" />
@@ -917,7 +917,7 @@ var Extension_Activity_Section_En = `
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_4_1.jpg"
                                                 alt="organic garlic farming" class="img img-responsive" />
@@ -944,7 +944,7 @@ var Extension_Activity_Section_En = `
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_6_1.png"
                                                 alt="fig farming techniques" class="img img-responsive" />
@@ -975,7 +975,7 @@ var Extension_Activity_Section_En = `
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_7_1.jpg"
                                                 alt="organic compost production" class="img img-responsive" />
@@ -1000,7 +1000,7 @@ var Extension_Activity_Section_En = `
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_8_1.png"
                                                 alt="organic farming importance" class="img img-responsive" />
@@ -1025,7 +1025,7 @@ var Extension_Activity_Section_En = `
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_9_1.png"
                                                 alt="potato farming techniques" class="img img-responsive" />
@@ -1049,7 +1049,7 @@ var Extension_Activity_Section_En = `
                                                 Its Importance." </p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_10_1.jpg"
                                                 alt="organic agriculture activity" class="img img-responsive" />
@@ -1074,7 +1074,7 @@ var Extension_Activity_Section_En = `
                                                 and aromatic plants regarding integrated pest management.</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_11_1.png"
                                                 alt="extension activity on compost production"
@@ -1099,7 +1099,7 @@ var Extension_Activity_Section_En = `
                                                 extension seminar was held on bio-fertilization and organic farming.</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_12_1.png"
                                                 alt="bio-fertilization seminar" class="img img-responsive" />
@@ -1158,7 +1158,7 @@ var Extension_Activity_Section_En = `
                                                 extension seminar was held on integrated pest management systems.</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_15_1.png"
                                                 alt="integrated pest management seminar" class="img img-responsive" />
@@ -1181,7 +1181,7 @@ var Extension_Activity_Section_En = `
                                                 seminar was held on agricultural waste recycling.</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_16_1.png"
                                                 alt="agricultural waste recycling seminar" class="img img-responsive" />
@@ -1206,7 +1206,7 @@ var Extension_Activity_Section_En = `
                                                 organic farming systems.</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/November/Slide_17_1.png"
                                                 alt="biological control seminar" class="img img-responsive" />
@@ -1246,7 +1246,7 @@ var Extension_Activity_Section_En = `
                                                 affecting wheat and garlic crops under organic farming systems.</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/December/Slide_2_1.png" alt="organic farming seminar"
                                                 class="img img-responsive" />
@@ -1269,7 +1269,7 @@ var Extension_Activity_Section_En = `
                                                 (importance, types, challenges).</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/December/Slide_3_1.png" alt="greenhouse cultivation seminar"
                                                 class="img img-responsive" />
@@ -1291,7 +1291,7 @@ var Extension_Activity_Section_En = `
                                                 Compost" was held on Tuesday, 10 December at Al-Wasati Center/City, Beni Suef Governorate.</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/December/Slide_4_1.png" alt="microbial compost seminar"
                                                 class="img img-responsive" />
@@ -1330,7 +1330,7 @@ var Extension_Activity_Section_En = `
                                                 farming systems.</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/December/Slide_6_1.png" alt="biological control seminar"
                                                 class="img img-responsive" />
@@ -1356,7 +1356,7 @@ var Extension_Activity_Section_En = `
                                                 and sustainable agriculture within the framework of Egypt Vision 2030.</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/January/Slide_1_1.jpg" alt="training program launch"
                                                 class="img img-responsive" />
@@ -1382,7 +1382,7 @@ var Extension_Activity_Section_En = `
                                                 Vision 2030.</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/January/Slide_2_1.png" alt="training program continuation"
                                                 class="img img-responsive" />
@@ -1405,7 +1405,7 @@ var Extension_Activity_Section_En = `
                                                 agriculture and key recommendations for organic and bio-fertilization of strawberry crops.</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/January/Slide_3_1.png" alt="organic agriculture seminar"
                                                 class="img img-responsive" />
@@ -1428,7 +1428,7 @@ var Extension_Activity_Section_En = `
                                                 Senro Al-Qabeela Village, Abshaway Center, Fayoum Governorate on Wednesday, 15-1-2025.</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/January/Slide_4_1.png" alt="wheat and mango seminar"
                                                 class="img img-responsive" />
@@ -1450,7 +1450,7 @@ var Extension_Activity_Section_En = `
                                                 Al-Qabeela Village, Abshaway Center, Fayoum Governorate on Monday, 20-1-2025.</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 Temp_En">
                                         <div class="carousel-img">
                                             <img src="../Images/Insights & Events/January/Slide_5_1.png" alt="agricultural economics seminar"
                                                 class="img img-responsive" />

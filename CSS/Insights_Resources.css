@@ -411,11 +411,15 @@ body {
 }
 
 @media(max-width:768px) {
-    .col-md-5 {
-        /* margin-right: 200px !important; */
+    .Temp_En{
         margin-left: -50px !important;
-        /* margin-left: -30% !important; */
     }
+    .Temp_Ar{
+        margin-right: -50px !important;
+    }
+    /* .col-md-5 {
+        margin-left: -50px !important;
+    } */
 
     .col-md-7 {
         min-width: 100% !important;
