@@ -1,8 +1,30 @@
+var Introductory_Paragraph_H2 = document.getElementById("Introductory_Paragraph_H2");
+var Introductory_Paragraph = document.getElementById("Introductory_Paragraph");
 var Extension_Activity_Section_H2 = document.getElementById("Extension_Activity_Section_H2");
 var Extension_Activity_Section = document.getElementById("Extension_Activity_Section");
 var OA_Day_Section_H2 = document.getElementById("OA_Day_Section_H2");
 var CLOA_Gallery_Section_H2 = document.getElementById("CLOA_Gallery_Section_H2");
 var Field_Expirements_Section_H2 = document.getElementById("Field_Expirements_Section_H2");
+
+var Introductory_Paragraph_H2_Ar = `
+حلول عضوية لمستقبل زراعي مستدام
+`;
+var Introductory_Paragraph_H2_En = `
+Organic solutions for a sustainable agricultural future
+`;
+
+var Introductory_Paragraph_Ar = `
+فى اطار خطة وزارة الزراعة بقيادة معالى الوزير ا/ علاء فاروق لدعم الزراعة المستدامة، و تماشيا مع رؤية مصر 2030 وبتوجيهات من الاستاذ الدكتور/عادل عبدالعظيم رئيس مركز البحوث الزراعية و الاستاذ الدكتور/ سعد جعفر مدير المعمل المركزى للزراعة العضوية، انطلقت سلسلة من تجارب تقييم فاعلية المدخلات العضوية تحت إشراف نخبة من أساتذة المعمل المركزي للزراعة العضوية   
+حيث يبدأ المعمل المركزي للزراعة العضوية سلسلة من التجارب الميدانية لتقييم فاعلية المدخلات العضوية في تحسين الإنتاج الزراعي ومكافحة الآفات والأمراض. 
+تهدف هذه التجارب إلى توفير حلول طبيعية وآمنة للمزارعين، من خلال تسجيل المدخلات العضوية المختلفة لدى الادارة العامة للزراعة العضوية وفقًا لمعايير الزراعة العضوية
+`;
+var Introductory_Paragraph_En = `
+As part of the Ministry of Agriculture’s plan, led by His Excellency Minister Mr. Alaa Farouk, to support sustainable agriculture and in line with Egypt’s Vision 2030, and under the guidance of Prof. Dr. Adel Abdel Azim, President of the Agricultural Research Center, and Prof. Dr. Saad Gaafar, Director of the Central Lab of Organic Agriculture, a series of experiments have been launched to evaluate the effectiveness of organic inputs under the supervision of a distinguished team of experts from the Central Lab of Organic Agriculture.
+
+The Central Lab of Organic Agriculture is initiating a series of field experiments to assess the effectiveness of organic inputs in improving agricultural productivity and combating pests and diseases.
+
+These experiments aim to provide natural and safe solutions for farmers by registering various organic inputs with the General Department of Organic Agriculture in accordance with organic farming standards.
+`;
 
 var Extension_Activity_Section_H2_Ar = `
 النشاط الارشادى لباحثين المعمل المركزى للزراعة العضوية
@@ -1573,6 +1595,10 @@ function Insights_Resources_Load_Content_Ar() {
             });
     });
     
+  Introductory_Paragraph_H2.innerHTML = Introductory_Paragraph_H2_Ar;
+  Introductory_Paragraph_H2.style.direction = "rtl";
+  Introductory_Paragraph.innerHTML = Introductory_Paragraph_Ar;
+
   Extension_Activity_Section_H2.innerHTML = Extension_Activity_Section_H2_Ar;
   Extension_Activity_Section_H2.style.direction = "rtl";
   Extension_Activity_Section.innerHTML = Extension_Activity_Section_Ar;
@@ -1692,6 +1718,10 @@ function Insights_Resources_Load_Content_En() {
             });
     });
     
+      Introductory_Paragraph_H2.innerHTML = Introductory_Paragraph_H2_En;
+  Introductory_Paragraph_H2.style.direction = "ltr";
+  Introductory_Paragraph.innerHTML = Introductory_Paragraph_En;
+
   Extension_Activity_Section_H2.innerHTML = Extension_Activity_Section_H2_En;
   Extension_Activity_Section_H2.style.direction = "ltr";
   Extension_Activity_Section.innerHTML = Extension_Activity_Section_En;

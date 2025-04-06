@@ -1,3 +1,21 @@
+#Introductory_Paragraph {
+    color: black;
+    background-color: rgb(241, 241, 241);
+    /* background-color: rgb(209, 255, 209); */
+    /* background-color: rgb(199, 255, 199); */
+    /* background-color: rgb(243, 235, 223); */
+    padding: 50px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: Omnes-Arabic-HairLine-Bold !important;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 4rem;
+}
+
+#Introductory_Paragraph_H2,
 #Extension_Activity_Section_H2,
 #OA_Day_Section_H2,
 #CLOA_Gallery_Section_H2,
@@ -15,12 +33,14 @@
     margin-bottom: -50px;
 }
 
+#Introductory_Paragraph_H2,
 #Field_Expirements_Section_H2 {
     margin-bottom: 50px;
 }
 
 @media screen and (max-width: 850px) {
 
+    #Introductory_Paragraph_H2,
     #Extension_Activity_Section_H2,
     #OA_Day_Section_H2,
     #CLOA_Gallery_Section_H2,
@@ -33,6 +53,7 @@
 
 @media screen and (max-width: 500px) {
 
+    #Introductory_Paragraph_H2,
     #Extension_Activity_Section_H2,
     #OA_Day_Section_H2,
     #CLOA_Gallery_Section_H2,
@@ -41,10 +62,17 @@
         margin-right: 25px;
         font-size: 25px;
     }
+
+    #Introductory_Paragraph {
+        padding: 25px;
+        font-size: 20px;
+        line-height: 4rem;
+    }
 }
 
 @media screen and (max-width: 350px) {
 
+    #Introductory_Paragraph_H2,
     #Extension_Activity_Section_H2,
     #OA_Day_Section_H2,
     #CLOA_Gallery_Section_H2,
@@ -52,6 +80,12 @@
         margin-left: 25px;
         margin-right: 25px;
         /* font-size: 20px; */
+    }
+
+    #Introductory_Paragraph {
+        padding: 25px;
+        font-size: 18px;
+        line-height: 4rem;
     }
 }
 
