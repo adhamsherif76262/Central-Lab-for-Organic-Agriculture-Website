@@ -1,0 +1,39 @@
+[[redirects]]
+from = "/Home"
+to = "https://www.youtube.com/"
+status = 200
+
+[[redirects]]
+from = "/HTML/Insights_Resources"
+to = "https://www.youtube.com/"
+status = 200
+
+[[redirects]]
+from = "/HTML/Research_Departements"
+to = "https://www.youtube.com/"
+status = 200
+
+[[redirects]]
+from = "/HTML/Main_Services"
+to = "https://www.youtube.com/"
+status = 200
+
+[[redirects]]
+from = "/HTML/Services_Product_1"
+to = "https://www.youtube.com/"
+status = 200
+
+[[redirects]]
+from = "/HTML/Services_Product_2"
+to = "https://www.youtube.com/"
+status = 200
+
+[[redirects]]
+from = "/HTML/Previous_Presidents"
+to = "https://www.youtube.com/"
+status = 200
+
+[[redirects]]
+from = "/HTML/Collaborations"
+to = "https://www.youtube.com/"
+status = 200

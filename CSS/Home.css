@@ -1,0 +1,385 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Omnes-Arabic-HairLine-Bold;
+    src: url(../Fonts/ArbFONTS-OMNES-ARABIC-BOLD.ttf);
+}
+
+video {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+
+#Introductory_Video_Section {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0px;
+    margin-bottom: 50px !important;
+}
+
+#Our_Mission_Section,
+#Our_Vision_Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 25%; */
+    /* margin-right: 5%; */
+    /* margin-top: 0px; */
+    /* margin-bottom: 50px !important; */
+}
+
+#Vision_Img,
+#Mission_Img {
+
+    max-width: 750px;
+    /* margin-left: auto; */
+    /* margin-left: 5%; */
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#Title_H1 {
+    color: black;
+    /*background-color: rgb(243, 235, 223);*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /*padding: 50px;*/
+    /* border-radius: 50px; */
+    font-family: Omnes-Arabic-HairLine-Bold !important;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Current_Director_H2,
+#Current_Director_Speech_H2,
+#Second_p_H2 {
+    color: black;
+    padding: 50px;
+    font-size: 50px;
+    font-family: Omnes-Arabic-HairLine-Bold !important;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#First_p,
+#Second_p,
+#Current_Director_Speech {
+    color: black;
+    background-color: rgb(241, 241, 241);
+    /* background-color: rgb(209, 255, 209); */
+    /* background-color: rgb(199, 255, 199); */
+    /* background-color: rgb(243, 235, 223); */
+    padding: 50px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: Omnes-Arabic-HairLine-Bold !important;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 4rem;
+}
+
+
+/**Activities Section**/
+/* *,
+*::before,
+*::after {
+    box-sizing: border-box;
+} */
+
+#Activities_Section {
+    font-family: Omnes-Arabic-HairLine-Bold;
+    color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    /* background-color: black; */
+    background-color: rgb(241, 241, 241);
+    /* background-color: rgb(199, 255, 199); */
+    /* background-color: rgb(243, 235, 223); */
+    color: black;
+    border-radius: 50px;
+
+    /* overflow-x: hidden ; */
+}
+
+ul {
+    list-style: upper-roman
+}
+
+#UL_Ar {
+    list-style-type: arabic-indic;
+}
+
+p,
+.LI_En,
+.LI_Ar {
+    margin: 0 0 15px 0;
+    font-size: 40px;
+    line-height: 6rem;
+}
+
+.center {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+}
+
+.container {
+    width: 95%;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.episode {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    position: relative;
+}
+
+.episode__number {
+    font-size: 10vw;
+    /* font-weight: 600; */
+    /* padding: 10px 0; */
+    position: sticky;
+    top: 0;
+    text-align: center;
+    height: calc(10vw + 20px);
+    transition: all 0.2s ease-in;
+}
+
+.episode__number_Ar {
+    padding-left: 125px;
+}
+
+.episode__number_En {
+    padding-right: 125px;
+}
+
+.episode__content {
+    border-top: 15px solid #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 15px 0;
+}
+
+
+.episode__content .story {
+    line-height: 26px;
+}
+
+/** Current Director Section**/
+#Current_Director_Image_Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Current_Director_Image {
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+    #Current_Director_Image_Container {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    #Current_Director_Image {
+        max-width: 450px;
+    }
+
+    #Vision_Img,
+    #Mission_Img {
+
+        max-width: 600px;
+        /* margin-left: auto; */
+        /* margin-left: 5%; */
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #Current_Director_H2,
+    #Current_Director_Speech_H2,
+    #Second_p_H2 {
+        padding: 50px;
+        font-size: 30px;
+    }
+
+    #Introductory_Video_Section {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 0px;
+        margin-bottom: 50px !important;
+    }
+
+    #Current_Director_Image {
+        max-width: 350px;
+    }
+
+
+    #Vision_Img,
+    #Mission_Img {
+        max-width: 450px;
+    }
+
+    .episode__content {
+        grid-template-columns: 1fr;
+    }
+
+    p,
+    li {
+        margin: 0 0 15px 0;
+        font-size: 35px;
+        line-height: 4rem;
+    }
+
+    .En_P,
+    .En_LI {
+        font-size: 25px;
+        line-height: 3rem;
+        /* margin-right: 150px !important; */
+    }
+
+    .LI_En,
+    .LI_Ar {
+        /* margin: 0 0 15px 0; */
+        font-size: 30px;
+        line-height: 3rem;
+    }
+
+    /* .episode__content_Last{
+        overflow-x: hidden;
+    } */
+    .episode__number_Ar {
+        padding-left: 100px;
+    }
+
+    .episode__number_En {
+        padding-right: 75px;
+    }
+}
+
+@media (max-width: 576px) {
+    .episode__content .story {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    #Vision_Img,
+    #Mission_Img {
+        max-width: 350px;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+
+    #First_p,
+    #Second_p,
+    #Current_Director_Speech {
+        font-size: 25px;
+        padding: 20px;
+        line-height: 3rem;
+    }
+
+    #Introductory_Video_Section {
+        width: 100%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        margin-top: 0px;
+        margin-bottom: 50px !important;
+    }
+
+    #Current_Director_Image {
+        max-width: 300px;
+    }
+
+    .center {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    p,
+    li {
+        margin: 0 0 15px 0;
+        font-size: 25px;
+        line-height: 3rem;
+    }
+
+    .LI_En,
+    .LI_Ar {
+        /* margin: 0 0 15px 0; */
+        font-size: 22px;
+        line-height: 2.5rem;
+    }
+
+    .episode__number_Ar {
+        padding-left: 50px;
+    }
+
+    .En_P,
+    .En_LI {
+        font-size: 16px;
+        line-height: 2rem;
+        /* margin-right: 150px !important; */
+    }
+
+    .episode__number_En {
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    #Current_Director_H2,
+    #Current_Director_Speech_H2,
+    #Second_p_H2 {
+        margin-bottom: 100px;
+        margin-top: 100px;
+        padding: 0px;
+        font-size: 25px;
+    }
+
+    #First_p,
+    #Second_p,
+    #Current_Director_Speech {
+        font-size: 20px;
+        padding: 20px;
+        line-height: 2rem;
+    }
+
+    #Vision_Img,
+    #Mission_Img {
+        max-width: 300px;
+    }
+
+    .LI_En,
+    .LI_Ar {
+        /* margin: 0 0 15px 0; */
+        font-size: 18px;
+        line-height: 2rem;
+    }
+}

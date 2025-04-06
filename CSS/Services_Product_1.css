@@ -1,0 +1,1253 @@
+@font-face {
+    font-family: Omnes-Arabic-HairLine-Bold;
+    src: url(../Fonts/ArbFONTS-OMNES-ARABIC-BOLD.ttf);
+}
+
+/** Inner List Css Rules **/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Omnes-Arabic-HairLine-Bold !important;
+}
+
+.parent>div>ul {
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    font-family: Omnes-Arabic-HairLine-Bold !important;
+    ;
+    font-size: 20px;
+    /* background: whitesmoke; */
+    padding: 2rem;
+    list-style-position: inside;
+    width: 98%;
+    height: 98%;
+    margin: 1%;
+    max-width: 120%;
+    background: white;
+    box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.15);
+    /* padding: 0;
+            margin: 0; */
+    border-radius: 0.1rem;
+}
+
+.parent>div>ul>li {
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.parent>div>ul>li:not(:last-child) {
+    border-bottom: 10px double rgb(0, 0, 98);
+}
+
+.parent>div>ul>li:first-child {
+    margin-top: 0rem;
+}
+
+.parent>div>ul>li:last-child {
+    /* margin-bottom: 1rem; */
+}
+
+.parent>div>ul>li:nth-child(1)::marker,
+.parent>div>ul>li:nth-child(4)::marker {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='25' viewBox='0 0 50 50'%3E%3Cpath d='M46.4 16.2c-2.3-2.3-5.4-3.5-8.4-4.5-.5-.2-1.1-.3-1.6-.5-1.6-1.6-3.7-2.8-6.2-3.2-1-.2-1.9.1-2.5.6-.9-.3-1.8-.6-2.7-.8-3.2-1-6.4-1.8-9.5-.1-1 .5-1.9 1.2-2.7 2-6.4 1.4-11.7 5-12.4 12.7C0 27 1.9 31.5 4.9 34.9c.1.6.2 1.1.4 1.7 1 3.2 3.3 5.7 6.7 6.5 2.7.6 5.4-.2 7.9-1.2 3.3.4 6.7.3 9.9 0 6.5-.7 13.3-2.8 17.1-8.5 3.6-5.2 4-12.6-.5-17.2zm-17.3.9c2.1.4 4 1.7 4.7 3.8 0 .5-.1 1.1-.2 1.6-.3 1.4-.8 2.6-1.6 3.7-.7.2-1.5.1-2.3-.4-.8-.4-1.6-1-2.2-1.6-.4-.4-1.2-1.7-1.6-1.9 3.4 1.3 5.1-3 3.2-5.2zm-11.6 9.7c.2-1.9 1.1-3.9 2.3-5.5-.4 2.1.3 4.2 1.7 6 1.3 1.7 3.1 3.2 5 4.2-.2.1-.4.2-.6.4-.1 0-.1.1-.2.1-3.9.2-8.7-.8-8.2-5.2zm-6.4 3.1c.1.3.1.7.2 1 .2.6.4 1.2.7 1.8-.4-.2-.7-.5-1-.7.1-.8.1-1.4.1-2.1zm31.2-1.3c-.9 1.7-2.1 3.1-3.7 4.1 2-2.1 3.4-4.7 4-7.6.2-.7.3-1.4.3-2.1.6 1.5.5 3.3-.6 5.6z'/%3E%3C/svg%3E") ' ';
+}
+
+::marker {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='14'viewBox='0 0 50 50'%3E%3Cpath d='M46.416.2c-2.3-2.3-5.4-3.5-8.4-4.5-.5-.2-1.1-.3-1.6-.5-1.6-1.6-3.7-2.8-6.2-3.2-1-.2-1.9.1-2.5.6-.9-.3-1.8-.6-2.7-.8-3.2-1-6.4-1.8-9.5-.1-1.5-1.9 1.2-2.7 2-6.4 1.4-11.7 5-12.4 12.7C0 27 1.9 31.5 4.9 34.9c.1.6.2 1.1.4 1.7 1 3.2 3.3 5.7 6.7 6.5 2.7.65.4-.2 7.9-1.2 3.3.4 6.7.3 9.9 0 6.5-.7 13.3-2.8 17.1-8.5 3.6-5.2 4-12.6-.5-17.2zm-17.3.9c2.1.4 4 1.7 4.7 3.8 0.5-.1 1.1-.2 1.6-.3 1.4-.8 2.6-1.6 3.7-.7.2-1.5.1-2.3-.4-.8-.4-1.6-1-2.2-1.6-.4-.4-1.2-1.7-1.6-1.9 3.4 1.3 5.1-33.2-5.2zm-11.6 9.7c.2-1.9 1.1-3.9 2.3-5.5-.4 2.1.3 4.2 1.7 6 1.3 1.7 3.1 3.2 5 4.2-.2.1-.4.2-.6.4-.10-.1.1-.2.1-3.9.2-8.7-.8-8.2-5.2zm-6.4 3.1c.1.3.1.7.2 1 .2.6.4 1.2.71.8-.4-.2-.7-.5-1-.7.1-.8.1-1.4.1-2.1zm31.2-1.3c-.9 1.7-2.1 3.1-3.7 4.1 2-2.1 3.4-4.7 4-7.6.2-.7.3-1.4.3-2.1.61.5.5 3.3-.6 5.6z'/%3E%3C/svg%3E") ' ';
+}
+
+.parent>div>ul>li:nth-child(3n)::marker {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='25' viewBox='0 0 50 50'%3E%3Cpath d='M46.5 12.5c-.4-1.1-1.3-1.8-2.2-2-4.2-4-11.6-4.3-17.1-4.1-6.9.3-13.9 2.1-19.4 6.5C2 17.5-2.4 25.7 2.5 32.6c2.2 3.2 5.5 4.9 9 5.5 3.3 1.7 6.7 3.3 10.2 4.4 7.8 2.3 17 1.6 23.2-4.3 7.3-7 4.8-17.3 1.6-25.7zm-20.2 2.7c.6 0 1.3 0 1.8.2 1.1.4 1.7 1.3 2 2.3-1-1.2-2.4-2.1-3.8-2.5zm-1.4 6.6c.9.9 1.3 2.2-.2 2.3-2 .2-1.1-1.9.2-2.3zm-11.8 9.8c-.6-.3-2.9-1.1-3.2-1.8-.2-.5 1.4-3.1 2.1-4.2.3.5.7 1 1.2 1.4 0 .3.1.6.2.8.5 1.9 1.5 3.1 2.9 4h-.2c-.8.1-1.6.1-2.5-.1-.2 0-.3 0-.5-.1zM24 36.4c1.6-.7 3-1.5 4.3-2.5.8.2 1.7.3 2.5.5 2.5.4 5.2.9 7.7.6-.9.6-2 1.1-3 1.4-3.9 1.3-7.7 1-11.5 0z'/%3E%3C/svg%3E") ' ';
+}
+
+.parent>div>ul>li:nth-child(3n - 1)::marker {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='25' viewBox='0 0 50 50'%3E%3Cpath d='M48.3 23.7c-1-9.9-9.9-15.6-18.8-17.8-8.2-2.1-18.8-2.6-24.6 4.8C.6 16.2 1 23.6 4.3 29.3c-.5 1-.8 2-1 3-.6 4 2 7.6 5.1 10 5.9 4.4 14 4.2 19.6-.4 1.5 0 2.9-.2 4.4-.5 1.8 0 3.5 0 5.3-.1 2.3-.1 3.5-1.9 3.5-3.7 4.5-3.3 7.7-8.2 7.1-13.9zM9.1 17.8c1.1-4.1 4.9-5.8 8.8-6.1.9-.1 1.9-.1 2.9-.1-3.2 1.6-6.3 4.6-8 7.4-.1.1-.1.2-.2.3-1.1.9-2.1 1.9-3 2.9-.2.2-.4.4-.5.6-.4-1.7-.5-3.3 0-5z'/%3E%3C/svg%3E") ' ';
+}
+
+.parent>div>ul>li:nth-child(3n + 1)::marker {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='25' viewBox='0 0 50 50'%3E%3Cpath d='M48.3 23.7c-1-9.9-9.9-15.6-18.8-17.8-8.2-2.1-18.8-2.6-24.6 4.8C.6 16.2 1 23.6 4.3 29.3c-.5 1-.8 2-1 3-.6 4 2 7.6 5.1 10 5.9 4.4 14 4.2 19.6-.4 1.5 0 2.9-.2 4.4-.5 1.8 0 3.5 0 5.3-.1 2.3-.1 3.5-1.9 3.5-3.7 4.5-3.3 7.7-8.2 7.1-13.9zM9.1 17.8c1.1-4.1 4.9-5.8 8.8-6.1.9-.1 1.9-.1 2.9-.1-3.2 1.6-6.3 4.6-8 7.4-.1.1-.1.2-.2.3-1.1.9-2.1 1.9-3 2.9-.2.2-.4.4-.5.6-.4-1.7-.5-3.3 0-5z'/%3E%3C/svg%3E") ' ';
+}
+
+/** List 2.2 Css Rules**/
+
+details {
+    max-width: 100%;
+    margin: 50px auto;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+details summary {
+    list-style: none;
+    display: block;
+    background-color: rgb(233, 233, 233);
+    padding: 5px 35px;
+    position: relative;
+    cursor: pointer;
+    font-family: Omnes-Arabic-HairLine-Bold !important;
+    /* font-family: Rajdhani; */
+    color: #275d38;
+    font-size: 24px;
+    /* transform: scale(1); */
+}
+
+details summary::-webkit-details-marker {
+    transform-origin: top;
+    /*transform: scale(0);*/
+    display: none;
+}
+
+details summary:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '\f0fe';
+    font-family: FontAwesome;
+    font-size: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    color: #fff;
+    background-color: #285d39;
+    /* transform: scale(1); */
+}
+
+details>div {
+    padding: 10px 10px;
+    background-color: #fff;
+    transform-origin: top;
+    /*transform: scale(0);*/
+    display: none;
+}
+
+details[open] summary:before {
+    content: '\f146';
+}
+
+/* New styles for child accordion button */
+.child-toggle {
+    /* margin-left: 0 !important; */
+    /* margin-right: 0 !important; */
+    width: 100%;
+    list-style: none;
+    display: block;
+    background-color: #f4f4f4;
+    padding: 5px 10px;
+    position: relative;
+    cursor: pointer;
+    font-family: Omnes-Arabic-HairLine-Bold !important;
+    /* font-family: Rajdhani; */
+    color: #275d38;
+    font-size: 25px;
+    border: none;
+    outline: none;
+}
+
+.child-toggle:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '\f0fe';
+    /* Default icon (+) */
+    font-family: FontAwesome;
+    font-size: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    color: #fff;
+    background-color: #285d39;
+    /* transform: scale(1); */
+}
+
+.child-content {
+    transform-origin: top;
+    /*transform: scale(0);*/
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.child-toggle.active:before {
+    content: '\f146';
+}
+
+/** Card 1 Css Rules **/
+
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700,800,800i,900&display=swap'); */
+
+#Cards_Section_2 {
+    display: none;
+    /* margin-left: 10%; */
+    /* margin-right:10% ; */
+}
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+/* body {
+                margin: 0;
+                font-family: Arial;
+                width: 100%;
+            } */
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.Product_1_Row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 0px;
+}
+
+/* Create four equal columns that sits next to each other */
+.Product_1_Column {
+    -ms-flex: 50%;
+    /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 0px;
+}
+
+.Product_1_Column img {
+    /* margin-top: 5px; */
+    vertical-align: middle;
+    /* max-width: 250px !important;
+                max-height: 325px !important; */
+    /* width: 100%; */
+}
+
+.Product_1_Column div {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#Product_1_Section {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    /* flex-direction: column !important; */
+    /* min-height: 100vh; */
+    /* background: #131313; */
+}
+
+.Product_1_Container {
+    position: relative;
+    margin: auto;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.Product_1_Container .Product_1_Card {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: #232323;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.Product_1_Container .Product_1_Card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1BBFE9;
+    clip-path: circle(150px at 100% 90%);
+    transition: 0.5s ease-in-out;
+}
+
+.Product_1_Container .Product_1_Card:hover:before {
+    clip-path: circle(300px at 50% -30%);
+}
+
+.Product_1_Container .Product_1_Card:after {
+    content: "CLOA";
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    font-size: 11.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.04);
+}
+
+.Product_1_Container .Product_1_Card .Product_1_ImgBx {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 998;
+    /* z-index: 0; */
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.Product_1_Container .Product_1_Card:hover .Product_1_ImgBx {
+    top: 0%;
+    transform: translateY(-15%);
+    /* bug */
+}
+
+.Product_1_Container .Product_1_Card .Product_1_ImgBx img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    width: 225px;
+}
+
+.Product_1_Container .Product_1_Card .Product_1_ContentBx {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    transition: 1s;
+    z-index: 90;
+    /* z-index: 0; */
+}
+
+.Product_1_Container .Product_1_Card:hover .Product_1_ContentBx {
+    height: 150px;
+}
+
+.Product_1_Container .Product_1_Card .Product_1_ContentBx h2 {
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    /* margin-bottom: 35px; */
+}
+
+.Product_1_Container .Product_1_Card .Product_1_ContentBx .size,
+.Product_1_Container .Product_1_Card .Product_1_ContentBx .color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.Product_1_Container .Product_1_Card:hover .Product_1_ContentBx .size {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .5s;
+}
+
+.Product_1_Container .Product_1_Card:hover .Product_1_ContentBx .color {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .6s;
+}
+
+.Product_1_Container .Product_1_Card .Product_1_ContentBx .size h3,
+.Product_1_Container .Product_1_Card .Product_1_ContentBx .color h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.Product_1_Container .Product_1_Card .Product_1_ContentBx .size span {
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    color: #111;
+    background: #fff;
+    margin: 0 5px;
+    transition: .5s;
+    color: #111;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Product_1_Container .Product_1_Card .Product_1_ContentBx .size span:hover {
+    /* other bug */
+    background: #B90000;
+}
+
+.Product_1_Container .Product_1_Card .Product_1_ContentBx .color span {
+    width: 20px;
+    height: 20px;
+    background: #ff0;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.Product_1_Container .Product_1_Card .Product_1_ContentBx .color span:nth-child(2) {
+    background: #1BBFE9;
+}
+
+.Product_1_Container .Product_1_Card .Product_1_ContentBx .color span:nth-child(3) {
+    background: #1B2FE9;
+}
+
+.Product_1_Container .Product_1_Card .Product_1_ContentBx .color span:nth-child(4) {
+    background: #080481;
+}
+
+.Product_1_Container .Product_1_Card .Product_1_ContentBx a {
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    background: #fff !important;
+    border-radius: 4px !important;
+    margin-top: 15px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    color: #111 !important;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: .5s !important;
+}
+
+.Product_1_Container .Product_1_Card:hover .Product_1_ContentBx a {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: .7s;
+    cursor: pointer;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+
+@media screen and (max-width: 1075px) {
+    .Product_1_Column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .Product_1_Container {
+        position: relative;
+        margin: auto;
+        margin-left: 25px !important;
+        /* margin-right: -130px !important; */
+        /* margin-right: -260px !important; */
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .Product_1_Container .Product_1_Card {
+        position: relative;
+        width: 450px !important;
+        height: 450px !important;
+        background: #232323;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .Product_1_Container .Product_1_Card .Product_1_ImgBx img {
+        position: absolute;
+        top: 45% !important;
+        left: 50%;
+        transform: translate(-50%, -45%) rotate(0deg);
+        width: 200px !important;
+        -webkit-transform: translate(-50%, -45%) rotate(0deg);
+        -moz-transform: translate(-50%, -45%) rotate(0deg);
+        -ms-transform: translate(-50%, -45%) rotate(0deg);
+        -o-transform: translate(-50%, -45%) rotate(0deg);
+    }
+
+    .Product_1_Container .Product_1_Card:hover .Product_1_ContentBx {
+        height: 140px !important;
+    }
+
+    .modal__trigger {
+        margin-bottom: 50px !important;
+    }
+
+    .Product_1_Container .Product_1_Card:after {
+        content: "CLOA";
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        font-size: 10em !important;
+        font-weight: bold;
+        font-style: italic;
+        color: rgba(255, 255, 255, 0.04);
+    }
+
+    .Product_1_Container .Product_1_Card:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #1BBFE9;
+        clip-path: circle(175px at 100% 100%) !important;
+        transition: 0.5s ease-in-out;
+    }
+
+    .Product_1_Container .Product_1_Card:hover:before {
+        clip-path: circle(350px at 50% -55%) !important;
+    }
+
+}
+
+@media screen and (max-width: 975px) {
+    .Product_1_Column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .Product_1_Container {
+        position: relative;
+        margin: auto;
+        margin-left: 25px !important;
+        /* margin-right: -130px !important; */
+        /* margin-right: -260px !important; */
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .Product_1_Container .Product_1_Card {
+        position: relative;
+        width: 400px !important;
+        height: 400px !important;
+        background: #232323;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .Product_1_Container .Product_1_Card .Product_1_ImgBx img {
+        position: absolute;
+        top: 40% !important;
+        left: 50%;
+        transform: translate(-50%, -40%) rotate(0deg);
+        width: 150px !important;
+        -webkit-transform: translate(-50%, -40%) rotate(0deg);
+        -moz-transform: translate(-50%, -40%) rotate(0deg);
+        -ms-transform: translate(-50%, -40%) rotate(0deg);
+        -o-transform: translate(-50%, -40%) rotate(0deg);
+    }
+
+    .Product_1_Container .Product_1_Card:hover .Product_1_ContentBx {
+        height: 140px !important;
+    }
+
+    .modal__trigger {
+        margin-bottom: 50px !important;
+    }
+
+    .Product_1_Container .Product_1_Card:after {
+        content: "CLOA";
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        font-size: 9em !important;
+        font-weight: bold;
+        font-style: italic;
+        color: rgba(255, 255, 255, 0.04);
+    }
+
+    .Product_1_Container .Product_1_Card:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #1BBFE9;
+        clip-path: circle(150px at 100% 100%) !important;
+        transition: 0.5s ease-in-out;
+    }
+
+    .Product_1_Container .Product_1_Card:hover:before {
+        clip-path: circle(350px at 50% -55%) !important;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .Product_1_Column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .Product_1_Container {
+        position: relative;
+        margin: auto;
+        margin-left: 25px !important;
+        /* margin-right: -130px !important; */
+        /* margin-right: -260px !important; */
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .Product_1_Container .Product_1_Card {
+        position: relative;
+        width: 350px !important;
+        height: 350px !important;
+        background: #232323;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .Product_1_Container .Product_1_Card .Product_1_ImgBx img {
+        position: absolute;
+        top: 40% !important;
+        left: 50%;
+        transform: translate(-50%, -40%) rotate(0deg);
+        width: 125px !important;
+        -webkit-transform: translate(-50%, -40%) rotate(0deg);
+        -moz-transform: translate(-50%, -40%) rotate(0deg);
+        -ms-transform: translate(-50%, -40%) rotate(0deg);
+        -o-transform: translate(-50%, -40%) rotate(0deg);
+    }
+
+    .Product_1_Container .Product_1_Card:hover .Product_1_ContentBx {
+        height: 140px !important;
+    }
+
+    .modal__trigger {
+        margin-bottom: 50px !important;
+    }
+
+    .Product_1_Container .Product_1_Card:after {
+        content: "CLOA";
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        font-size: 8em !important;
+        font-weight: bold;
+        font-style: italic;
+        color: rgba(255, 255, 255, 0.04);
+    }
+
+    .Product_1_Container .Product_1_Card:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #1BBFE9;
+        clip-path: circle(120px at 100% 100%) !important;
+        transition: 0.5s ease-in-out;
+    }
+
+    .Product_1_Container .Product_1_Card:hover:before {
+        clip-path: circle(350px at 50% -75%) !important;
+    }
+
+}
+
+@media screen and (max-width: 775px) {
+    .Product_1_Column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-left: 12%;
+        /* margin-right:25% ; */
+    }
+
+    .Product_1_Container {
+        position: relative;
+        margin: auto;
+        margin-left: 25px !important;
+        /* margin-right: -130px !important; */
+        /* margin-right: -260px !important; */
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .Product_1_Container .Product_1_Card {
+        position: relative;
+        width: 500px !important;
+        height: 500px !important;
+        background: #232323;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .Product_1_Container .Product_1_Card .Product_1_ImgBx img {
+        position: absolute;
+        top: 40% !important;
+        left: 50%;
+        transform: translate(-50%, -35%) rotate(0deg);
+        width: 225px !important;
+        -webkit-transform: translate(-50%, -35%) rotate(0deg);
+        -moz-transform: translate(-50%, -35%) rotate(0deg);
+        -ms-transform: translate(-50%, -35%) rotate(0deg);
+        -o-transform: translate(-50%, -35%) rotate(0deg);
+    }
+
+    .Product_1_Container .Product_1_Card:hover .Product_1_ContentBx {
+        height: 140px !important;
+    }
+
+    .modal__trigger {
+        margin-bottom: 50px !important;
+    }
+
+    .Product_1_Container .Product_1_Card:after {
+        content: "CLOA";
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        font-size: 11.5em !important;
+        font-weight: bold;
+        font-style: italic;
+        color: rgba(255, 255, 255, 0.04);
+    }
+
+    .Product_1_Container .Product_1_Card:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #1BBFE9;
+        clip-path: circle(200px at 100% 100%) !important;
+        transition: 0.5s ease-in-out;
+    }
+
+    .Product_1_Container .Product_1_Card:hover:before {
+        clip-path: circle(350px at 50% -45%) !important;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .Product_1_Column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-left: 0%;
+        /* margin-right:25% ; */
+    }
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 550px) {
+    .Product_1_Column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-left: -2.5%;
+        /* margin-right:25% ; */
+    }
+}
+
+@media screen and (max-width: 515px) {
+    #Cards_Section_1 {
+        display: none;
+    }
+
+    #Cards_Section_2 {
+        display: block;
+    }
+
+    .Product_1_Column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-left: -10%;
+        /* margin-right:25% ; */
+    }
+
+    .Product_1_Container {
+        position: relative;
+        margin: auto;
+        margin-left: 100px !important;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .Product_1_Container .Product_1_Card {
+        position: relative;
+        width: 350px !important;
+        height: 350px !important;
+        background: #232323;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .Product_1_Container .Product_1_Card .Product_1_ImgBx img {
+        position: absolute;
+        top: 45% !important;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(0deg);
+        width: 150px !important;
+    }
+
+    .Product_1_Container .Product_1_Card:hover .Product_1_ContentBx {
+        height: 120px !important;
+    }
+
+    .modal__trigger {
+        margin-bottom: 50px !important;
+    }
+
+    .Product_1_Container .Product_1_Card:after {
+        content: "CLOA";
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        font-size: 8em !important;
+        font-weight: bold;
+        font-style: italic;
+        color: rgba(255, 255, 255, 0.04);
+    }
+
+    .Product_1_Container .Product_1_Card:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #1BBFE9;
+        clip-path: circle(150px at 100% 100%) !important;
+        transition: 0.5s ease-in-out;
+    }
+
+    .Product_1_Container .Product_1_Card:hover:before {
+        clip-path: circle(300px at 50% -55%) !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Product_1_Column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-left: -15.5%;
+        /* margin-right:25% ; */
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .modal__content {
+
+        padding: 0.4rem !important;
+    }
+
+    .Product_1_Column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-left: -15.5%;
+        /* margin-right:25% ; */
+    }
+
+    .Product_1_Container .Product_1_Card .Product_1_ContentBx h2 {
+        position: relative;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: #fff;
+        margin-bottom: -15px !important;
+        padding-top: 30px !important;
+    }
+
+    .Product_1_Container .Product_1_Card .Product_1_ContentBx a {
+        padding: 10px 20px !important;
+        transform: translateY(50px) !important;
+        transition: .5s !important;
+    }
+
+    .Product_1_Container .Product_1_Card:hover .Product_1_ContentBx a {
+        opacity: 1;
+        transform: translateY(15px) !important;
+        transition-delay: .7s;
+        cursor: pointer;
+    }
+
+    .Product_1_Container .Product_1_Card {
+        position: relative;
+        width: 275px !important;
+        height: 275px !important;
+        background: #232323;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .Product_1_Container .Product_1_Card .Product_1_ImgBx img {
+        position: absolute;
+        top: 40% !important;
+        left: 50%;
+        transform: translate(-50%, -40%) rotate(0deg);
+        width: 120px !important;
+        -webkit-transform: translate(-50%, -40%) rotate(0deg);
+        -moz-transform: translate(-50%, -40%) rotate(0deg);
+        -ms-transform: translate(-50%, -40%) rotate(0deg);
+        -o-transform: translate(-50%, -40%) rotate(0deg);
+    }
+
+    .Product_1_Container .Product_1_Card:hover .Product_1_ContentBx {
+        height: 120px !important;
+    }
+
+    .Product_1_Container .Product_1_Card:after {
+        content: "CLOA";
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        font-size: 6em !important;
+        font-weight: bold;
+        font-style: italic;
+        color: rgba(255, 255, 255, 0.04);
+    }
+
+    .Product_1_Container .Product_1_Card:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #1BBFE9;
+        clip-path: circle(100px at 100% 100%) !important;
+        transition: 0.5s ease-in-out;
+    }
+
+    .Product_1_Container .Product_1_Card:hover:before {
+        clip-path: circle(300px at 50% -90%) !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .Product_1_Column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        align-items: center !important;
+        justify-content: center !important;
+        /* margin-left: -1%; */
+        /* margin-right:25% ; */
+    }
+}
+
+/** Modal 2 Css Rules **/
+body {
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-weight: bold;
+    margin: 0 0 2rem 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.3;
+}
+
+/* a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+} */
+
+/** * Material Modal CSS */
+.modal {
+    will-change: visibility, opacity;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    transition-delay: modal-delay;
+}
+
+.modal--active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal--align-top {
+    align-items: flex-start;
+}
+
+.modal__bg {
+    background: transparent;
+}
+
+.modal__dialog {
+    max-width: 1110px;
+    width: 1110px;
+    padding: 1.2rem;
+}
+
+.modal__content {
+    /* will-change: transform, opacity; */
+    position: relative;
+    padding: 2.4rem;
+    background: whitesmoke;
+    /* background-clip: padding-box; */
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    transition: all 0.25s cubic-bezier(0.23, 1, 0.32, 1);
+    /* text-align: center; */
+}
+
+.modal__content p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__content h1,
+.modal__content div {
+    text-align: center;
+}
+
+.modal__content--active {
+    opacity: 1;
+}
+
+.modal__close {
+    z-index: 1100;
+    cursor: pointer;
+}
+
+.modal__trigger {
+    z-index: 2000 !important;
+    cursor: pointer !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) !important;
+}
+
+.modal__trigger--active {
+    z-index: 10;
+}
+
+.modal__trigger:hover {
+    background: #e5d3d6;
+}
+
+#modal__temp {
+    will-change: transform, opacity;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffebee;
+    transform: none;
+    opacity: 1;
+    transition: opacity 0.1s ease-out, transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.demo-btns header {
+    padding: 7vh 10vw;
+    background: #ffebee;
+    display: flex;
+    align-items: center;
+}
+
+.demo-btns header h1 {
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.demo-btns .info {
+    background: #f44336;
+    padding: 3vh 10vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.demo-btns p {
+    text-align: center;
+    color: #fff;
+}
+
+.demo-btns .link {
+    font-size: 20px;
+}
+
+.demo-btns .modal__trigger {
+    margin-right: 3px;
+}
+
+.demo-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1.2rem;
+    padding: 0.6rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.demo-close svg {
+    width: 24px;
+    fill: #fff;
+    pointer-events: none;
+    vertical-align: top;
+}
+
+.demo-close:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+    position: fixed;
+    bottom: 3vh;
+    right: 3vw;
+    z-index: 2;
+}
+
+.logo img {
+    width: 45px;
+    transform: rotate(0);
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.logo img:hover {
+    transform: rotate(180deg) scale(1.1);
+}
+
+.modal__content img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+@media (max-width: 1250px) {
+    .modal__dialog {
+        max-width: 1000px;
+        padding: 1.2rem;
+    }
+
+    .modal__content img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .modal__dialog {
+        max-width: 800px;
+        padding: 1.2rem;
+    }
+
+    .modal__content img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+
+@media (max-width: 800px) {
+    .modal__dialog {
+        max-width: 600px;
+        padding: 1.2rem;
+    }
+
+    .modal__content img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .modal__dialog {
+        max-width: 400px;
+        padding: 1.2rem;
+    }
+
+    .modal__content img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
+@media (max-width: 350px) {
+    .modal__dialog {
+        max-width: 325px;
+        padding: 1.2rem;
+    }
+
+    .modal__content img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    #Modals_Container_Ar ul>img {
+        /* display: none !important; */
+        /* display: flex !important;
+    align-items: center !important;
+    justify-content: center !important; */
+        margin-right: -30px !important;
+    }
+
+    #Modals_Container_En ul>img {
+        /* display: none !important; */
+        /* display: flex !important;
+    align-items: center !important;
+    justify-content: center !important; */
+        margin-left: -30px !important;
+    }
+}
