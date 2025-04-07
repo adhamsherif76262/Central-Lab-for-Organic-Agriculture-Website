@@ -38,6 +38,14 @@
     margin-bottom: 50px;
 }
 
+#Introductory_Video_Section {
+    width: 100vw !important;
+    /* margin-left: 10% !important; */
+    /* margin-right: 5% !important; */
+    margin-top: 0px;
+    margin-bottom: 50px !important;
+}
+
 @media screen and (max-width: 850px) {
 
     #Introductory_Paragraph_H2,
@@ -411,12 +419,14 @@ body {
 }
 
 @media(max-width:768px) {
-    .Temp_En{
+    .Temp_En {
         margin-left: -50px !important;
     }
-    .Temp_Ar{
+
+    .Temp_Ar {
         margin-right: -50px !important;
     }
+
     /* .col-md-5 {
         margin-left: -50px !important;
     } */
