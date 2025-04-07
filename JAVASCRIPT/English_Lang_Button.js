@@ -38,7 +38,7 @@ function LangBtnEnClick() {
     case location.href.includes("/Research_Departements") ||
       location.href.includes("/research_departements"):
       Page_Title.innerHTML = "Research Departements";
-      Patents_Load_Content_En();
+      Research_Departements_Load_Content_En();
       break;
 
     case location.href.includes("/Collaborations") ||
@@ -68,104 +68,36 @@ function LangBtnEnClick() {
       location.href.includes("/previous_presidents"):
       Page_Title.innerHTML = "Previous Presidents";
       Previous_Presidents_Load_Content_En();
-      console.log("Previous_Presidents_Load_Content_En called");
       break;
 
-    case location.href.includes("/Institute_Branches") ||
-      location.href.includes("/institute_branches"):
-      Page_Title.innerHTML = "AERI Institute Branches Page";
+    case location.href.includes("/Soil_Fertility_Dep") ||
+      location.href.includes("/soil_fertility_dep"):
+      Page_Title.innerHTML = "Soil Fertility and Organic Plant Nutrition";
       Institute_Branches_Load_Content_En();
       break;
 
-    case location.href.includes("/Research_Projects") ||
-      location.href.includes("/research_projects"):
-      console.log("Heloo from Research Projects ENG");
-      Page_Title.innerHTML = "AERI Research Projects Page";
+    case location.href.includes("/Pest_Control_Dep") ||
+      location.href.includes("/pest_control_dep"):
+      Page_Title.innerHTML = "Pest Control and Organic Disease Resistance";
       Research_Projects_Load_Content_En();
       break;
 
-    case location.href.includes("/Overview") ||
-      location.href.includes("/overview"):
-      console.log("Heloo from Overview ENG");
-      Page_Title.innerHTML = "AERI Overview Page";
+    case location.href.includes("/Post_Harvest_Dep") ||
+      location.href.includes("/post_harvest_dep"):
+      Page_Title.innerHTML = "Post Harvest Treatment";
       Overview_Load_Content_En();
       break;
 
-    case location.href.includes("/Agricultural_Mechanization_OS") ||
-      location.href.includes("/agricultural_mechanization_os"):
-      console.log("Heloo from Agricultural_Mechanization_OS_Page ENG");
-      Page_Title.innerHTML = "AERI AMOS Page";
+    case location.href.includes("/Agricultural_Practices_Dep") ||
+      location.href.includes("/agricultural_practices_dep"):
+      Page_Title.innerHTML = "Agricultural Practices for Organic Production and Plant Breeding";
       Agricultural_Mechanization_OS_Load_Content_En();
       break;
 
-    case location.href.includes("/Agricultural_Power_Energy") ||
-      location.href.includes("/agricultural_power_energy"):
-      console.log(
-        "Heloo from Agricultural_Power_Energy_Page En" +
-          Agricultural_Power_Energy_Page_Title
-      );
-      Page_Title.innerHTML = "AERI Agricultural Power & Energy Page";
+    case location.href.includes("/OA_Economics_Extension_Dep") ||
+      location.href.includes("/oa_economics_extension_dep"):
+      Page_Title.innerHTML = "Organic Agriculture Economics and Extension";
       Agricultural_Power_Energy_Load_Content_En();
-      break;
-
-    case location.href.includes("/Animal_Production_Mechanization") ||
-      location.href.includes("/animal_production_mechanization"):
-      console.log(
-        "Heloo from Animal_Production_Mechanization En" +
-          Animal_Production_Mechanization_Page_Title
-      );
-      Page_Title.innerHTML = "AERI Animal Production & Mechanization Page";
-      Animal_Production_Mechanization_Load_Content_En();
-      break;
-
-    case location.href.includes("/Biological_Engineering") ||
-      location.href.includes("/biological_engineering"):
-      console.log(
-        "Heloo from Biological_Engineering En" +
-          Biological_Engineering_Page_Title
-      );
-      Page_Title.innerHTML = "AERI Biological Engineering";
-      Biological_Engineering_Load_Content_En();
-      break;
-
-    case location.href.includes("/Handling_Processing_D") ||
-      location.href.includes("/handling_processing_d"):
-      console.log(
-        "Heloo from Handling_Processing_D Ar" + Handling_Processing_D_Page_Title
-      );
-      Page_Title.innerHTML = "AERI Crop Handling & Processing Page";
-      Handling_Processing_D_Load_Content_En();
-      break;
-
-    case location.href.includes("/Irrigation_Engineering_RD") ||
-      location.href.includes("/irrigation_engineering_rd"):
-      console.log(
-        "Heloo from Irrigation Engineering RD En" +
-          Irrigation_Engineering_RD_Page_Title
-      );
-      Page_Title.innerHTML = "AERI Irrigation Engineering Research Page";
-      Irrigation_Engineering_RD_Load_Content_En();
-      break;
-
-    case location.href.includes("/Rice_Mechanization_Center") ||
-      location.href.includes("/rice_mechanization_center"):
-      console.log(
-        "Heloo from Rice Mechanization Center En" +
-          Rice_Mechanization_Center_Page_Title
-      );
-      Page_Title.innerHTML = "AERI Rice Mechanization Center Page";
-      Rice_Mechanization_Center_Load_Content_En();
-      break;
-
-    case location.href.includes("/Testing_Reasearch_Station") ||
-      location.href.includes("/testing_reasearch_station"):
-      console.log(
-        "Heloo from Testing Reasearch Station En" +
-          Testing_Reasearch_Station_Page_Title
-      );
-      Page_Title.innerHTML =
-        "AERI Testing & Reasearch Station For Tractor & Farm Machinery Page";
-      Testing_Reasearch_Station_Load_Content_En();
       break;
 
     default:
