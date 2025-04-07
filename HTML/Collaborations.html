@@ -12,58 +12,341 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' href='https://unpkg.com/flickity@2.0.3/dist/flickity.min.css'>
+
     <link rel="stylesheet" href="../CSS/Navigation_Bar.css">
     <link rel="stylesheet" href="../CSS/Footer.css">
+    <style>
+
+        #ARC_Collaborations_P,
+        #Private_Collaborations_P {
+          color: black;
+          background-color: rgb(241, 241, 241);
+          /* background-color: rgb(209, 255, 209); */
+          /* background-color: rgb(199, 255, 199); */
+          /* background-color: rgb(243, 235, 223); */
+          padding: 50px;
+          border-radius: 50px;
+          font-size: 25px;
+          font-family: Omnes-Arabic-HairLine-Bold !important;
+          width: 90%;
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          line-height: 4rem;
+      }
+
+      #ARC_Collaborations_P_H2,
+      #ARC_Collaborations_H2,
+      #Private_Collaborations_P_H2,
+      #Private_Collaborations_H2 {
+          text-align: center;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          margin-left: 25px;
+          margin-right: 25px;
+          font-size: 35px;
+          color: black;
+      }
+
+      #Private_Collaborations_P_H2 {
+          margin-top: -200px;
+          /* margin-bottom: -50px; */
+      }
+
+      #Private_Collaborations_H2 {
+          margin-bottom: 0px;
+      }
+
+      @media screen and (max-width: 850px) {
+      
+          #ARC_Collaborations_P_H2,
+          #ARC_Collaborations_H2,
+          #Private_Collaborations_P_H2,
+          #Private_Collaborations_H2 {
+              margin-left: 25px;
+              margin-right: 25px;
+              font-size: 30px;
+          }
+      }
+
+      @media screen and (max-width: 500px) {
+      
+          #ARC_Collaborations_P_H2,
+          #ARC_Collaborations_H2,
+          #Private_Collaborations_P_H2,
+          #Private_Collaborations_H2 {
+              margin-left: 25px;
+              margin-right: 25px;
+              font-size: 25px;
+          }
+        
+          #ARC_Collaborations_P,
+          #Private_Collaborations_P {
+              padding: 25px;
+              font-size: 20px;
+              line-height: 2.5rem;
+          }
+      }
+
+      @media screen and (max-width: 350px) {
+      
+          #ARC_Collaborations_P_H2,
+          #ARC_Collaborations_H2,
+          #Private_Collaborations_P_H2,
+          #Private_Collaborations_H2{
+              margin-left: 25px;
+              margin-right: 25px;
+              /* font-size: 20px; */
+          }
+        
+          #ARC_Collaborations_P,
+          #Private_Collaborations_P {
+              padding: 25px;
+              font-size: 18px;
+              line-height: 2rem;
+          }
+      }
+
+        body {
+        /* text-align: center; */
+        -webkit-user-select: none;
+        user-select: none;
+        overflow-x: hidden;
+        }
+
+        .Slider,
+        .Slider_2{
+        width: 100vw;
+        height: 100vh;
+        }
+
+        .Slide img,
+        .Slide_2 img {
+        width: auto;
+        max-width: 400px;
+        height :350px;
+        }
+
+        .Slide li,
+        .Slide_2 li {
+        display: grid;
+        width: 350px;
+        height: 385px;
+        /* width: auto; */
+        /* height: auto; */
+        border-radius: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+        box-shadow: 0 0 1rem grey;
+        background: white;
+        padding: 1rem;
+        line-height: 2;
+        }
+
+    </style>
 </head>
 <body>
         <section id="Navigation_Bar_Section"></section>
-        <div>
-            <h1 style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam
-                voluptatibus, dolores modi nemo, ut provident accusantium beatae corporis quis eligendi nam amet harum
-                sapiente molestiae earum nihil at quae.</h1>
-            <h1 style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam
-                voluptatibus, dolores modi nemo, ut provident accusantium beatae corporis quis eligendi nam amet harum
-                sapiente molestiae earum nihil at quae.</h1>
-            <h1 style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam
-                voluptatibus, dolores modi nemo, ut provident accusantium beatae corporis quis eligendi nam amet harum
-                sapiente molestiae earum nihil at quae.</h1>
-            <h1 style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam
-                voluptatibus, dolores modi nemo, ut provident accusantium beatae corporis quis eligendi nam amet harum
-                sapiente molestiae earum nihil at quae.</h1>
-            <h1 style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam
-                voluptatibus, dolores modi nemo, ut provident accusantium beatae corporis quis eligendi nam amet harum
-                sapiente molestiae earum nihil at quae.</h1>
-            <h1 style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam
-                voluptatibus, dolores modi nemo, ut provident accusantium beatae corporis quis eligendi nam amet harum
-                sapiente molestiae earum nihil at quae.</h1>
-            <h1 style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam
-                voluptatibus, dolores modi nemo, ut provident accusantium beatae corporis quis eligendi nam amet harum
-                sapiente molestiae earum nihil at quae.</h1>
-            <h1 style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam
-                voluptatibus, dolores modi nemo, ut provident accusantium beatae corporis quis eligendi nam amet harum
-                sapiente molestiae earum nihil at quae.</h1>
-            <h1 style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam
-                voluptatibus, dolores modi nemo, ut provident accusantium beatae corporis quis eligendi nam amet harum
-                sapiente molestiae earum nihil at quae.</h1>
-            <h1 style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam
-                voluptatibus, dolores modi nemo, ut provident accusantium beatae corporis quis eligendi nam amet harum
-                sapiente molestiae earum nihil at quae.</h1>
-            <h1 style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam
-                voluptatibus, dolores modi nemo, ut provident accusantium beatae corporis quis eligendi nam amet harum
-                sapiente molestiae earum nihil at quae.</h1>
-            <h1 style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam
-                voluptatibus, dolores modi nemo, ut provident accusantium beatae corporis quis eligendi nam amet harum
-                sapiente molestiae earum nihil at quae.</h1>
-            <h1 style="color:black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quisquam
-                voluptatibus, dolores modi nemo, ut provident accusantium beatae corporis quis eligendi nam amet harum
-                sapiente molestiae earum nihil at quae.</h1>
-        </div>
+
+        <h2 id="ARC_Collaborations_P_H2"></h2>
+        <p id="ARC_Collaborations_P"></p>
+
+        <h2 id="ARC_Collaborations_H2"></h2>
+        <section id="ARC_Collaborations_Section">
+            <div class="Slider">
+                <div class="Slide"><img src="../../../../../Adham Sherif/Downloads/Picture1.webp" alt=""></div>
+                <div class="Slide"><img src="../../../../../Adham Sherif/Downloads/Picture2-Picsart-AiImageEnhancer.jpg" alt=""></div>
+                <div class="Slide"><img src="../Images/Collaborations/ARC/Picture3.png" alt=""></div>
+                <div class="Slide"><img src="../Images/Collaborations/ARC/Picture4.png" alt=""></div>
+                <div class="Slide"><img src="../Images/Collaborations/ARC/Picture5.jpg" alt=""></div>
+                <div class="Slide"><img src="../Images/Collaborations/ARC/Picture6.png" alt=""></div>
+                <div class="Slide"><img src="../../../../../Adham Sherif/Downloads/Picture7.jpg" alt=""></div>
+                <div class="Slide"><img src="../Images/Collaborations/ARC/Picture8.png" alt=""></div>
+                <div class="Slide"><img src="../Images/Collaborations/ARC/Picture9.png" alt=""></div>
+                <div class="Slide"><img src="../Images/Collaborations/ARC/Picture10.jpg" alt=""></div>
+            </div>
+        </section>
+        
+        <h2 id="Private_Collaborations_P_H2"></h2>
+        <p id="Private_Collaborations_P"></p>
+
+        <h2 id="Private_Collaborations_H2"></h2>
+         <section style="margin-bottom: -200px;" id="Private_Collaborations_Section">
+            <div class="Slider_2">
+                <div class="Slide_2"><img src="../Images/Collaborations/Private Companies/Picture11.png" alt=""></div>
+                <div class="Slide_2"><img src="../Images/Collaborations/Private Companies/Picture12.png" alt=""></div>
+                <div class="Slide_2"><img src="../Images/Collaborations/Private Companies/Picture13.png" alt=""></div>
+                <div class="Slide_2"><img src="../Images/Collaborations/Private Companies/Picture14.png" alt=""></div>
+                <div class="Slide_2"><img src="../Images/Collaborations/Private Companies/Picture15.png" alt=""></div>
+                <div class="Slide_2"><img src="../Images/Collaborations/Private Companies/Picture16.png" alt=""></div>
+                <div class="Slide_2"><img src="../Images/Collaborations/Private Companies/Picture17.png" alt=""></div>
+                <div class="Slide_2"><img src="../Images/Collaborations/Private Companies/Picture18.png" alt=""></div>
+                <div class="Slide_2"><img src="../Images/Collaborations/Private Companies/Picture19.png" alt=""></div>
+                <div class="Slide_2"><img src="../Images/Collaborations/Private Companies/Picture20.png" alt=""></div>
+                <div class="Slide_2"><img src="../Images/Collaborations/Private Companies/Picture21.png" alt=""></div>
+            </div>
+        </section>
+
         <section id="Footer_Section"></section>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <script src="https://daniellaharel.com/raindrops/js/raindrops.js"></script>
+        
+        <!-- partial -->
+        <script src='https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js'></script>
+        <script src='https://unpkg.com/flickity-transformer/dist/flickity-transformer.pkgd.min.js'></script>
+
+        <script
+            src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js'>
+        </script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js'></script>
+
         <script>
+                        
+            let flkty = new Flickity(".Slider", {
+              setGallerySize: false,
+              pageDots: false,
+              initialIndex: 5 // I set the initial index to the middle fruit.
+            });
+
+            /** MY CODE BELOW TO ALLOW SCROLLING **/
+
+            // get the carousel so can move next/previous.
+            let $carousel = $(".Slider").flickity();
+
+            // Check for mouse scroll using jquery mousewheel.
+            $("body").on("mousewheel", function (event) {
+              // use flickity methods to go previous or next depending on scroll direction
+            
+              if (event.deltaY == -1) {
+                $carousel.flickity("previous");
+              }
+          
+              if (event.deltaY == 1) {
+                $carousel.flickity("next");
+              }
+            });
+
+            /* End of my code, below is default transformer, can modify this for different effects */
+
+            const transformer = new FlickityTransformer(flkty, [
+              {
+                name: "scale",
+                stops: [
+                  [-300, 0.5],
+                  [0, 0.8],
+                  [300, 0.5]
+                ]
+              },
+              {
+                name: "translateY",
+                stops: [
+                  [-1000, 500],
+                  [0, 0],
+                  [1000, 500]
+                ]
+              },
+              {
+                name: "rotate",
+                stops: [
+                  [-300, -30],
+                  [0, 0],
+                  [300, 30]
+                ]
+              },
+              {
+                // Declare perspective here, before rotateY. At least two stops are required, hence the duplication.
+                name: "perspective",
+                stops: [
+                  [0, 600],
+                  [1, 600]
+                ]
+              },
+              {
+                name: "rotateY",
+                stops: [
+                  [-300, 45],
+                  [0, 0],
+                  [300, -45]
+                ]
+              }
+            ]);
+        </script>
+        <script>
+                        
+            let flkty_2 = new Flickity(".Slider_2", {
+              setGallerySize: false,
+              pageDots: false,
+              initialIndex: 6 // I set the initial index to the middle fruit.
+            });
+
+            /** MY CODE BELOW TO ALLOW SCROLLING **/
+
+            // get the carousel so can move next/previous.
+            let $carousel_2 = $(".Slider_2").flickity();
+
+            // Check for mouse scroll using jquery mousewheel.
+            $("body").on("mousewheel", function (event) {
+              // use flickity methods to go previous or next depending on scroll direction
+            
+              if (event.deltaY == -1) {
+                $carousel_2.flickity("previous");
+              }
+          
+              if (event.deltaY == 1) {
+                $carousel_2.flickity("next");
+              }
+            });
+
+            /* End of my code, below is default transformer, can modify this for different effects */
+
+            const transformer_2 = new FlickityTransformer(flkty_2, [
+              {
+                name: "scale",
+                stops: [
+                  [-300, 0.5],
+                  [0, 0.8],
+                  [300, 0.5]
+                ]
+              },
+              {
+                name: "translateY",
+                stops: [
+                  [-1000, 500],
+                  [0, 0],
+                  [1000, 500]
+                ]
+              },
+              {
+                name: "rotate",
+                stops: [
+                  [-300, -30],
+                  [0, 0],
+                  [300, 30]
+                ]
+              },
+              {
+                // Declare perspective here, before rotateY. At least two stops are required, hence the duplication.
+                name: "perspective",
+                stops: [
+                  [0, 600],
+                  [1, 600]
+                ]
+              },
+              {
+                name: "rotateY",
+                stops: [
+                  [-300, 45],
+                  [0, 0],
+                  [300, -45]
+                ]
+              }
+            ]);
+        </script>
+        <script>
+
             if (localStorage.getItem("Permenant_Language") === null || localStorage.getItem("Permenant_Language") ===
                 "") {
                 location.href = "../Home.html";
@@ -99,6 +382,7 @@
             }
         </script>
         <script src="../JAVASCRIPT/NavBar_Footer_Lang_Switcher.js"></script>
+        <script src="../JAVASCRIPT/Collaborations.js"></script>
         <script src="../JAVASCRIPT/Arabic_Lang_Button.js"></script>
         <script src="../JAVASCRIPT/English_Lang_Button.js"></script>
 </body>

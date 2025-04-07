@@ -43,8 +43,7 @@ function LangBtnEnClick() {
 
     case location.href.includes("/Collaborations") ||
       location.href.includes("/collaborations"):
-      Contact_Load_Content_En();
-      console.log(Contact_H1);
+      Collaborations_Load_Content_En();
       Page_Title.innerHTML = "Collaborations";
       break;
     case location.href.includes("/Main_Services") ||

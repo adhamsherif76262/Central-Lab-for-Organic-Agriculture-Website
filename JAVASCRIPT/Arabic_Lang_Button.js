@@ -47,7 +47,7 @@ function LangBtnArClick() {
 
     case location.href.includes("/Collaborations") ||
       location.href.includes("/collaborations"):
-      Contact_Load_Content_Ar();
+      Collaborations_Load_Content_Ar();
       Page_Title.innerHTML = "التعاونات";
       break;
 
