@@ -1,3 +1,7 @@
+/* .watermark>img{
+    width: 500px !important;
+    display: none !important;
+} */
 #Introductory_Paragraph {
     color: black;
     background-color: rgb(241, 241, 241);
@@ -39,11 +43,21 @@
 }
 
 #Introductory_Video_Section {
-    width: 100vw !important;
+    /* width: 100vw !important; */
     /* margin-left: 10% !important; */
     /* margin-right: 5% !important; */
+    /* min-width: auto;
+    min-height: auto; */
+    /* width: 1280px;
+    height: 720px;
+    margin-left: 10%;
+    margin-right: 10%; */
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 0px;
     margin-bottom: 50px !important;
+
 }
 
 @media screen and (max-width: 850px) {
