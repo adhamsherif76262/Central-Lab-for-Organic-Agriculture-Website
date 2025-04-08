@@ -441,7 +441,7 @@ var Footer_Section_En = `
                                                     </a>
                                                 </div>
                                                 <div class="gem-pp-posts-date">
-                                                  <a href="./${HTMLpath}OA_Economics_Extension_Dep.html">Organic Agriculture Economics and Extension  Department
+                                                  <a href="./${HTMLpath}OA_Economics_Extension_Dep.html">Organic Agriculture Economics & Extension  Department
                                                   </a>
                                                 </div>
                                             </div>
@@ -453,7 +453,7 @@ var Footer_Section_En = `
                                                     </a>
                                                 </div>
                                                 <div class="gem-pp-posts-date">
-                                                  <a href="./${HTMLpath}Agricultural_Practices_Dep.html">Agricultural Practices for Organic Production and Plant Breeding  Department
+                                                  <a href="./${HTMLpath}Agricultural_Practices_Dep.html">Agricultural Practices for Organic Production & Plant Breeding  Department
                                                   </a>
                                                 </div>
                                             </div>
@@ -477,7 +477,7 @@ var Footer_Section_En = `
                                                     </a>
                                                 </div>
                                                 <div class="gem-pp-posts-date">
-                                                  <a href="./${HTMLpath}Pest_Control_Dep.html">Pest Control and Organic Disease Resistance  Department
+                                                  <a href="./${HTMLpath}Pest_Control_Dep.html">Pest Control & Organic Disease Resistance  Department
                                                   </a>
                                                 </div>
                                             </div>
@@ -489,7 +489,7 @@ var Footer_Section_En = `
                                                     </a>
                                                 </div>
                                                 <div class="gem-pp-posts-date">
-                                                  <a href="./${HTMLpath}Soil_Fertility_Dep.html">Soil Fertility and Organic Plant Nutrition  Department
+                                                  <a href="./${HTMLpath}Soil_Fertility_Dep.html">Soil Fertility & Organic Plant Nutrition  Department
                                                   </a>
                                                 </div>
                                             </div>
