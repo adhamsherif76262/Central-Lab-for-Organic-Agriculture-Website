@@ -1,10 +1,19 @@
+var El_Kholasa_Iframe_H2 = document.getElementById("El_Kholasa_Iframe_H2");
 var Introductory_Paragraph_H2 = document.getElementById("Introductory_Paragraph_H2");
 var Introductory_Paragraph = document.getElementById("Introductory_Paragraph");
 var Extension_Activity_Section_H2 = document.getElementById("Extension_Activity_Section_H2");
 var Extension_Activity_Section = document.getElementById("Extension_Activity_Section");
 var OA_Day_Section_H2 = document.getElementById("OA_Day_Section_H2");
 var CLOA_Gallery_Section_H2 = document.getElementById("CLOA_Gallery_Section_H2");
+var Cairo_Meeting_Iframe_H2 = document.getElementById("Cairo_Meeting_Iframe_H2");
 var Field_Expirements_Section_H2 = document.getElementById("Field_Expirements_Section_H2");
+
+var El_Kholasa_Iframe_H2_Ar = `
+لقاء الأستاذ الدكتور مدير المعمل في برنامج الخلاصة
+`;
+var El_Kholasa_Iframe_H2_En = `
+An Interview with the Prof. Dr. Laboratory Director on 'Al-Kholasa' Program
+`;
 
 var Introductory_Paragraph_H2_Ar = `
 حلول عضوية لمستقبل زراعي مستدام
@@ -1483,6 +1492,13 @@ var CLOA_Gallery_Section_H2_En = `
 Central Lab Of Organic Agriculture Staff
 `;
 
+var Cairo_Meeting_Iframe_H2_Ar = `
+لقاء الأستاذ الدكتور مدير المعمل في برنامج القاهرة هذا المساء
+`;
+var Cairo_Meeting_Iframe_H2_En = `
+An Interview with the Prof. Dr. Laboratory Director on the Cairo This Evening Program
+`;
+
 var Field_Expirements_Section_H2_Ar = `
 التجارب الحقلية للمعمل المركزي للزراعة العضوية
 `;
@@ -1595,6 +1611,9 @@ function Insights_Resources_Load_Content_Ar() {
             });
     });
     
+  El_Kholasa_Iframe_H2.innerHTML = El_Kholasa_Iframe_H2_Ar;
+  El_Kholasa_Iframe_H2.style.direction = "rtl";
+
   Introductory_Paragraph_H2.innerHTML = Introductory_Paragraph_H2_Ar;
   Introductory_Paragraph_H2.style.direction = "rtl";
   Introductory_Paragraph.innerHTML = Introductory_Paragraph_Ar;
@@ -1608,6 +1627,9 @@ function Insights_Resources_Load_Content_Ar() {
 
   CLOA_Gallery_Section_H2.innerHTML = CLOA_Gallery_Section_H2_Ar;
   CLOA_Gallery_Section_H2.style.direction = "rtl";
+
+  Cairo_Meeting_Iframe_H2.innerHTML = Cairo_Meeting_Iframe_H2_Ar;
+  Cairo_Meeting_Iframe_H2.style.direction = "rtl";
 
   Field_Expirements_Section_H2.innerHTML = Field_Expirements_Section_H2_Ar;
   Field_Expirements_Section_H2.style.direction = "rtl";
@@ -1718,7 +1740,10 @@ function Insights_Resources_Load_Content_En() {
             });
     });
     
-      Introductory_Paragraph_H2.innerHTML = Introductory_Paragraph_H2_En;
+  El_Kholasa_Iframe_H2.innerHTML = El_Kholasa_Iframe_H2_En;
+  El_Kholasa_Iframe_H2.style.direction = "ltr";
+
+  Introductory_Paragraph_H2.innerHTML = Introductory_Paragraph_H2_En;
   Introductory_Paragraph_H2.style.direction = "ltr";
   Introductory_Paragraph.innerHTML = Introductory_Paragraph_En;
 
@@ -1732,6 +1757,9 @@ function Insights_Resources_Load_Content_En() {
 
   CLOA_Gallery_Section_H2.innerHTML = CLOA_Gallery_Section_H2_En;
   CLOA_Gallery_Section_H2.style.direction = "ltr";
+
+  Cairo_Meeting_Iframe_H2.innerHTML = Cairo_Meeting_Iframe_H2_En;
+  Cairo_Meeting_Iframe_H2.style.direction = "ltr";
 
   Field_Expirements_Section_H2.innerHTML = Field_Expirements_Section_H2_En;
   Field_Expirements_Section_H2.style.direction = "ltr";

@@ -1,7 +1,47 @@
-/* .watermark>img{
-    width: 500px !important;
-    display: none !important;
-} */
+#OA_Day_Iframe_Mother_Div {
+    position: relative;
+    width: 80%;
+    height: 0px;
+    padding-bottom: 56.250%;
+    margin: auto;
+}
+
+#OA_Day_Iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+#El_Kholasa_Iframe_Mother_Div,
+#Cairo_Meeting_Iframe_Mother_Div {
+    position: relative;
+    padding-bottom: 50%;
+    width: 80%;
+    height: 0;
+    margin: auto;
+    margin-bottom: 50px;
+    /* margin-bottom: -600px; */
+}
+
+#El_Kholasa_Iframe_Mother_Div {
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+#El_Kholasa_Iframe,
+#Cairo_Meeting_Iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
 #Introductory_Paragraph {
     color: black;
     background-color: rgb(241, 241, 241);
@@ -20,6 +60,8 @@
     line-height: 4rem;
 }
 
+#El_Kholasa_Iframe_H2,
+#Cairo_Meeting_Iframe_H2,
 #Introductory_Paragraph_H2,
 #Extension_Activity_Section_H2,
 #OA_Day_Section_H2,
@@ -63,6 +105,8 @@
 
 @media screen and (max-width: 850px) {
 
+    #El_Kholasa_Iframe_H2,
+    #Cairo_Meeting_Iframe_H2,
     #Introductory_Paragraph_H2,
     #Extension_Activity_Section_H2,
     #OA_Day_Section_H2,
@@ -76,6 +120,8 @@
 
 @media screen and (max-width: 500px) {
 
+    #El_Kholasa_Iframe_H2,
+    #Cairo_Meeting_Iframe_H2,
     #Introductory_Paragraph_H2,
     #Extension_Activity_Section_H2,
     #OA_Day_Section_H2,
@@ -95,6 +141,8 @@
 
 @media screen and (max-width: 350px) {
 
+    #El_Kholasa_Iframe_H2,
+    #Cairo_Meeting_Iframe_H2,
     #Introductory_Paragraph_H2,
     #Extension_Activity_Section_H2,
     #OA_Day_Section_H2,
@@ -532,6 +580,10 @@ body {
 }
 
 /**----------------------------- OA Day Section ----------------------------**/
+#OA_Day_Section {
+    margin-top: -50px;
+}
+
 @media screen and (max-width: 991px) {
     .thumbnail {
         transform: translateY(80%) translateX(-50%);
@@ -546,6 +598,24 @@ body {
     .thumbnail {
         transform: translateY(25%) translateX(-50%);
     }
+
+    #OA_Day_Section {
+        margin-top: -125px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #OA_Day_Section {
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    #OA_Day_Section {
+        margin-top: -170px;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -555,6 +625,10 @@ body {
 
     .Padd_Right {
         padding-right: 5px !important;
+    }
+
+    #OA_Day_Section {
+        margin-top: -200px;
     }
 }
 
