@@ -393,9 +393,10 @@ footer .widget ul {
 }
 
 .posts li {
-    border-bottom: 2px solid #393d50;
+    border-bottom: 3px solid #747eaf;
     padding-bottom: 15px;
-    padding-top: 6px;
+    padding-top: 15px;
+    /* height: 500px; */
 }
 
 footer p,
@@ -415,7 +416,16 @@ footer p {
 }
 
 .posts li a {
-    color: #99a9b5;
+    color: #b0b0b0;
+    /* display: none; */
+    transition: text-shadow 0.5s ease;
+    line-height: 3rem !important;
+}
+
+.posts li a:hover {
+    /* text-shadow: 0 0 25px #FFB100; */
+    /* text-shadow: 0 0 25px rgb(0, 255, 0); */
+    text-shadow: 0 0 15px red;
 }
 
 footer .widget ul {
@@ -433,6 +443,54 @@ footer .widget ul {
 }
 
 @media screen and (max-width: 992px) {
+    #Services_Product_2_Ar {
+        margin-right: -170px;
+    }
+    #Services_Product_2_En {
+        margin-left: -190px;
+    }
+
+    .footer-title-1,
+    .footer-title-2,
+    .footer-title-1_Ar,
+    .footer-title-2_Ar {
+        text-align: center !important;
+        /* margin: auto !important; */
+        margin-bottom: 50px !important;
+    }
+
+    .footer-title-2 {
+        margin-left: 0px;
+    }
+
+    .widget_Ar {
+        text-align: right;
+    }
+
+    .widget_En {
+        text-align: left;
+    }
+
+    /* .Pages_Ar{
+        text-align: right !important;
+        word-spacing: 1rem;
+    }
+    .Pages_En{
+        text-align: left;
+    } */
+}
+
+@media screen and (max-width: 767px) {
+    #Services_Product_2_Ar {
+        margin-right: 0px;
+    }
+    #Services_Product_2_En {
+        margin-left: 0px;
+    }
+
+    .widget {
+        text-align: center;
+    }
 
     .footer-title-1,
     .footer-title-2,
@@ -443,28 +501,20 @@ footer .widget ul {
         margin-bottom: 50px !important;
     }
 
-    .footer-title-2 {
-        margin-left: 0px;
-    }
-
-    .widget {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 767px) {
-
     .gem-pp-posts-text {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
         padding-bottom: 10px;
+        line-height: 5rem;
     }
 
     .gem-pp-posts-item>a {
         padding-bottom: 25px;
         text-decoration: none !important;
+        margin: 0 !important;
+        /* display: none; */
     }
 
     .gem-pp-posts-date>a {
