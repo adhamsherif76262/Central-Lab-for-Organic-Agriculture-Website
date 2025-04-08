@@ -105,6 +105,12 @@ function LangBtnArClick() {
       Agricultural_Power_Energy_Load_Content_Ar();
       break;
 
+    case location.href.includes("/OA_General_Administration") ||
+      location.href.includes("/oa_general_administration"):
+      Page_Title.innerHTML = "قسم الإدارة العامة للزراعة العضوية";
+      Agricultural_Power_Energy_Load_Content_Ar();
+      break;
+
     default:
       console.log("Heloo from Home AR");
       Page_Title.innerHTML = "الرئيسية";

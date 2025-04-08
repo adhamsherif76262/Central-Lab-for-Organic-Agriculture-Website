@@ -100,6 +100,12 @@ function LangBtnEnClick() {
       Agricultural_Power_Energy_Load_Content_En();
       break;
 
+    case location.href.includes("/OA_General_Administration") ||
+      location.href.includes("/oa_general_administration"):
+      Page_Title.innerHTML = "The General Administration of Organic Agriculture Research Department";
+      Agricultural_Power_Energy_Load_Content_En();
+      break;
+
     default:
       console.log("Heloo from Home ENG");
       Page_Title.innerHTML = "Home";

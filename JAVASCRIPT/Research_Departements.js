@@ -10,7 +10,7 @@ var Research_Departements_Section_Ar = `
                     <div class="content"></div> 
                 </a>
             </li>
-            <li class="card" style="--color:#ececec; --bg-color:#C23D2A">
+            <li class="card" style="--color:#ececec; --bg-color:#022F46">
                 <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
                 <a href="../HTML/Pest_Control_Dep.html">
                     <div class="title">قسم مـكـافـحـة الآفــــات و بـحـوث مـقـاومـة الأمـراض العضويـة</div>
@@ -24,17 +24,24 @@ var Research_Departements_Section_Ar = `
                     <div class="content"></div> 
                 </a>
             </li>
-            <li class="card" style="--color:#ececec; --bg-color:#022F46">
+            <li class="card" style="--color:#ececec; --bg-color:#032437">
                 <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></i></div>
                 <a href="../HTML/Agricultural_Practices_Dep.html">
                     <div class="title">قسم بحوث المعاملات الزراعية للإنتاج العضوي وتربية النباتات </div>
                     <div class="content"></div> 
                 </a>
             </li>
-            <li class="card" style="--color:#ececec; --bg-color:#032437">
+            <li class="card" style="--color:#ececec; --bg-color:#C23D2A">
                 <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
                 <a href="../HTML/OA_Economics_Extension_Dep.html">
                     <div class="title"> قسم بحوث الاقتصاد والإرشاد الزراعة العضوية </div>
+                    <div class="content"></div> 
+                </a>
+            </li>
+            <li class="card" style="--color:#ececec; --bg-color:#ffb300d8">
+                <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <a href="../HTML/OA_General_Administration.html">
+                    <div class="title"> قسم الإدارة العامة للزراعة العضوية</div>
                     <div class="content"></div> 
                 </a>
             </li>
@@ -51,7 +58,7 @@ var Research_Departements_Section_En = `
                     <div class="content"></div> 
                 </a>
             </li>
-            <li class="card" style="--color:#ececec; --bg-color:#C23D2A">
+            <li class="card" style="--color:#ececec; --bg-color:#022F46">
                 <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
                 <a href="../HTML/Pest_Control_Dep.html">
                     <div class="title">Pest Control and Organic Disease Resistance Research Department </div>
@@ -65,17 +72,24 @@ var Research_Departements_Section_En = `
                     <div class="content"></div>
                 </a>
             </li>
-            <li class="card" style="--color:#ececec; --bg-color:#022F46">
+            <li class="card" style="--color:#ececec; --bg-color:#032437">
             <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></i></div>
                 <a href="../HTML/Agricultural_Practices_Dep.html">
                     <div class="title">Agricultural Practices for Organic Production and Plant Breeding Research Department </div>
                     <div class="content"></div>
                 </a>
             </li>
-            <li class="card" style="--color:#ececec; --bg-color:#032437">
+            <li class="card" style="--color:#ececec; --bg-color:#C23D2A">
                 <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
                 <a href="../HTML/OA_Economics_Extension_Dep.html">
                     <div class="title">Organic Agriculture Economics and Extension Research Department </div>
+                    <div class="content"></div> 
+                </a>
+            </li>
+            <li class="card" style="--color:#ececec; --bg-color:#ffb300d8">
+                <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <a href="../HTML/OA_General_Administration.html">
+                    <div class="title">The General Administration of Organic Agriculture Research Department</div>
                     <div class="content"></div> 
                 </a>
             </li>
