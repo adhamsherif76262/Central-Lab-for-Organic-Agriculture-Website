@@ -208,6 +208,7 @@
         justify-content: center;
         gap: 2rem;
         list-style: none;
+        /* margin: 0; */
     }
 
     #Research_Publications_UL_En {
@@ -218,6 +219,7 @@
         justify-content: center;
         gap: 2rem;
         list-style: none;
+        margin: 0;
     }
 
     #Research_Publications_UL_Ar li,
