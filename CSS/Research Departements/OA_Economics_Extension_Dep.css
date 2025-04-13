@@ -251,6 +251,16 @@
             font-size: 25px;
         }
 
+        #Research_Publications_UL_En {
+            width: min(59rem, 60%);
+            margin-inline: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+            justify-content: center;
+            gap: 2rem;
+            list-style: none;
+        }
+
         #Departement_Hirarchy_Section {
             margin: auto;
             width: 95%;
