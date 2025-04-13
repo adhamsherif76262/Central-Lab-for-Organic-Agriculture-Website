@@ -85,7 +85,7 @@ function LangBtnEnClick() {
     case location.href.includes("/Post_Harvest_Dep") ||
       location.href.includes("/post_harvest_dep"):
       Page_Title.innerHTML = "Post Harvest Treatment";
-      Overview_Load_Content_En();
+      Post_Harvest_Dep_Load_Content_En();
       break;
 
     case location.href.includes("/Agricultural_Practices_Dep") ||

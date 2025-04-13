@@ -90,7 +90,7 @@ function LangBtnArClick() {
     case location.href.includes("/Post_Harvest_Dep") ||
       location.href.includes("/post_harvest_dep"):
       Page_Title.innerHTML = "بحوث معاملات ما بعد الحصاد";
-      Overview_Load_Content_Ar();
+      Post_Harvest_Dep_Load_Content_Ar();
       break;
 
     case location.href.includes("/Agricultural_Practices_Dep") ||

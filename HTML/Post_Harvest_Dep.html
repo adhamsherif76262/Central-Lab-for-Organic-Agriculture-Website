@@ -13,42 +13,216 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../CSS/Research Departements/Pest_Control_Dep.css">
+    <link rel="stylesheet" href="../CSS/Research Departements/Post_Harvest_Dep.css">
     <link rel="stylesheet" href="../CSS/Navigation_Bar.css">
     <link rel="stylesheet" href="../CSS/Footer.css">
+    <style>
+        /* font awesome import */
+        @import url("https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css");
+        @font-face {
+        font-family: Omnes-Arabic-HairLine-Bold;
+        src: url(../Fonts/ArbFONTS-OMNES-ARABIC-BOLD.ttf);
+        }
+        #Department_Specializations_Container_Div_Ar_Narrow,
+        #Department_Specializations_Container_Div_En_Narrow{
+            display: none;
+        }
+        /* .Padd_Top_110,
+        .Padd_Top_100{
+            margin-bottom: 100px !important;
+        } */
 
+        .ul-circles * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        .ul-circles {
+        --innerSize: 22rem;
+        --rimSize: 2rem;
+
+        display: grid;
+        grid-template-columns: repeat(var(--repeatVal, 1), calc(var(--innerSize)));
+        justify-content: center;
+        gap: var(--rimSize);
+        
+        padding: var(--rimSize);
+        font-family: sans-serif;
+        list-style: none;
+        }
+
+
+        .ul-circles > li {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: calc(var(--rimSize) / 16);
+
+        aspect-ratio: 1/1;
+        padding: calc(var(--rimSize) / 16);
+        border-radius: 50%;
+
+        text-align: center;
+        position: relative;
+        
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 1.5rem;
+        font-family: Omnes-Arabic-HairLine-Bold;
+        }
+        .ul-circles > li::before,
+        .ul-circles > li::after {
+        content: "";
+        position: absolute;
+        aspect-ratio: 1/1;
+        border-radius: inherit;
+        z-index: -1;
+        }
+
+        .ul-circles > li::before {
+        width: calc(100% + calc(2 * var(--rimSize)));
+        left: calc(var(--rimSize) * -1);
+        top: calc(var(--rimSize) * -1);
+        background: var(--accent-color);
+        clip-path: polygon(
+        var(--clipX1, 0%) var(--clipY1, 0%),
+        var(--clipX2, 50%) var(--clipY1, 0%),
+        var(--clipX2, 50%) var(--clipY2, 100%),
+        var(--clipX1, 0%) var(--clipY2, 100%)
+        );
+        box-shadow: inset 2px -2px 10px rgba(255, 255, 255, 0.25),
+        inset -2px 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .ul-circles > li:nth-child(even)::before {
+        --clipX1: 50%;
+        --clipX2: 100%;
+        }
+
+        .ul-circles {
+        --repeatVal: auto-fit;
+        }
+        .ul-circles.ul-circles-vertical {
+        --repeatVal: 1;
+        }
+        .ul-circles:not(.ul-circles-vertical) > li:nth-child(even)::before {
+        --clipX1: 0%;
+        --clipY1: 0%;
+        --clipX2: 100%;
+        --clipY2: 50%;
+        }
+        .ul-circles:not(.ul-circles-vertical) > li:nth-child(odd)::before {
+        --clipX1: 0%;
+        --clipY1: 50%;
+        --clipX2: 100%;
+        --clipY2: 100%;
+        }
+
+        .ul-circles > li::after {
+        width: 100%;
+        background: rgb(230, 230, 230);
+        box-shadow: -0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
+        }
+
+        .ul-circles > li > i {
+        font-size: 2.5rem;
+        color: var(--accent-color);
+        align-self: end;
+        }
+
+        #Department_Specializations_Section,
+        #Department_Specializations_Container_Div_Ar{
+            width: 100%;
+        }
+        @media screen and (max-width : 800px) {
+            #Department_Specializations_Container_Div_Ar_Narrow,
+            #Department_Specializations_Container_Div_En_Narrow{
+                display: block;
+            }
+            #Department_Specializations_Container_Div_Ar_Wide,
+            #Department_Specializations_Container_Div_En_Wide{
+                display: none;
+            }
+            #Department_Specializations_Container_Div_Ar_Narrow .Padd_Top_75{
+                padding-top: 75px !important;
+            }
+            #Department_Specializations_Container_Div_Ar_Narrow .Padd_Top_110{
+                padding-top: 110px !important;
+            }
+            #Department_Specializations_Container_Div_Ar_Narrow .Padd_Top_125{
+                padding-top: 125px !important;
+            }
+
+            #Department_Specializations_Container_Div_En_Narrow .Padd_Top_100{
+                padding-top: 100px !important;
+            }
+            #Department_Specializations_Container_Div_En_Narrow .Padd_Top_50{
+                padding-top: 50px !important;
+            }
+            #Department_Specializations_Container_Div_En_Narrow .Padd_Top_75{
+                padding-top: 75px !important;
+                /* display: none; */
+            }
+            #Department_Specializations_Container_Div_En_Narrow .Padd_Top_125{
+                padding-top: 125px !important;
+            }
+        }
+        @media screen and (max-width : 425px) {
+            .ul-circles{
+                --innerSize: 18rem !important;
+                --rimSize: 1rem;
+                display: grid;
+                grid-template-columns: repeat(var(--repeatVal, 1), calc(var(--innerSize)));
+                justify-content: center;
+                gap: var(--rimSize);
+                padding: var(--rimSize);
+                font-family: sans-serif;
+                list-style: none;
+            }
+            #Department_Specializations_Container_Div_Ar_Narrow .Padd_Top_75{
+                padding-top:45px !important;
+                font-size: 1.4rem !important;
+            }
+            #Department_Specializations_Container_Div_Ar_Narrow .Padd_Top_110{
+                padding-top: 75px !important;
+                font-size: 1.4rem !important;
+            }
+            #Department_Specializations_Container_Div_Ar_Narrow .Padd_Top_125{
+                padding-top: 100px !important;
+                font-size: 1.4rem !important;
+            }
+
+            #Department_Specializations_Container_Div_En_Narrow .Padd_Top_100{
+                padding-top: 75px !important;
+                font-size: 1.3rem !important;
+            }
+            #Department_Specializations_Container_Div_En_Narrow .Padd_Top_50{
+                padding-top: 35px !important;
+                font-size: 1.25rem !important;
+            }
+            #Department_Specializations_Container_Div_En_Narrow .Padd_Top_75{
+                padding-top: 60px !important;
+                font-size: 1.3rem !important;
+            }
+            #Department_Specializations_Container_Div_En_Narrow .Padd_Top_125{
+                padding-top: 100px !important;
+                font-size: 1.4rem !important;
+            }
+        }
+    </style>
 </head>
 
 <body>
+
     <section id="Navigation_Bar_Section"></section>
 
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, porro suscipit doloribus tenetur quae iure
-        veniam reiciendis nihil fuga adipisci unde quas repellendus facilis nam ipsa voluptas, consequatur optio
-        consequuntur.</div>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, porro suscipit doloribus tenetur quae iure
-        veniam reiciendis nihil fuga adipisci unde quas repellendus facilis nam ipsa voluptas, consequatur optio
-        consequuntur.</div>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, porro suscipit doloribus tenetur quae iure
-        veniam reiciendis nihil fuga adipisci unde quas repellendus facilis nam ipsa voluptas, consequatur optio
-        consequuntur.</div>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, porro suscipit doloribus tenetur quae iure
-        veniam reiciendis nihil fuga adipisci unde quas repellendus facilis nam ipsa voluptas, consequatur optio
-        consequuntur.</div>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, porro suscipit doloribus tenetur quae iure
-        veniam reiciendis nihil fuga adipisci unde quas repellendus facilis nam ipsa voluptas, consequatur optio
-        consequuntur.</div>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, porro suscipit doloribus tenetur quae iure
-        veniam reiciendis nihil fuga adipisci unde quas repellendus facilis nam ipsa voluptas, consequatur optio
-        consequuntur.</div>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, porro suscipit doloribus tenetur quae iure
-        veniam reiciendis nihil fuga adipisci unde quas repellendus facilis nam ipsa voluptas, consequatur optio
-        consequuntur.</div>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, porro suscipit doloribus tenetur quae iure
-        veniam reiciendis nihil fuga adipisci unde quas repellendus facilis nam ipsa voluptas, consequatur optio
-        consequuntur.</div>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, porro suscipit doloribus tenetur quae iure
-        veniam reiciendis nihil fuga adipisci unde quas repellendus facilis nam ipsa voluptas, consequatur optio
-        consequuntur.</div>
+    <h2 id="Departement_Hirarchy_H2"></h2>
+    <section id="Departement_Hirarchy_Section"></section>
+
+    <h2 id="Department_Specializations_H2"></h2>
+    <section id="Department_Specializations_Section"></section>
+
+    <h2 id="Research_Publications_H2"></h2>
+    <section id="Research_Publications_Section"></section>
 
     <section id="Footer_Section"></section>
 
