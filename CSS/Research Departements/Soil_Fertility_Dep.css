@@ -317,3 +317,15 @@
             width: 95%;
         }
     }
+
+    @media screen and (max-width : 400px) {
+        #Research_Publications_UL_En {
+            width: min(59rem, 90%);
+            margin-inline: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+            justify-content: center;
+            gap: 4.5rem;
+            list-style: none;
+        }
+    }
