@@ -312,6 +312,154 @@
         }
     }
 
+    @media screen and (max-width : 600px) {
+
+        #Department_Specializations_OL_En,
+        #Department_Specializations_OL_Ar {
+            width: min(100rem, 100%);
+            margin-inline: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            list-style: none;
+            counter-reset: stepnr;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        #Department_Specializations_OL_En li {
+            counter-increment: stepnr;
+            width: 25rem;
+            --borderS: 1rem;
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: calc(var(--borderS) + 3rem);
+            position: relative;
+        }
+
+        #Department_Specializations_OL_Ar li {
+            counter-increment: stepnr;
+            width: 23rem;
+            --borderS: 1rem;
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-right: calc(var(--borderS) + 2rem);
+            position: relative;
+        }
+
+        #Department_Specializations_OL_En li::before {
+            padding-left: 17rem;
+            font-size: 8rem;
+            font-weight: bold;
+            overflow: hidden;
+        }
+
+        #Department_Specializations_OL_Ar li::before {
+            padding-right: 16rem !important;
+            font-size: 8rem;
+            font-weight: bold;
+            overflow: hidden;
+        }
+
+        #Department_Specializations_OL_En li>*,
+        #Department_Specializations_OL_Ar li>* {
+            width: 14rem
+        }
+
+        #Department_Specializations_OL_En_Last_LI>*,
+        #Department_Specializations_OL_Ar_Last_LI>* {
+            width: 12rem !important;
+        }
+    }
+
+    @media screen and (max-width : 400px) {
+
+        #Department_Specializations_OL_En,
+        #Department_Specializations_OL_Ar {
+            width: min(100rem, 100%);
+            margin-inline: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            list-style: none;
+            counter-reset: stepnr;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        #Department_Specializations_OL_En li {
+            counter-increment: stepnr;
+            width: 22rem;
+            --borderS: 1rem;
+            aspect-ratio: 0.65;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: calc(var(--borderS) + 3rem);
+            position: relative;
+        }
+
+        #Department_Specializations_OL_Ar li {
+            counter-increment: stepnr;
+            width: 20rem;
+            --borderS: 1rem;
+            aspect-ratio: 0.8;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-right: calc(var(--borderS) + 2rem);
+            position: relative;
+        }
+
+        #Department_Specializations_OL_En li::before {
+            padding-left: 14rem !important;
+            font-size: 7rem;
+            font-weight: bold;
+            overflow: hidden;
+        }
+
+        #Department_Specializations_OL_Ar li::before {
+            padding-right: 13rem !important;
+            font-size: 8rem;
+            font-weight: bold;
+            overflow: hidden;
+        }
+
+        #Department_Specializations_OL_En li>*,
+        #Department_Specializations_OL_Ar li>* {
+            width: 11rem
+        }
+
+        #Department_Specializations_OL_En_Last_LI>*,
+        #Department_Specializations_OL_Ar_Last_LI>* {
+            width: 10rem !important;
+        }
+
+        #Department_Specializations_OL_En li::before,
+        #Department_Specializations_OL_En li::after{
+            inset: 0;
+            position: absolute;
+            border-radius: 50%;
+            border: var(--borderS) solid var(--bgColor);
+            line-height: 4.5;
+        }
+
+        #Department_Specializations_OL_Ar li::before,
+        #Department_Specializations_OL_Ar li::after {
+            inset: 0;
+            position: absolute;
+            border-radius: 50%;
+            border: var(--borderS) solid var(--bgColor);
+            line-height: 3;
+        }
+    }
+
     @media screen and (max-width : 500px) {
 
         #Departement_Hirarchy_H2,
