@@ -245,6 +245,14 @@ p,
     margin: auto;
 }
 
+/***** CLOA Hirarchy Section ****/
+
+#CLOA_Hirarchy_Section {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
 @media (max-width: 1300px) {
     .pic-ctn>img {
         left: calc(35% - 100px);
@@ -514,11 +522,16 @@ p,
         font-size: 18px;
         line-height: 2rem;
     }
+
+    #CLOA_Hirarchy_Section {
+        margin-bottom: -50px;
+    }
 }
+
 @media (max-width: 325px) {
 
     .pic-ctn>img {
         left: calc(34% - 100px);
         max-width: 300px;
-   }
+    }
 }

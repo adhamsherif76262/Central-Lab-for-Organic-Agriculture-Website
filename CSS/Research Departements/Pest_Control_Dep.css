@@ -219,7 +219,7 @@
         justify-content: center;
         gap: 2rem;
         list-style: none;
-        margin: 0;
+        /* margin: 0; */
     }
 
     #Research_Publications_UL_Ar li,
@@ -444,7 +444,7 @@
         }
 
         #Department_Specializations_OL_En li::before,
-        #Department_Specializations_OL_En li::after{
+        #Department_Specializations_OL_En li::after {
             inset: 0;
             position: absolute;
             border-radius: 50%;
@@ -459,6 +459,13 @@
             border-radius: 50%;
             border: var(--borderS) solid var(--bgColor);
             line-height: 3;
+        }
+
+        #Research_Publications_UL_Ar{
+            margin-left: 25px;
+        }
+        #Research_Publications_UL_En {
+            margin: 0;
         }
     }
 

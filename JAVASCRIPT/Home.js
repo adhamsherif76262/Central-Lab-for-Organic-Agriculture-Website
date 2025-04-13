@@ -10,6 +10,14 @@ var Current_Director_Speech_H2 = document.getElementById("Current_Director_Speec
 var Current_Director_Speech = document.getElementById("Current_Director_Speech");
 var Our_Mission_Section = document.getElementById("Our_Mission_Section");
 var Our_Vision_Section = document.getElementById("Our_Vision_Section");
+var CLOA_Hirarchy_Section = document.getElementById("CLOA_Hirarchy_Section");
+
+var CLOA_Hirarchy_Section_Ar = `
+  <img style="width: 100%; margin: auto;" src="./Images/Laboratory Hirarchy/CLOA_Hirarchy_Ar.jpeg" alt="">
+`;
+var CLOA_Hirarchy_Section_En = `
+  <img style="width: 100%; margin: auto;" src="./Images/Laboratory Hirarchy/CLOA_Hirarchy_En-Picsart-AiImageEnhancer.jpeg" alt="">
+`;
 
 var Certificates_Section_H2_Ar = `
 الشهادات الحاصل عليها المعمل
@@ -364,6 +372,7 @@ var Second_p_En = `
         Second_p.style.direction = "rtl";
         Our_Mission_Section.innerHTML = Our_Mission_Section_Ar;
         Our_Vision_Section.innerHTML = Our_Vision_Section_Ar;
+        CLOA_Hirarchy_Section.innerHTML = CLOA_Hirarchy_Section_Ar;
     }
     function Home_Load_Content_En() {
         jQuery("#waterdrop").raindrops({
@@ -391,6 +400,7 @@ var Second_p_En = `
         Second_p.style.direction = "ltr";
         Our_Mission_Section.innerHTML = Our_Mission_Section_En;
         Our_Vision_Section.innerHTML = Our_Vision_Section_En;
+        CLOA_Hirarchy_Section.innerHTML = CLOA_Hirarchy_Section_En;
     }
     if (localStorage.getItem("Permenant_Language") === "English") {
       Home_Load_Content_En();
