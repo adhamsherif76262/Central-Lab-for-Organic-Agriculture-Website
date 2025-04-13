@@ -73,13 +73,13 @@ function LangBtnEnClick() {
     case location.href.includes("/Soil_Fertility_Dep") ||
       location.href.includes("/soil_fertility_dep"):
       Page_Title.innerHTML = "Soil Fertility and Organic Plant Nutrition";
-      Institute_Branches_Load_Content_En();
+      Soil_Fertility_Dep_Load_Content_En();
       break;
 
     case location.href.includes("/Pest_Control_Dep") ||
       location.href.includes("/pest_control_dep"):
       Page_Title.innerHTML = "Pest Control and Organic Disease Resistance";
-      Research_Projects_Load_Content_En();
+      Pest_Control_Dep_Load_Content_En();
       break;
 
     case location.href.includes("/Post_Harvest_Dep") ||
@@ -97,7 +97,7 @@ function LangBtnEnClick() {
     case location.href.includes("/OA_Economics_Extension_Dep") ||
       location.href.includes("/oa_economics_extension_dep"):
       Page_Title.innerHTML = "Organic Agriculture Economics and Extension";
-      Agricultural_Power_Energy_Load_Content_En();
+      OA_Economics_Extension_Dep_Load_Content_En();
       break;
 
     case location.href.includes("/OA_General_Administration") ||

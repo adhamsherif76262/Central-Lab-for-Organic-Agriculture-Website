@@ -338,7 +338,7 @@ var Footer_Section_Ar = `
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5" id="Copyright_Div">
-                            <div class="footer-site-info">٢٠٢٥ <span class="fa-copyright"></span>© <a href="#"
+                            <div class="footer-site-info">٢٠٢٥ <span></span>© <a href="#"
                                     target="_blank" rel="noopener">المعمل المركزي للزراعة العضوية </a></div>
                             </div>
                         <div class="col-md-2" id="Btns_Div">
@@ -506,7 +506,7 @@ var Footer_Section_En = `
             <div class="container">
                 <div class="row">
                     <div class="col-md-5" id="Copyright_Div">
-                        <div class="footer-site-info">2025 <span class="fa-copyright"></span>© <a href="#"
+                        <div class="footer-site-info">2025 <span></span>© <a href="#"
                                 target="_blank" rel="noopener">Central Lab Of Organic Agriculture</a></div>
                         </div>
                     <div class="col-md-2" id="Btns_Div">

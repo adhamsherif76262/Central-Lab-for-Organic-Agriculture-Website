@@ -1,0 +1,329 @@
+    @import url("https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css");
+    @import url("https://fonts.googleapis.com/css2?family=Jura:wght@500;600;900&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500;700&display=swap");
+
+    #Departement_Hirarchy_H2,
+    #Research_Publications_H2,
+    #Department_Specializations_H2 {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 35px;
+        color: black;
+    }
+
+    #Research_Publications_H2 {
+        margin-top: 100px;
+    }
+
+    body {
+        --bgColor: rgba(245, 245, 245);
+    }
+
+    #Department_Specializations_OL_En,
+    #Department_Specializations_OL_Ar {
+        width: min(100rem, 90%);
+        margin-inline: auto;
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        list-style: none;
+        counter-reset: stepnr;
+    }
+
+    li:nth-child(6n + 1) {
+        --accent-color: #b8df4e
+    }
+
+    li:nth-child(6n + 2) {
+        --accent-color: #4cbccb
+    }
+
+    li:nth-child(6n + 3) {
+        --accent-color: #7197d3
+    }
+
+    li:nth-child(6n + 4) {
+        --accent-color: #ae78cb
+    }
+
+    li:nth-child(6n + 5) {
+        --accent-color: #7dc7a4
+    }
+
+    li:nth-child(6n + 6) {
+        --accent-color: #f078c2
+    }
+
+    li:nth-child(6n + 7) {
+        --accent-color: #f078c2
+    }
+
+    li:nth-child(6n + 9) {
+        --accent-color: #7dc7a4
+    }
+
+    li:nth-child(6n + 8) {
+        --accent-color: #ae78cb
+    }
+
+    li:nth-child(6n + 10) {
+        --accent-color: #7197d3
+    }
+
+    li:nth-child(6n + 9) {
+        --accent-color: #4cbccb
+    }
+
+    #Department_Specializations_OL_En li {
+        counter-increment: stepnr;
+        width: 32rem;
+        --borderS: 2.5rem;
+        aspect-ratio: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: calc(var(--borderS) + 3rem);
+        position: relative;
+    }
+
+    #Department_Specializations_OL_Ar li {
+        counter-increment: stepnr;
+        width: 30rem;
+        --borderS: 2rem;
+        aspect-ratio: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: calc(var(--borderS) + 2rem);
+        position: relative;
+    }
+
+    #Department_Specializations_OL_En li::before,
+    #Department_Specializations_OL_En li::after,
+    #Department_Specializations_OL_Ar li::before,
+    #Department_Specializations_OL_Ar li::after {
+        inset: 0;
+        position: absolute;
+        border-radius: 50%;
+        border: var(--borderS) solid var(--bgColor);
+        line-height: 2.5;
+    }
+
+    #Department_Specializations_OL_En li::before {
+        content: counter(stepnr);
+        color: var(--accent-color);
+        padding-left: 18rem;
+        font-size: 11rem;
+        font-weight: bold;
+        overflow: hidden;
+    }
+
+    #Department_Specializations_OL_Ar li::before {
+        content: counter(stepnr);
+        color: var(--accent-color);
+        padding-right: 18rem;
+        font-size: 11rem;
+        font-weight: bold;
+        overflow: hidden;
+    }
+
+    #Department_Specializations_OL_En_Last_LI::before {
+        content: counter(stepnr);
+        color: var(--accent-color);
+        padding-left: 15rem !important;
+        font-size: 11rem;
+        font-weight: bold;
+        overflow: hidden;
+    }
+
+    #Department_Specializations_OL_Ar_Last_LI::before {
+        content: counter(stepnr);
+        color: var(--accent-color);
+        padding-right: 17rem !important;
+        font-size: 11rem;
+        font-weight: bold;
+        overflow: hidden;
+    }
+
+    #Department_Specializations_OL_En li::after,
+    #Department_Specializations_OL_Ar li::after {
+        content: "";
+        filter: drop-shadow(-0.25rem 0.25rem 0.0675rem rgba(0, 0, 0, 0.75)) blur(5px);
+    }
+
+    #Department_Specializations_OL_En li>*,
+    #Department_Specializations_OL_Ar li>* {
+        width: 15rem
+    }
+
+    #Department_Specializations_OL_En_Last_LI>*,
+    #Department_Specializations_OL_Ar_Last_LI>* {
+        width: 12rem !important;
+    }
+
+    #Department_Specializations_OL_En li .icon,
+    #Department_Specializations_OL_Ar li .icon {
+        font-size: 2rem;
+        color: var(--accent-color);
+        text-align: center
+    }
+
+    #Department_Specializations_OL_En li .title,
+    #Department_Specializations_OL_Ar li .title {
+        font-size: 2rem;
+        font-weight: bold
+    }
+
+    #Department_Specializations_OL_En li .descr,
+    #Department_Specializations_OL_Ar li .descr {
+        font-size: 1.25rem;
+        font-weight: bold
+    }
+
+    #Department_Specializations_OL_Ar {
+        counter-reset: stepnr;
+        list-style-type: arabic-indic;
+    }
+
+    #Department_Specializations_OL_Ar li::before {
+        content: counter(stepnr, arabic-indic);
+    }
+
+    #Research_Publications_Section {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    #Research_Publications_UL_Ar {
+        width: min(60rem, 90%);
+        margin-inline: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        justify-content: center;
+        gap: 2rem;
+        list-style: none;
+    }
+
+    #Research_Publications_UL_En {
+        width: min(59rem, 90%);
+        margin-inline: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        justify-content: center;
+        gap: 2rem;
+        list-style: none;
+    }
+
+    #Research_Publications_UL_Ar li,
+    #Research_Publications_UL_En li {
+        max-width: 15rem;
+        justify-self: center;
+        display: grid;
+        grid-template:
+            "icon"
+            "line"
+            "dot"
+            "title"
+            "descr"1fr;
+        justify-items: center;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    #Research_Publications_UL_Ar li .icon,
+    #Research_Publications_UL_En li .icon {
+        grid-area: icon;
+        width: 8rem;
+        aspect-ratio: 1;
+        display: grid;
+        place-items: center;
+        color: white;
+        font-size: 4rem;
+        border: 0.4rem solid var(--bgColor);
+        border-radius: 50%;
+        background: var(--accent-color);
+        box-shadow: -0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.45),
+            inset -0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.45);
+    }
+
+    #Research_Publications_UL_Ar li::before,
+    #Research_Publications_UL_En li::before {
+        content: "";
+        grid-area: line;
+        height: 2rem;
+        border-right: 2px dotted currentColor;
+    }
+
+    #Research_Publications_UL_Ar li::after,
+    #Research_Publications_UL_En li::after {
+        content: "";
+        grid-area: dot;
+        width: 1rem;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        background: var(--accent-color);
+        justify-self: center;
+        margin-bottom: 0.5rem;
+    }
+
+    #Research_Publications_UL_Ar li .title,
+    #Research_Publications_UL_En li .title {
+        grid-area: title;
+        margin-block: 0.5rem;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(0, 0, 123);
+    }
+
+    #Research_Publications_UL_Ar li .descr,
+    #Research_Publications_UL_En li .descr {
+        font-size: 1.25rem;
+    }
+
+
+    #Departement_Hirarchy_Section {
+        margin: auto;
+        width: 70%;
+    }
+
+    @media screen and (max-width : 1300px) {
+        #Departement_Hirarchy_Section {
+            margin: auto;
+            width: 90%;
+        }
+    }
+
+    @media screen and (max-width : 850px) {
+
+        #Departement_Hirarchy_H2,
+        #Research_Publications_H2,
+        #Department_Specializations_H2 {
+            margin-left: 25px;
+            margin-right: 25px;
+            font-size: 30px;
+        }
+    }
+
+    @media screen and (max-width : 500px) {
+
+        #Departement_Hirarchy_H2,
+        #Research_Publications_H2,
+        #Department_Specializations_H2 {
+            margin-left: 25px;
+            margin-right: 25px;
+            font-size: 25px;
+        }
+
+        #Departement_Hirarchy_Section {
+            margin: auto;
+            width: 95%;
+        }
+    }
