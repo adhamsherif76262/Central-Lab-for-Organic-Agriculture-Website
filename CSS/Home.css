@@ -266,6 +266,12 @@ p,
 }
 
 @media (max-width: 800px) {
+    #CLOA_Hirarchy_Section {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 50px;
+    }
+
     .pic-ctn>img {
         left: calc(25% - 100px);
     }
@@ -407,6 +413,11 @@ p,
 }
 
 @media (max-width: 400px) {
+    #CLOA_Hirarchy_Section {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 50px;
+    }
 
     #Certificates_Section {
         position: relative;
