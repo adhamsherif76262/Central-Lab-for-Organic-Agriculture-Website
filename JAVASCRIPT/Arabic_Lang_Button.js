@@ -96,7 +96,7 @@ function LangBtnArClick() {
     case location.href.includes("/Agricultural_Practices_Dep") ||
       location.href.includes("/agricultural_practices_dep"):
       Page_Title.innerHTML = "بحوث المعاملات الزراعية للإنتاج العضوي وتربية النباتات";
-      Agricultural_Mechanization_OS_Load_Content_Ar();
+      Agricultural_Practices_Dep_Load_Content_Ar();
       break;
 
     case location.href.includes("/OA_Economics_Extension_Dep") ||
@@ -108,7 +108,7 @@ function LangBtnArClick() {
     case location.href.includes("/OA_General_Administration") ||
       location.href.includes("/oa_general_administration"):
       Page_Title.innerHTML = "الإدارة العامة للزراعة العضوية";
-      Agricultural_Power_Energy_Load_Content_Ar();
+      OA_General_Administration_Dep_Load_Content_Ar();
       break;
 
     default:

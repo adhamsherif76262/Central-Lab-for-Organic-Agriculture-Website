@@ -91,7 +91,7 @@ function LangBtnEnClick() {
     case location.href.includes("/Agricultural_Practices_Dep") ||
       location.href.includes("/agricultural_practices_dep"):
       Page_Title.innerHTML = "Agricultural Practices for Organic Production and Plant Breeding";
-      Agricultural_Mechanization_OS_Load_Content_En();
+      Agricultural_Practices_Dep_Load_Content_En();
       break;
 
     case location.href.includes("/OA_Economics_Extension_Dep") ||
@@ -103,7 +103,7 @@ function LangBtnEnClick() {
     case location.href.includes("/OA_General_Administration") ||
       location.href.includes("/oa_general_administration"):
       Page_Title.innerHTML = "The General Administration of Organic Agriculture Research Department";
-      Agricultural_Power_Energy_Load_Content_En();
+      OA_General_Administration_Dep_Load_Content_En();
       break;
 
     default:

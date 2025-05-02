@@ -163,7 +163,23 @@
     }
 
     /* bar */
-    #Department_Specializations_UL_Ar li::before,
+    #Department_Specializations_UL_Ar li::before {
+        content: "";
+        grid-area: role;
+        height: var(--barH);
+        width: calc(100% + var(--col-gap));
+        margin-right: calc(var(--col-gap) / -2);
+        margin-top: calc(var(--roleH) / 2 - var(--barH) / 2);
+        background: grey;
+        z-index: -1;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.4),
+                rgba(255, 255, 255, 0.2) 30%,
+                rgba(255, 255, 255, 0.1) 40%,
+                rgba(0, 0, 0, 0.1) 60%,
+                rgba(0, 0, 0, 0.2) 70%,
+                rgba(0, 0, 0, 0.4));
+    }
+
     #Department_Specializations_UL_En li::before {
         content: "";
         grid-area: role;

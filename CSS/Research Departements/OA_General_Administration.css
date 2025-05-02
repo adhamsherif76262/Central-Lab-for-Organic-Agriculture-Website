@@ -1,0 +1,226 @@
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+/** OA General Administration Specializations Section **/
+.rolldown-list {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.rolldown-list li {
+    padding: 1em;
+    margin-bottom: 0.125em;
+    display: block;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.rolldown-list li {
+    visibility: hidden;
+    animation: rolldown 0.7s 1;
+    transform-origin: 50% 0;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 1.5s;
+    animation-delay: 0.25s;
+}
+
+.rolldown-list li:nth-child(2n) {
+    background-color: #444;
+}
+
+.rolldown-list li:nth-child(2n+1) {
+    background-color: #333;
+}
+
+#myList {
+    margin-top: 50px !important;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    /* position: absolute;
+    width: 50%;
+    left: 50%;
+    margin-left: -25%; */
+}
+
+#myList li {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition-duration: 0.75s;
+    padding: 1.25rem;
+}
+
+#myList li:hover {
+    color: black;
+    /* display: none; */
+}
+
+#myList li {
+    transition-duration: 0.75s;
+}
+
+#myList li:hover {
+    cursor: pointer;
+    background-color: #FFB100;
+}
+
+#btnReload {
+    float: right;
+    color: #333;
+    background: #ccc;
+    text-transform: uppercase;
+    border: none;
+    padding: 0.5em 1em;
+}
+
+#btnReload:hover {
+    background: #ddd;
+}
+
+@keyframes rolldown {
+    0% {
+        visibility: visible;
+        transform: rotateX(180deg) perspective(500px);
+    }
+
+    75% {
+        visibility: visible;
+        transform: rotateX(-20deg);
+    }
+
+    100% {
+        visibility: visible;
+        transform: rotateX(0deg);
+    }
+}
+
+/****************** Departement Components Section ******************/
+#Department_Components_Container_Div_Ar,
+#Department_Components_Container_Div_En {
+    width: 90%;
+    margin: auto;
+}
+
+#Department_Components_Container_Div_Ar summary,
+#Department_Components_Container_Div_En summary {
+    border: 7px solid transparent;
+    outline: none;
+    padding: 1.25rem;
+    display: block;
+    background: #444;
+    color: white;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    position: relative;
+    cursor: pointer;
+}
+
+#Department_Components_Container_Div_Ar details summary {
+    padding-left: 50px;
+    font-size: 22px;
+}
+
+#Department_Components_Container_Div_En details summary {
+    padding-right: 50px;
+    font-size: 22px;
+}
+
+#Department_Components_Container_Div_Ar summary:focus,
+#Department_Components_Container_Div_En summary:focus {
+    border-color: #FFB100;
+}
+
+#Department_Components_Container_Div_Ar details,
+#Department_Components_Container_Div_En details {
+    /* max-width: 500px; */
+    box-sizing: border-box;
+    margin-top: 0px;
+    background: white;
+}
+
+#Department_Components_Container_Div_Ar details summary::-webkit-details-marker,
+#Department_Components_Container_Div_En details summary::-webkit-details-marker {
+    display: none;
+}
+
+#Department_Components_Container_Div_Ar details[open]>summary:before,
+#Department_Components_Container_Div_En details[open]>summary:before {
+    transform: rotate(90deg);
+}
+
+#Department_Components_Container_Div_En summary:before {
+    content: '';
+    border-width: 0.5rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    top: 1.3rem;
+    right: 1rem;
+    transform: rotate(180deg);
+    transform-origin: 0.2rem 50%;
+    transition: 0.25s transform ease;
+}
+
+#Department_Components_Container_Div_Ar summary:before {
+    content: '';
+    border-width: 0.5rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: 0.2rem 50%;
+    transition: 0.25s transform ease;
+}
+
+.content {
+    border-top: none;
+    padding: 10px;
+    border: 5px solid #FFB100;
+    border-top: none;
+}
+
+#Department_Components_Container_Div_Ar .content ul {
+    list-style-type: arabic-indic;
+}
+#Department_Components_Container_Div_En .content ul {
+    list-style-type: upper-roman;
+    padding-left: 3rem;
+}
+
+.content ul li {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:850px) {
+    h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #myList li {
+        font-size: 20px !important;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .content ul li {
+        font-size: 18px !important;
+    }
+}
