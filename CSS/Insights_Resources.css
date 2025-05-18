@@ -19,6 +19,7 @@
 #El_Kholasa_Iframe_Mother_Div,
 #Egypt_Everyday_Iframe_Mother_Div,
 #The_Harvest_Iframe_Mother_Div,
+#OA_Full_Day_Iframe_Mother_Div,
 #The_Agricultural_Advisor_Iframe_Mother_Div,
 #Cairo_Meeting_Iframe_Mother_Div {
     position: relative;
@@ -38,6 +39,7 @@
 #El_Kholasa_Iframe,
 #The_Agricultural_Advisor_Iframe,
 #Egypt_Everyday_Iframe,
+#OA_Full_Day_Iframe,
 #The_Harvest_Iframe,
 #Cairo_Meeting_Iframe {
     position: absolute;
