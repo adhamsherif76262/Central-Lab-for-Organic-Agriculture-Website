@@ -354,7 +354,7 @@ var Footer_Section_Ar = `
                                     <a href="https://x.com/CLOA2020?t=RbpZw3tar7bbT8JUEfREaw&s=35" target="_blank" title="Twitter" class="socials-item">
                                         <i class="fab fa-twitter twitter"></i>
                                     </a>
-                                    <a href="#" target="_blank" title="Instagram" class="socials-item">
+                                    <a href="https://www.instagram.com/cloa_eg/" target="_blank" title="Instagram" class="socials-item">
                                         <i class="fab fa-instagram instagram"></i>
                                     </a>
                                     <a href="https://www.youtube.com/channel/UCpVeWqDGLL9cpy7lmd2LYhQ" target="_blank" title="YouTube" class="socials-item">
@@ -522,7 +522,7 @@ var Footer_Section_En = `
                                 <a href="https://x.com/CLOA2020?t=RbpZw3tar7bbT8JUEfREaw&s=35" target="_blank" title="Twitter" class="socials-item">
                                     <i class="fab fa-twitter twitter"></i>
                                 </a>
-                                <a href="#" target="_blank" title="Instagram" class="socials-item">
+                                <a href="https://www.instagram.com/cloa_eg/" target="_blank" title="Instagram" class="socials-item">
                                     <i class="fab fa-instagram instagram"></i>
                                 </a>
                                 <a href="https://www.youtube.com/channel/UCpVeWqDGLL9cpy7lmd2LYhQ" target="_blank" title="YouTube" class="socials-item">
