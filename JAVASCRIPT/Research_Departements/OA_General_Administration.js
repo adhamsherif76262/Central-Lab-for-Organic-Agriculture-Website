@@ -1,3 +1,6 @@
+var Department_Hirarchy_Section = document.getElementById(
+  "Department_Hirarchy_Section"
+);
 var Department_Specializations_H2 = document.getElementById(
   "Department_Specializations_H2"
 );
@@ -182,6 +185,12 @@ var Department_Specializations_Section_En = `
     </ul>
 `;
 
+var Departement_Hirarchy_Section_Ar = `
+<img style="width: 95%; margin-left: 2.5%; margin-right: 2.5%; margin-top:50px;" src="../Images/Research Departements/Arabic Hirarchy/Final/Enhanced/General_Administration_Hirarchy_Ar-Picsart-AiImageEnhancer.jpg" alt="">
+`;
+var Departement_Hirarchy_Section_En = `
+<img style="width: 95%; margin-left: 2.5%; margin-right: 2.5%; margin-top:50px;" src="../Images/Research Departements/English Hirarchy/Final/Enhanced/General_Administration_Hirarchy_En-Picsart-AiImageEnhancer.jpg" alt="">
+`;
 function OA_General_Administration_Dep_Load_Content_Ar() {
   jQuery("#waterdrop").raindrops({
     color: "#1c1f2f",
@@ -216,6 +225,7 @@ function OA_General_Administration_Dep_Load_Content_Ar() {
 
   Department_Specializations_Section.innerHTML = Department_Specializations_Section_Ar;
   Department_Components_Section.innerHTML = Department_Components_Section_Ar;
+  Department_Hirarchy_Section.innerHTML = Departement_Hirarchy_Section_Ar;
 
           class Accordion {
             constructor(el) {
@@ -377,6 +387,7 @@ function OA_General_Administration_Dep_Load_Content_En() {
 
   Department_Specializations_Section.innerHTML = Department_Specializations_Section_En;
   Department_Components_Section.innerHTML = Department_Components_Section_En;
+  Department_Hirarchy_Section.innerHTML = Departement_Hirarchy_Section_En;
 
           class Accordion {
             constructor(el) {

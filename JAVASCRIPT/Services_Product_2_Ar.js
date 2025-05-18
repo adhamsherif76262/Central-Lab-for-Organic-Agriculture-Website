@@ -1,6 +1,6 @@
 var Title_H1 = document.getElementById("Title_H1");
 var Title_H1_Ar = `
-  منتج 2
+منتجات الوحدة ٢
 `;
 var Services_Section = document.getElementById("Services_Section");
 var Services_Section_Ar= `
@@ -30,11 +30,19 @@ var Services_Section_Ar= `
                                                 <section class="details-group">
                                                     <details class="details">
                                                         <summary class="details__summary">
-                                                            كود التسجيل
+                                                            كود الشعار العضوي
                                                         </summary>
                                                         <div class="details__content">
                                                             <img src="../Images/Products Registration codes/Anti-Insect Registration code.png"
                                                                 alt="">
+                                                        </div>
+                                                    </details>
+                                                                                                        <details class="details">
+                                                        <summary class="details__summary">
+                                                        رقم تسجيل المركب
+                                                        </summary>
+                                                        <div class="details__content">
+                                                            <p style="text-align: center !important;">INMO1</p>
                                                         </div>
                                                     </details>
                                                     <details class="details">
@@ -49,7 +57,6 @@ var Services_Section_Ar= `
                                                             </p>
                                                         </div>
                                                     </details>
-
                                                     <details class="details">
                                                         <summary class="details__summary">الحشرات والكائنات
                                                             المستهدفة</summary>
@@ -145,13 +152,20 @@ var Services_Section_Ar= `
                                             <div class="wrapper">
                                                 <section class="details-group">
                                                     <details class="details">
-                                                        <summary class="details__summary">كود التسجيل</summary>
+                                                        <summary class="details__summary">كود الشعار العضوي</summary>
                                                         <div class="details__content">
                                                             <img src="../Images/Products Registration codes/Blight Stop Registration code.png"
                                                                 alt="">
                                                         </div>
                                                     </details>
-
+                                                    <details class="details">
+                                                        <summary class="details__summary">
+                                                        رقم تسجيل المركب
+                                                        </summary>
+                                                        <div class="details__content">
+                                                            <p style="text-align: center !important;">Biocide5</p>
+                                                        </div>
+                                                    </details>
                                                     <details class="details">
                                                         <summary class="details__summary">التركيب والمادة الفعالة
                                                         </summary>
@@ -256,11 +270,19 @@ var Services_Section_Ar= `
                                                 <section class="details-group">
                                                     <details class="details">
                                                         <summary class="details__summary">
-                                                            كود التسجيل
+                                                            كود الشعار العضوي
                                                         </summary>
                                                         <div class="details__content">
                                                             <img src="../Images/Products Registration codes/Cuperal Max Gel Registration code.png"
                                                                 alt="">
+                                                        </div>
+                                                    </details>
+                                                    <details class="details">
+                                                        <summary class="details__summary">
+                                                        رقم تسجيل المركب
+                                                        </summary>
+                                                        <div class="details__content">
+                                                            <p style="text-align: center !important;">Pestcide 1</p>
                                                         </div>
                                                     </details>
                                                     <details class="details">
@@ -389,11 +411,19 @@ var Services_Section_Ar= `
                                                 <section class="details-group">
                                                     <details class="details">
                                                         <summary class="details__summary">
-                                                            كود التسجيل
+                                                            كود الشعار العضوي
                                                         </summary>
                                                         <div class="details__content">
                                                             <img src="../Images/Products Registration codes/Nema Stop Registration code.png"
                                                                 alt="">
+                                                        </div>
+                                                    </details>
+                                                    <details class="details">
+                                                        <summary class="details__summary">
+                                                        رقم تسجيل المركب
+                                                        </summary>
+                                                        <div class="details__content">
+                                                            <p style="text-align: center !important;">Biocide10</p>
                                                         </div>
                                                     </details>
                                                     <details class="details">
@@ -527,10 +557,18 @@ var Services_Section_Ar= `
                                             <div class="wrapper">
                                                 <section class="details-group">
                                                     <details class="details">
-                                                        <summary class="details__summary">كود التسجيل</summary>
+                                                        <summary class="details__summary">كود الشعار العضوي</summary>
                                                         <div class="details__content">
                                                             <img src="../Images/Products Registration codes/Humic No.1 Gel Registration code.png"
                                                                 alt="">
+                                                        </div>
+                                                    </details>
+                                                    <details class="details">
+                                                        <summary class="details__summary">
+                                                        رقم تسجيل المركب
+                                                        </summary>
+                                                        <div class="details__content">
+                                                            <p style="text-align: center !important;">SC25</p>
                                                         </div>
                                                     </details>
                                                     <details class="details">
@@ -612,10 +650,18 @@ var Services_Section_Ar= `
                                             <div class="wrapper">
                                                 <section class="details-group">
                                                     <details class="details">
-                                                        <summary class="details__summary">كود التسجيل</summary>
+                                                        <summary class="details__summary">كود الشعار العضوي</summary>
                                                         <div class="details__content">
                                                             <img src="../Images/Products Registration codes/Max Growth Gel Registration code.png"
                                                                 alt="">
+                                                        </div>
+                                                    </details>
+                                                    <details class="details">
+                                                        <summary class="details__summary">
+                                                        رقم تسجيل المركب
+                                                        </summary>
+                                                        <div class="details__content">
+                                                            <p style="text-align: center !important;">NF28</p>
                                                         </div>
                                                     </details>
                                                     <details class="details">
@@ -697,11 +743,19 @@ var Services_Section_Ar= `
                                                 <section class="details-group">
                                                     <details class="details">
                                                         <summary class="details__summary">
-                                                            كود التسجيل
+                                                            كود الشعار العضوي
                                                         </summary>
                                                         <div class="details__content">
                                                             <img src="../Images/Products Registration codes/Potassium Gel Registration code.png"
                                                                 alt="كود تسجيل المنتج">
+                                                        </div>
+                                                    </details>
+                                                    <details class="details">
+                                                        <summary class="details__summary">
+                                                        رقم تسجيل المركب
+                                                        </summary>
+                                                        <div class="details__content">
+                                                            <p style="text-align: center !important;">NF43</p>
                                                         </div>
                                                     </details>
                                                     <details class="details">
@@ -786,11 +840,19 @@ var Services_Section_Ar= `
                                                 <section class="details-group">
                                                     <details class="details">
                                                         <summary class="details__summary">
-                                                            كود التسجيل
+                                                            كود الشعار العضوي
                                                         </summary>
                                                         <div class="details__content">
                                                             <img src="../Images/Products Registration codes/Fly free Registration code.png"
                                                                 alt="كود تسجيل المنتج">
+                                                        </div>
+                                                    </details>
+                                                    <details class="details">
+                                                        <summary class="details__summary">
+                                                        رقم تسجيل المركب
+                                                        </summary>
+                                                        <div class="details__content">
+                                                            <p style="text-align: center !important;">NA1</p>
                                                         </div>
                                                     </details>
                                                     <details class="details">
@@ -876,11 +938,19 @@ var Services_Section_Ar= `
                                                 <section class="details-group">
                                                     <details class="details">
                                                         <summary class="details__summary">
-                                                            كود التسجيل
+                                                            كود الشعار العضوي
                                                         </summary>
                                                         <div class="details__content">
                                                             <img src="../Images/Products Registration codes/Chelated Calcium Gel Registration code.png"
                                                                 alt="كود تسجيل المنتج">
+                                                        </div>
+                                                    </details>
+                                                    <details class="details">
+                                                        <summary class="details__summary">
+                                                        رقم تسجيل المركب
+                                                        </summary>
+                                                        <div class="details__content">
+                                                            <p style="text-align: center !important;">NF32</p>
                                                         </div>
                                                     </details>
                                                     <details class="details">
@@ -977,11 +1047,19 @@ var Services_Section_Ar= `
                                                 <section class="details-group">
                                                     <details class="details">
                                                         <summary class="details__summary">
-                                                            كود التسجيل
+                                                            كود الشعار العضوي
                                                         </summary>
                                                         <div class="details__content">
                                                             <img src="../Images/Products Registration codes/Bacillus thuringiensis Registration code.png"
                                                                 alt="كود تسجيل المنتج">
+                                                        </div>
+                                                    </details>
+                                                    <details class="details">
+                                                        <summary class="details__summary">
+                                                        رقم تسجيل المركب
+                                                        </summary>
+                                                        <div class="details__content">
+                                                            <p style="text-align: center !important;">Biocide9</p>
                                                         </div>
                                                     </details>
                                                     <details class="details">
@@ -1072,11 +1150,19 @@ var Services_Section_Ar= `
                                                 <section class="details-group">
                                                     <details class="details">
                                                         <summary class="details__summary">
-                                                            كود التسجيل
+                                                            كود الشعار العضوي
                                                         </summary>
                                                         <div class="details__content">
                                                             <img src="../Images/Products Registration codes/Clean Root Registration code.png"
                                                                 alt="كود تسجيل المنتج">
+                                                        </div>
+                                                    </details>
+                                                    <details class="details">
+                                                        <summary class="details__summary">
+                                                        رقم تسجيل المركب
+                                                        </summary>
+                                                        <div class="details__content">
+                                                            <p style="text-align: center !important;">Biocide1</p>
                                                         </div>
                                                     </details>
                                                     <details class="details">
@@ -1172,11 +1258,19 @@ var Services_Section_Ar= `
                                                 <section class="details-group">
                                                     <details class="details">
                                                         <summary class="details__summary">
-                                                            كود التسجيل
+                                                            كود الشعار العضوي
                                                         </summary>
                                                         <div class="details__content">
                                                             <img src="../Images/Products Registration codes/Bacillus subtilis Registration code.png"
                                                                 alt="كود تسجيل المنتج">
+                                                        </div>
+                                                    </details>
+                                                    <details class="details">
+                                                        <summary class="details__summary">
+                                                        رقم تسجيل المركب
+                                                        </summary>
+                                                        <div class="details__content">
+                                                            <p style="text-align: center !important;">Biocide2</p>
                                                         </div>
                                                     </details>
                                                     <details class="details">
@@ -1280,10 +1374,18 @@ var Services_Section_Ar= `
                                             <div class="wrapper">
                                                 <section class="details-group">
                                                     <details class="details">
-                                                        <summary class="details__summary">كود التسجيل</summary>
+                                                        <summary class="details__summary">كود الشعار العضوي</summary>
                                                         <div class="details__content">
                                                             <img src="../Images/Products Registration codes/Rizo Bacteria Registration code.png"
                                                                 alt="">
+                                                        </div>
+                                                    </details>
+                                                    <details class="details">
+                                                        <summary class="details__summary">
+                                                        رقم تسجيل المركب
+                                                        </summary>
+                                                        <div class="details__content">
+                                                            <p style="text-align: center !important;">Biocide8</p>
                                                         </div>
                                                     </details>
                                                     <details class="details">
@@ -1379,10 +1481,18 @@ var Services_Section_Ar= `
                                             <div class="wrapper">
                                                 <section class="details-group">
                                                     <details class="details">
-                                                        <summary class="details__summary">كود التسجيل</summary>
+                                                        <summary class="details__summary">كود الشعار العضوي</summary>
                                                         <div class="details__content">
                                                             <img src="../Images/Products Registration codes/Sabon Potassi Registration code.png"
                                                                 alt="">
+                                                        </div>
+                                                    </details>
+                                                    <details class="details">
+                                                        <summary class="details__summary">
+                                                        رقم تسجيل المركب
+                                                        </summary>
+                                                        <div class="details__content">
+                                                            <p style="text-align: center !important;">INFA1</p>
                                                         </div>
                                                     </details>
                                                     <details class="details">

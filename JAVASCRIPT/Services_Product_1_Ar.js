@@ -5,8 +5,7 @@ var Article_Modals_Container = document.getElementById(
 var Title_H1 = document.getElementById("Title_H1");
 
 var Title_H1_Ar = `
-
-المنتجات الأولى
+منتجات الوحدة ١
 `;
 
 var Article_Modals_Container_Ar = `
@@ -19,10 +18,18 @@ var Article_Modals_Container_Ar = `
                 <img src="../Images/Secondary Products/Bio_Act_Img .png" alt="" />
             </p>
             <details class="parent">
-                <summary style="padding: 5px 40px;">كود التسجيل</summary style="padding: 5px 40px;">
+                <summary style="padding: 5px 40px;">كود الشعار العضوي</summary style="padding: 5px 40px;">
                 <div>
                     <ul>
                         <img src="../Images/Products Registration codes/Bio Act Registration code.png" alt="">
+                    </ul>
+                </div>
+            </details>
+            <details class="parent">
+                <summary style="padding: 5px 40px;">رقم تسجيل المركب</summary style="padding: 5px 40px;">
+                <div>
+                    <ul>
+                        Biocide7
                     </ul>
                 </div>
             </details>
@@ -112,10 +119,18 @@ var Article_Modals_Container_Ar = `
                 <img src="../Images/Secondary Products/Bio_Act_Img .png" alt="" />
             </p>
             <details class="parent">
-                <summary style="padding: 5px 40px;">كود التسجيل</summary style="padding: 5px 40px;">
+                <summary style="padding: 5px 40px;">كود الشعار العضوي</summary style="padding: 5px 40px;">
                 <div>
                     <ul>
                         <img src="../Images/Products Registration codes/Bio Act Registration code.png" alt="">
+                    </ul>
+                </div>
+            </details>
+            <details class="parent">
+                <summary style="padding: 5px 40px;">رقم تسجيل المركب</summary style="padding: 5px 40px;">
+                <div>
+                    <ul>
+                        Biocide7
                     </ul>
                 </div>
             </details>
@@ -844,10 +859,18 @@ var Article_Modals_Container_Ar = `
                 <img src="../Images/Secondary Products/Salt_Free_-removebg-preview.png" alt="" />
             </p>
             <details class="parent">
-                <summary style="padding: 5px 40px;">كود التسجيل</summary style="padding: 5px 40px;">
+                <summary style="padding: 5px 40px;">كود الشعار العضوي</summary style="padding: 5px 40px;">
                 <div>
                     <ul>
                         <img src="../Images/Products Registration codes/Salt Free Registration code.png" alt="">
+                    </ul>
+                </div>
+            </details>
+                        <details class="parent">
+                <summary style="padding: 5px 40px;">رقم تسجيل المركب</summary style="padding: 5px 40px;">
+                <div>
+                    <ul>
+                        SC26
                     </ul>
                 </div>
             </details>
@@ -908,10 +931,18 @@ var Article_Modals_Container_Ar = `
                 <img src="../Images/Secondary Products/Salt_Free_-removebg-preview.png" alt="" />
             </p>
             <details class="parent">
-                <summary style="padding: 5px 40px;">كود التسجيل</summary style="padding: 5px 40px;">
+                <summary style="padding: 5px 40px;">كود الشعار العضوي</summary style="padding: 5px 40px;">
                 <div>
                     <ul>
                         <img src="../Images/Products Registration codes/Salt Free Registration code.png" alt="">
+                    </ul>
+                </div>
+            </details>
+                        <details class="parent">
+                <summary style="padding: 5px 40px;">رقم تسجيل المركب</summary style="padding: 5px 40px;">
+                <div>
+                    <ul>
+                        SC26
                     </ul>
                 </div>
             </details>
@@ -972,10 +1003,18 @@ var Article_Modals_Container_Ar = `
                 <img src="../Images/Secondary Products/Anti_Frost-removebg-preview.png" alt="" />
             </p>
             <details class="parent">
-                <summary style="padding: 5px 40px;">كود التسجيل</summary style="padding: 5px 40px;">
+                <summary style="padding: 5px 40px;">كود الشعار العضوي</summary style="padding: 5px 40px;">
                 <div>
                     <ul>
                         <img src="../Images/Products Registration codes/Antifrost Registration code.png" alt="">
+                    </ul>
+                </div>
+            </details>
+                        <details class="parent">
+                <summary style="padding: 5px 40px;">رقم تسجيل المركب</summary style="padding: 5px 40px;">
+                <div>
+                    <ul>
+                        NF36
                     </ul>
                 </div>
             </details>
@@ -1059,10 +1098,18 @@ var Article_Modals_Container_Ar = `
                 <img src="../Images/Secondary Products/Anti_Frost-removebg-preview.png" alt="" />
             </p>
             <details class="parent">
-                <summary style="padding: 5px 40px;">كود التسجيل</summary style="padding: 5px 40px;">
+                <summary style="padding: 5px 40px;">كود الشعار العضوي</summary style="padding: 5px 40px;">
                 <div>
                     <ul>
                         <img src="../Images/Products Registration codes/Antifrost Registration code.png" alt="">
+                    </ul>
+                </div>
+            </details>
+                        <details class="parent">
+                <summary style="padding: 5px 40px;">رقم تسجيل المركب</summary style="padding: 5px 40px;">
+                <div>
+                    <ul>
+                        NF36
                     </ul>
                 </div>
             </details>
@@ -1312,11 +1359,19 @@ var Article_Modals_Container_Ar = `
                 <img src="../Images/Secondary Products/Amino Acids Compound.png" alt="" />
             </p>
             <details class="parent">
-                <summary style="padding: 5px 40px;">رمز التسجيل</summary>
+                <summary style="padding: 5px 40px;">كود الشعار العضوي</summary>
                 <div>
                     <ul>
                         <img src="../Images/Products Registration codes/Amino Acids Compound Registration code.png"
                             alt="">
+                    </ul>
+                </div>
+            </details>
+                        <details class="parent">
+                <summary style="padding: 5px 40px;">رقم تسجيل المركب</summary style="padding: 5px 40px;">
+                <div>
+                    <ul>
+                        NF29
                     </ul>
                 </div>
             </details>
@@ -1399,11 +1454,19 @@ var Article_Modals_Container_Ar = `
                 <img src="../Images/Secondary Products/Amino Acids Compound.png" alt="" />
             </p>
             <details class="parent">
-                <summary style="padding: 5px 40px;">رمز التسجيل</summary>
+                <summary style="padding: 5px 40px;">كود الشعار العضوي</summary>
                 <div>
                     <ul>
                         <img src="../Images/Products Registration codes/Amino Acids Compound Registration code.png"
                             alt="">
+                    </ul>
+                </div>
+            </details>
+                        <details class="parent">
+                <summary style="padding: 5px 40px;">رقم تسجيل المركب</summary style="padding: 5px 40px;">
+                <div>
+                    <ul>
+                        NF29
                     </ul>
                 </div>
             </details>
@@ -1486,10 +1549,18 @@ var Article_Modals_Container_Ar = `
                 <img src="../Images/Secondary Products/Insect_Free.jpg" alt="" />
             </p>
             <details class="parent">
-                <summary style="padding: 5px 40px;">رمز التسجيل</summary>
+                <summary style="padding: 5px 40px;">كود الشعار العضوي</summary>
                 <div>
                     <ul>
                         <img src="../Images/Products Registration codes/Insect Free Registration code.png" alt="">
+                    </ul>
+                </div>
+            </details>
+                        <details class="parent">
+                <summary style="padding: 5px 40px;">رقم تسجيل المركب</summary style="padding: 5px 40px;">
+                <div>
+                    <ul>
+                        Biocide3
                     </ul>
                 </div>
             </details>
@@ -1584,10 +1655,18 @@ var Article_Modals_Container_Ar = `
                 <img src="../Images/Secondary Products/Insect_Free.jpg" alt="" />
             </p>
             <details class="parent">
-                <summary style="padding: 5px 40px;">رمز التسجيل</summary>
+                <summary style="padding: 5px 40px;">كود الشعار العضوي</summary>
                 <div>
                     <ul>
                         <img src="../Images/Products Registration codes/Insect Free Registration code.png" alt="">
+                    </ul>
+                </div>
+            </details>
+                        <details class="parent">
+                <summary style="padding: 5px 40px;">رقم تسجيل المركب</summary style="padding: 5px 40px;">
+                <div>
+                    <ul>
+                        Biocide3
                     </ul>
                 </div>
             </details>
@@ -1682,10 +1761,18 @@ var Article_Modals_Container_Ar = `
                 <img src="../Images/Secondary Products/GALL-FREE.jpg" alt="" />
             </p>
             <details class="parent">
-                <summary style="padding: 5px 40px;">رمز التسجيل</summary>
+                <summary style="padding: 5px 40px;">كود الشعار العضوي</summary>
                 <div>
                     <ul>
                         <img src="../Images/Products Registration codes/GALL- FREE Registration code.png" alt="">
+                    </ul>
+                </div>
+            </details>
+            <details class="parent">
+                <summary style="padding: 5px 40px;">رقم تسجيل المركب</summary style="padding: 5px 40px;">
+                <div>
+                    <ul>
+                        Biocide4
                     </ul>
                 </div>
             </details>
@@ -1772,10 +1859,18 @@ var Article_Modals_Container_Ar = `
                 <img src="../Images/Secondary Products/GALL-FREE.jpg" alt="" />
             </p>
             <details class="parent">
-                <summary style="padding: 5px 40px;">رمز التسجيل</summary>
+                <summary style="padding: 5px 40px;">كود الشعار العضوي</summary>
                 <div>
                     <ul>
                         <img src="../Images/Products Registration codes/GALL- FREE Registration code.png" alt="">
+                    </ul>
+                </div>
+            </details>
+                        <details class="parent">
+                <summary style="padding: 5px 40px;">رقم تسجيل المركب</summary style="padding: 5px 40px;">
+                <div>
+                    <ul>
+                        Biocide4
                     </ul>
                 </div>
             </details>

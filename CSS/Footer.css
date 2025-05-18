@@ -191,6 +191,7 @@ input.Footer_check-toggle-round-flat:checked+label:after {
     /* top: 135px; */
     margin-bottom: -25px !important;
     overflow-y: hidden !important;
+    overflow-x: hidden !important;
 }
 
 footer p,

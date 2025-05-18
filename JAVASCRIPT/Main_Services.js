@@ -837,14 +837,14 @@ Our Products
 
 var Products_Section_En = `
 <ul class="rolldown-list" id="myList">
-  <li><a href="../HTML/Services_Product_1.html">Product One</a></li>
-  <li><a href="../HTML/Services_Product_2.html">Product Two</a></li>
+  <li><a href="../HTML/Services_Product_1.html">Unit Products <span style="margin-left:25px;">1</span></a></li>
+  <li><a href="../HTML/Services_Product_2.html">Unit Products <span style="margin-left:25px;">2</span></a></li>
 </ul> 
 `;
 var Products_Section_Ar = `
 <ul class="rolldown-list" id="myList">
-  <li><a href="../HTML/Services_Product_1.html">منتج 1</a></li>
-  <li><a href="../HTML/Services_Product_2.html">منتج 2</a></li>
+  <li><a href="../HTML/Services_Product_1.html">منتجات الوحدة <span style="margin-right:25px;">١</span> </a></li>
+  <li><a href="../HTML/Services_Product_2.html">منتجات الوحدة <span style="margin-right:25px;">٢</span></a></li>
 </ul> 
 `;
     function Services_Load_Content_Ar() {

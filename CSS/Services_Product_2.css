@@ -4,11 +4,12 @@
     @import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
     @import url('https://fonts.googleapis.com/css?family=Oswald:300|Roboto:300,500');
 
-    #Title_H1{
+    #Title_H1 {
         text-align: center;
         margin-top: 50px;
         margin-bottom: -50px;
     }
+
     body {
         /* font-family: 'Muli', sans-serif; */
         /* background: #ddd; */
@@ -218,6 +219,16 @@
         margin: 0 5px;
     }
 
+    /* .Row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-1.5 * var(--bs-gutter-x));
+        margin-left: calc(-1.5 * var(--bs-gutter-x));
+    } */
+
     @media screen and (max-width: 1300px) {
         .wsk-cp-text {
             padding-top: 245%;
@@ -304,6 +315,21 @@
             /* padding-left: 50px; */
         }
 
+        .col-sm-12 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        #Socials_Div,
+        #Btns_Div,
+        #Copyright_Div{
+            width: 100%;
+            text-align: center;
+        }
+        .footer-title-1_Ar{
+            margin-bottom: 50px !important;
+        }
         .wsk-cp-img img {
             width: 100%;
             /* max-width: 300px; */
@@ -660,7 +686,12 @@
 
     .details__content>ul>li::before {
         /* content: "🌑"; */
-        content: "🌱";
+        /* content: "🌱";
+        content: "🌿"; */
+        /* content: "🌻";
+        content: "🌾"; */
+        content: "🧑‍🌾";
+
         /* "🍃" "🌿" "🌾" "🌻" "🍅" "🥕" "🍏" "🥬" "🍇" "🐝" "🪴" "🌍" "🚜" "🧑‍🌾"; */
         transform: scale(0.2);
         display: inline-block;
@@ -829,7 +860,7 @@
     [open] .details__summary:after {
         opacity: 0;
         transform: translateY(25%);
-}
+    }
 
     .details__content {
         padding-top: 0;

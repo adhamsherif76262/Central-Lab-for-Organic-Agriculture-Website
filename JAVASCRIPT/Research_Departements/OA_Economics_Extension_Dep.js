@@ -198,10 +198,10 @@ var Research_Publications_Section_En = `
 `;
 
 var Departement_Hirarchy_Section_Ar = `
-<img style="width: 100%;" src="../Images/Research Departements/Arabic Hirarchy/OA_Economics_Extension.jpeg" alt="">
+<img style="width: 100%;" src="../Images/Research Departements/Arabic Hirarchy/Final/Enhanced/OA_Economics_Extension_Ar-Picsart-AiImageEnhancer.jpg" alt="">
 `;
 var Departement_Hirarchy_Section_En = `
-<img style="width: 100%;" src="../Images/Research Departements/English Hirarchy/OA_Economics_Extension-Picsart-AiImageEnhancer.png" alt="">
+<img style="width: 100%;" src="../Images/Research Departements/English Hirarchy/Final/Enhanced/OA_Economics_Extension_En-Picsart-AiImageEnhancer.png" alt="">
 `;
 
 function OA_Economics_Extension_Dep_Load_Content_Ar() {

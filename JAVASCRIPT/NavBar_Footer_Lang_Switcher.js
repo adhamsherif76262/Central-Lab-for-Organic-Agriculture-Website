@@ -245,11 +245,11 @@ var Footer_Section_Ar = `
                                             <li class="clearfix gem-pp-posts">
                                                 <div class="gem-pp-posts-text">
                                                     <div class="gem-pp-posts-item">
-                                                        <a class="Pages_Ar" href="./${HTMLpath}Services_Product_1.html">منتج 1
+                                                        <a class="Pages_Ar" href="./${HTMLpath}Services_Product_1.html">منتجات الوحدة ١
                                                         </a>
                                                     </div>
                                                     <div class="gem-pp-posts-date">
-                                                <a href="./${HTMLpath}Services_Product_2.html" id="Services_Product_2_Ar">منتج 2
+                                                <a href="./${HTMLpath}Services_Product_2.html" id="Services_Product_2_Ar">منتجات الوحدة ٢
                                                 </a>
                                                     </div>
                                                 </div>
@@ -413,11 +413,11 @@ var Footer_Section_En = `
                                         <li class="clearfix gem-pp-posts">
                                             <div class="gem-pp-posts-text">
                                                 <div class="gem-pp-posts-item">
-                                                    <a class="Pages_En" href="./${HTMLpath}Services_Product_1.html">Product 1
+                                                    <a class="Pages_En" href="./${HTMLpath}Services_Product_1.html">Unit Products 1
                                                     </a>
                                                 </div>
                                                 <div class="gem-pp-posts-date">
-                                                  <a href="./${HTMLpath}Services_Product_2.html" id="Services_Product_2_En">Product 2
+                                                  <a href="./${HTMLpath}Services_Product_2.html" id="Services_Product_2_En">Unit Products 2
                                                   </a>
                                                 </div>
                                             </div>

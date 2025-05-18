@@ -1,4 +1,7 @@
 var El_Kholasa_Iframe_H2 = document.getElementById("El_Kholasa_Iframe_H2");
+var Egypt_Everyday_Iframe_H2 = document.getElementById("Egypt_Everyday_Iframe_H2");
+var The_Harvest_Iframe_H2 = document.getElementById("The_Harvest_Iframe_H2");
+var The_Agricultural_Advisor_Iframe_H2 = document.getElementById("The_Agricultural_Advisor_Iframe_H2");
 var Introductory_Paragraph_H2 = document.getElementById("Introductory_Paragraph_H2");
 var Introductory_Paragraph = document.getElementById("Introductory_Paragraph");
 var Extension_Activity_Section_H2 = document.getElementById("Extension_Activity_Section_H2");
@@ -9,10 +12,28 @@ var Cairo_Meeting_Iframe_H2 = document.getElementById("Cairo_Meeting_Iframe_H2")
 var Field_Expirements_Section_H2 = document.getElementById("Field_Expirements_Section_H2");
 
 var El_Kholasa_Iframe_H2_Ar = `
-لقاء الأستاذ الدكتور مدير المعمل في برنامج الخلاصة
+لقاء الأستاذ الدكتور مدير المعمل سعد عبد الخالق جعفر في برنامج الخلاصة
 `;
 var El_Kholasa_Iframe_H2_En = `
-An Interview with the Prof. Dr. Laboratory Director on 'Al-Kholasa' Program
+An Interview with Prof. Dr. Saad Abd El-Khalek Jaafar Laboratory Director on 'Al-Kholasa' Program
+`;
+var Egypt_Everyday_Iframe_H2_Ar = `
+لقاء الدكتورة أيات محمود في برنامج مصر كل يوم
+`;
+var Egypt_Everyday_Iframe_H2_En = `
+An Interview with Dr. Ayat Mahmoud on 'Egypt-Everyday' Program
+`;
+var The_Harvest_Iframe_H2_Ar = `
+لقاء الأستاذ الدكتور عاطف عبد العزيز مدير المعمل السابق في برنامج الحصاد
+`;
+var The_Harvest_Iframe_H2_En = `
+An Interview with Prof. Dr. Atef Abd El-Aziz (The Laboratory Director Previously) on 'Al-Hassad' Program
+`;
+var The_Agricultural_Advisor_Iframe_H2_Ar = `
+لقاء الأستاذ الدكتور مدين محمود في برنامج المرشد الزراعى
+`;
+var The_Agricultural_Advisor_Iframe_H2_En = `
+An Interview with Dr. Madyn Mahmoud on 'Al-Morshed Al-Zarai' Program
 `;
 
 var Introductory_Paragraph_H2_Ar = `
@@ -1486,10 +1507,10 @@ Organic Agriculture Day
 `;
 
 var CLOA_Gallery_Section_H2_Ar = `
-موظفو المعمل المركزي للزراعة العضوية
+أنشطة المعمل المركزي للزراعة العضوية
 `;
 var CLOA_Gallery_Section_H2_En = `
-Central Lab Of Organic Agriculture Staff
+Activities Of The Central Lab Of Organic Agriculture
 `;
 
 var Cairo_Meeting_Iframe_H2_Ar = `
@@ -1500,10 +1521,10 @@ An Interview with the Prof. Dr. Laboratory Director on the Cairo This Evening Pr
 `;
 
 var Field_Expirements_Section_H2_Ar = `
-التجارب الحقلية للمعمل المركزي للزراعة العضوية
+تجارب الفاعلية لمدخلات الزراعة العضوية
 `;
 var Field_Expirements_Section_H2_En = `
-Central Lab Of Organic Agriculture Field Expirements
+Efficacy Trials of Organic Agriculture Inputs
 `;
 
 function Insights_Resources_Load_Content_Ar() {
@@ -1613,6 +1634,15 @@ function Insights_Resources_Load_Content_Ar() {
     
   El_Kholasa_Iframe_H2.innerHTML = El_Kholasa_Iframe_H2_Ar;
   El_Kholasa_Iframe_H2.style.direction = "rtl";
+
+  Egypt_Everyday_Iframe_H2.innerHTML = Egypt_Everyday_Iframe_H2_Ar;
+  Egypt_Everyday_Iframe_H2.style.direction = "rtl";
+
+  The_Harvest_Iframe_H2.innerHTML = The_Harvest_Iframe_H2_Ar;
+  The_Harvest_Iframe_H2.style.direction = "rtl";
+
+  The_Agricultural_Advisor_Iframe_H2.innerHTML = The_Agricultural_Advisor_Iframe_H2_Ar;
+  The_Agricultural_Advisor_Iframe_H2.style.direction = "rtl";
 
   Introductory_Paragraph_H2.innerHTML = Introductory_Paragraph_H2_Ar;
   Introductory_Paragraph_H2.style.direction = "rtl";
@@ -1742,6 +1772,15 @@ function Insights_Resources_Load_Content_En() {
     
   El_Kholasa_Iframe_H2.innerHTML = El_Kholasa_Iframe_H2_En;
   El_Kholasa_Iframe_H2.style.direction = "ltr";
+
+  Egypt_Everyday_Iframe_H2.innerHTML = Egypt_Everyday_Iframe_H2_En;
+  Egypt_Everyday_Iframe_H2.style.direction = "ltr";
+
+  The_Harvest_Iframe_H2.innerHTML = The_Harvest_Iframe_H2_En;
+  The_Harvest_Iframe_H2.style.direction = "ltr";
+
+  The_Agricultural_Advisor_Iframe_H2.innerHTML = The_Agricultural_Advisor_Iframe_H2_En;
+  The_Agricultural_Advisor_Iframe_H2.style.direction = "ltr";
 
   Introductory_Paragraph_H2.innerHTML = Introductory_Paragraph_H2_En;
   Introductory_Paragraph_H2.style.direction = "ltr";

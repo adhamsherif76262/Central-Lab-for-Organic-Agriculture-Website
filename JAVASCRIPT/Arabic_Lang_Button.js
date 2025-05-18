@@ -59,13 +59,13 @@ function LangBtnArClick() {
 
     case location.href.includes("/Services_Product_1") ||
       location.href.includes("/services_product_1"):
-      Page_Title.innerHTML = "منتج 1";
+      Page_Title.innerHTML = "منتجات الوحدة ١";
       Services_Product_1_Load_Content_Ar();
       break;
 
     case location.href.includes("/Services_Product_2") ||
       location.href.includes("/services_product_2"):
-      Page_Title.innerHTML = "منتج 2";
+      Page_Title.innerHTML = "منتجات الوحدة ٢";
       Services_Product_2_Load_Content_Ar();
       break;
 

@@ -17,6 +17,9 @@
 }
 
 #El_Kholasa_Iframe_Mother_Div,
+#Egypt_Everyday_Iframe_Mother_Div,
+#The_Harvest_Iframe_Mother_Div,
+#The_Agricultural_Advisor_Iframe_Mother_Div,
 #Cairo_Meeting_Iframe_Mother_Div {
     position: relative;
     padding-bottom: 50%;
@@ -33,6 +36,9 @@
 }
 
 #El_Kholasa_Iframe,
+#The_Agricultural_Advisor_Iframe,
+#Egypt_Everyday_Iframe,
+#The_Harvest_Iframe,
 #Cairo_Meeting_Iframe {
     position: absolute;
     top: 0;
@@ -61,6 +67,9 @@
 }
 
 #El_Kholasa_Iframe_H2,
+#Egypt_Everyday_Iframe_H2,
+#The_Harvest_Iframe_H2,
+#The_Agricultural_Advisor_Iframe_H2,
 #Cairo_Meeting_Iframe_H2,
 #Introductory_Paragraph_H2,
 #Extension_Activity_Section_H2,
@@ -75,12 +84,21 @@
     color: black;
 }
 
-#CLOA_Gallery_Section_H2 {
+#The_Harvest_Iframe_H2 {
     margin-top: 100px;
-    margin-bottom: -50px;
+    /* margin-bottom: -50px; */
+}
+
+#CLOA_Gallery_Section_H2 {
+    margin-bottom: -100px;
 }
 
 #Introductory_Paragraph_H2,
+#Egypt_Everyday_Iframe_H2,
+#The_Agricultural_Advisor_Iframe_H2,
+#Cairo_Meeting_Iframe_H2,
+#The_Harvest_Iframe_H2,
+#Extension_Activity_Section_H2,
 #Field_Expirements_Section_H2 {
     margin-bottom: 50px;
 }
@@ -103,9 +121,30 @@
 
 }
 
+@media screen and (max-width: 1200px) {
+    #The_Harvest_Iframe_H2 {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .col-md-5 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #The_Harvest_Iframe_H2 {
+        margin-top: 250px;
+    }
+}
+
 @media screen and (max-width: 850px) {
 
     #El_Kholasa_Iframe_H2,
+    #Egypt_Everyday_Iframe_H2,
+    #The_Harvest_Iframe_H2,
+    #The_Agricultural_Advisor_Iframe_H2,
     #Cairo_Meeting_Iframe_H2,
     #Introductory_Paragraph_H2,
     #Extension_Activity_Section_H2,
@@ -118,9 +157,18 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    #The_Harvest_Iframe_H2 {
+        margin-top: 100px;
+    }
+}
+
 @media screen and (max-width: 500px) {
 
     #El_Kholasa_Iframe_H2,
+    #Egypt_Everyday_Iframe_H2,
+    #The_Harvest_Iframe_H2,
+    #The_Agricultural_Advisor_Iframe_H2,
     #Cairo_Meeting_Iframe_H2,
     #Introductory_Paragraph_H2,
     #Extension_Activity_Section_H2,
@@ -139,9 +187,18 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    #The_Harvest_Iframe_H2 {
+        margin-top: 125px;
+    }
+}
+
 @media screen and (max-width: 350px) {
 
     #El_Kholasa_Iframe_H2,
+    #Egypt_Everyday_Iframe_H2,
+    #The_Agricultural_Advisor_Iframe_H2,
+    #The_Harvest_Iframe_H2,
     #Cairo_Meeting_Iframe_H2,
     #Introductory_Paragraph_H2,
     #Extension_Activity_Section_H2,

@@ -30,10 +30,10 @@ Both parties have agreed to implement and carry out research, applied, and train
 
 var Private_Collaborations_H2 = document.getElementById("Private_Collaborations_H2");
 var Private_Collaborations_H2_Ar = `
-    شركات القطاع الخاص
+  شركاء النجاح
 `;
 var Private_Collaborations_H2_En = `
-    Private Sector Companies
+    Partners in success
 `;
 
 var Private_Collaborations_P_H2 = document.getElementById("Private_Collaborations_P_H2");

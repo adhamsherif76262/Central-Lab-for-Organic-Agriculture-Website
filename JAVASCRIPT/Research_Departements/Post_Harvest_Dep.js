@@ -153,10 +153,10 @@ var Research_Publications_Section_En = `
 `;
 
 var Departement_Hirarchy_Section_Ar = `
-<img style="width: 100%;" src="../Images/Research Departements/Arabic Hirarchy/Post_Harvest_Hirarchy.jpeg" alt="">
+<img style="width: 100%;" src="../Images/Research Departements/Arabic Hirarchy/Final/Enhanced/Post_Harvest_Hirarchy_Ar-Picsart-AiImageEnhancer.jpg" alt="">
 `;
 var Departement_Hirarchy_Section_En = `
-<img style="width: 100%;" src="../Images/Research Departements/English Hirarchy/Post_Harvest_Hirarchy-Picsart-AiImageEnhancer.png" alt="">
+<img style="width: 100%;" src="../Images/Research Departements/English Hirarchy/Final/Enhanced/Post_Harvest_Hirarchy_En-Picsart-AiImageEnhancer.jpg" alt="">
 `;
 
 function Post_Harvest_Dep_Load_Content_Ar() {

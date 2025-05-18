@@ -54,13 +54,13 @@ function LangBtnEnClick() {
 
     case location.href.includes("/Services_Product_1") ||
       location.href.includes("/services_product_1"):
-      Page_Title.innerHTML = "Product 1";
+      Page_Title.innerHTML = "Unit Products 1";
       Services_Product_1_Load_Content_En();
       break;
 
     case location.href.includes("/Services_Product_2") ||
       location.href.includes("/services_product_2"):
-      Page_Title.innerHTML = "Product 2";
+      Page_Title.innerHTML = "Unit Products 2";
       Services_Product_2_Load_Content_En();
       break;
 

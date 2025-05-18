@@ -5,7 +5,7 @@ var Article_Modals_Container = document.getElementById(
 var Title_H1 = document.getElementById("Title_H1");
 
 var Title_H1_En = `
-Secondary Products
+Unit Products 1
 `;
 
 var Article_Modals_Container_En = `
@@ -23,6 +23,14 @@ var Article_Modals_Container_En = `
                         <div>
                             <ul>
                                 <img src="../Images/Products Registration codes/Bio Act Registration code.png" alt="">
+                            </ul>
+                        </div>
+                    </details>
+                    <details class="parent">
+                        <summary>Compound Registration Number</summary>
+                        <div>
+                            <ul>
+                                Biocide7
                             </ul>
                         </div>
                     </details>
@@ -118,6 +126,14 @@ var Article_Modals_Container_En = `
                         <div>
                             <ul>
                                 <img src="../Images/Products Registration codes/Bio Act Registration code.png" alt="">
+                            </ul>
+                        </div>
+                    </details>
+                    <details class="parent">
+                        <summary>Compound Registration Number</summary>
+                        <div>
+                            <ul>
+                                Biocide7
                             </ul>
                         </div>
                     </details>
@@ -884,6 +900,14 @@ var Article_Modals_Container_En = `
                             </div>
                         </details>
                         <details class="parent">
+                            <summary>Compound Registration Number</summary>
+                            <div>
+                                <ul>
+                                    SC26
+                                </ul>
+                            </div>
+                        </details>
+                        <details class="parent">
                             <summary>Features</summary>
                             <div>
                                 <ul>
@@ -950,6 +974,14 @@ var Article_Modals_Container_En = `
                             </div>
                         </details>
                         <details class="parent">
+                            <summary>Compound Registration Number</summary>
+                            <div>
+                                <ul>
+                                    SC26
+                                </ul>
+                            </div>
+                        </details>
+                        <details class="parent">
                             <summary>Features</summary>
                             <div>
                                 <ul>
@@ -1012,6 +1044,14 @@ var Article_Modals_Container_En = `
                             <div>
                                 <ul>
                                     <img src="../Images/Products Registration codes/Antifrost Registration code.png" alt="">
+                                </ul>
+                            </div>
+                        </details>
+                        <details class="parent">
+                            <summary>Compound Registration Number</summary>
+                            <div>
+                                <ul>
+                                    NF36
                                 </ul>
                             </div>
                         </details>
@@ -1106,6 +1146,14 @@ var Article_Modals_Container_En = `
                             <div>
                                 <ul>
                                     <img src="../Images/Products Registration codes/Antifrost Registration code.png" alt="">
+                                </ul>
+                            </div>
+                        </details>
+                        <details class="parent">
+                            <summary>Compound Registration Number</summary>
+                            <div>
+                                <ul>
+                                    NF36
                                 </ul>
                             </div>
                         </details>
@@ -1368,6 +1416,14 @@ var Article_Modals_Container_En = `
                             </div>
                         </details>
                         <details class="parent">
+                            <summary>Compound Registration Number</summary>
+                            <div>
+                                <ul>
+                                    NF29
+                                </ul>
+                            </div>
+                        </details>
+                        <details class="parent">
                             <summary>Active Ingredients</summary>
                             <div>
                                 <ul>
@@ -1456,6 +1512,14 @@ var Article_Modals_Container_En = `
                             </div>
                         </details>
                         <details class="parent">
+                            <summary>Compound Registration Number</summary>
+                            <div>
+                                <ul>
+                                    NF29
+                                </ul>
+                            </div>
+                        </details>
+                        <details class="parent">
                             <summary>Active Ingredients</summary>
                             <div>
                                 <ul>
@@ -1540,6 +1604,14 @@ var Article_Modals_Container_En = `
                             <div>
                                 <ul>
                                     <img src="../Images/Products Registration codes/Insect Free Registration code.png" alt="">
+                                </ul>
+                            </div>
+                        </details>
+                        <details class="parent">
+                            <summary>Compound Registration Number</summary>
+                            <div>
+                                <ul>
+                                    Biocide3
                                 </ul>
                             </div>
                         </details>
@@ -1645,6 +1717,14 @@ var Article_Modals_Container_En = `
                             </div>
                         </details>
                         <details class="parent">
+                            <summary>Compound Registration Number</summary>
+                            <div>
+                                <ul>
+                                    Biocide3
+                                </ul>
+                            </div>
+                        </details>
+                        <details class="parent">
                             <summary>Composition</summary>
                             <div>
                                 <ul>
@@ -1746,6 +1826,14 @@ var Article_Modals_Container_En = `
                             </div>
                         </details>
                         <details class="parent">
+                            <summary>Compound Registration Number</summary>
+                            <div>
+                                <ul>
+                                    Biocide4
+                                </ul>
+                            </div>
+                        </details>
+                        <details class="parent">
                             <summary>Composition</summary>
                             <div>
                                 <ul>
@@ -1835,6 +1923,14 @@ var Article_Modals_Container_En = `
                             <div>
                                 <ul>
                                     <img src="../Images/Products Registration codes/GALL- FREE Registration code.png" alt="">
+                                </ul>
+                            </div>
+                        </details>
+                        <details class="parent">
+                            <summary>Compound Registration Number</summary>
+                            <div>
+                                <ul>
+                                    Biocide4
                                 </ul>
                             </div>
                         </details>

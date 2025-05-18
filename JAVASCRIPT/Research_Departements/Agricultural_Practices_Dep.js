@@ -591,10 +591,10 @@ var Research_Publications_Section_En = `
 `;
 
 var Departement_Hirarchy_Section_Ar = `
-<img style="width: 100%;" src="../Images/Research Departements/Arabic Hirarchy/Agricultural_Practices_Hirarchy.jpeg" alt="">
+<img style="width: 100%;" src="../Images/Research Departements/Arabic Hirarchy/Final/Enhanced/Agricultural_Practices_Hirarchy_Ar-Picsart-AiImageEnhancer.jpg" alt="">
 `;
 var Departement_Hirarchy_Section_En = `
-<img style="width: 100%;" src="../Images/Research Departements/English Hirarchy/Agricultural_Practices_Hirarchy-Picsart-AiImageEnhancer.png" alt="">
+<img style="width: 100%;" src="../Images/Research Departements/English Hirarchy/Final/Enhanced/Agricultural_Practices_Hirarchy_En-Picsart-AiImageEnhancer.jpg" alt="">
 `;
 
 function Agricultural_Practices_Dep_Load_Content_Ar() {

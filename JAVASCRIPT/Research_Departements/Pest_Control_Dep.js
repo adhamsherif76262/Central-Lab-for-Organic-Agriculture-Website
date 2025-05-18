@@ -237,10 +237,10 @@ var Research_Publications_Section_En = `
 `;
 
 var Departement_Hirarchy_Section_Ar = `
-<img style="width: 100%;" src="../Images/Research Departements/Arabic Hirarchy/Pest_Control_Hirarchy.jpeg" alt="">
+<img style="width: 100%;" src="../Images/Research Departements/Arabic Hirarchy/Final/Enhanced/Pest_Control_Hirarchy_Ar-Picsart-AiImageEnhancer.jpg" alt="">
 `;
 var Departement_Hirarchy_Section_En = `
-<img style="width: 100%;" src="../Images/Research Departements/English Hirarchy/Pest_Control_Hirarchy-Picsart-AiImageEnhancer.png" alt="">
+<img style="width: 100%;" src="../Images/Research Departements/English Hirarchy/Final/Enhanced/Pest_Control_Hirarchy_En-Picsart-AiImageEnhancer.jpg" alt="">
 `;
 
 function Pest_Control_Dep_Load_Content_Ar() {
