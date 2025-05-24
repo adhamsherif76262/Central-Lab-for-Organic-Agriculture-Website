@@ -8310,7 +8310,7 @@ a.text-dark:hover, a.text-dark:focus {
       display: block;
       margin: 4px; }
       .thumbnail li a img {
-        width: 80px;
+        width: 70px;
         border-radius: 50%;
         -webkit-transform: scale(0.8);
         -ms-transform: scale(0.8);

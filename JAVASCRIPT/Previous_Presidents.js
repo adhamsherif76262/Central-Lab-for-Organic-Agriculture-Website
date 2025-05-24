@@ -4,7 +4,7 @@ var Title_H1_Ar = `
 المديرين السابقين
 `;
 var Title_H1_En = `
-Previous Directors
+Former Directors
 `;
 
 var Directors_Section = document.getElementById("Directors_Section");
@@ -111,7 +111,7 @@ var Directors_Section_En = `
                          data-image-width="893" data-image-height="1000" data-animation-name="customAnimationIn"
                          data-animation-duration="1500" data-animation-delay="250">
                          <div class="u-container-layout u-similar-container u-container-layout-5">
-                             <h3 class="u-text u-text-15"> Prof. Dr. Tawfik Hafez Abdel Motea<br>
+                             <h3 class="u-text u-text-15"> Prof. Tawfik Hafez Abdel Moty<br>
                              </h3>
                              <h3 class="u-custom-font u-font-arial u-text u-text-palette-3-base u-text-16"> Professor of
                                  Biological Control - Plant Pathology Research Institute</h3>
@@ -160,7 +160,7 @@ var Directors_Section_En = `
                          data-image-width="797" data-image-height="1000" data-animation-name="customAnimationIn"
                          data-animation-duration="1500" data-animation-delay="250">
                          <div class="u-container-layout u-similar-container u-container-layout-2">
-                             <h3 class="u-text u-text-6"> Prof. Dr. Atef Abdel Aziz<br>
+                             <h3 class="u-text u-text-6"> Prof. Atef Abdel Aziz<br>
                              </h3>
                              <h3 class="u-custom-font u-font-arial u-text u-text-palette-3-base u-text-7"> Professor of
                                  Agricultural Microbiology - Soil, Water, and Environment Research
@@ -177,7 +177,7 @@ var Directors_Section_En = `
                          data-image-width="755" data-image-height="1000" data-animation-name="customAnimationIn"
                          data-animation-duration="1500" data-animation-delay="250">
                          <div class="u-container-layout u-similar-container u-container-layout-1">
-                             <h3 class="u-text u-text-3"> Dr. Maysa Abdel Moneim <br>
+                             <h3 class="u-text u-text-3"> Prof. Maysa Abdel Moneim <br>
                              </h3>
                              <h3 class="u-custom-font u-font-arial u-text u-text-palette-3-base u-text-4">Professor of
                                  Plant Pathology - Plant Pathology Research Institute</h3>

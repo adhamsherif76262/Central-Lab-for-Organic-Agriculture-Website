@@ -473,7 +473,7 @@ var Footer_Section_En = `
                                         <li class="clearfix gem-pp-posts">
                                             <div class="gem-pp-posts-text">
                                                 <div class="gem-pp-posts-item">
-                                                    <a class="Pages_En" href="./${HTMLpath}Previous_Presidents.html"  style="margin-right: 60px;">Previous Directors
+                                                    <a class="Pages_En" href="./${HTMLpath}Previous_Presidents.html"  style="margin-right: 60px;">Former Directors
                                                     </a>
                                                 </div>
                                                 <div class="gem-pp-posts-date">

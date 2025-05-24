@@ -57,7 +57,7 @@ These experiments aim to provide natural and safe solutions for farmers by regis
 `;
 
 var Extension_Activity_Section_H2_Ar = `
-النشاط الارشادى لباحثين المعمل المركزى للزراعة العضوية
+النشاط الارشادى لباحثي المعمل المركزى للزراعة العضوية
 `;
 var Extension_Activity_Section_H2_En = `
 Extension Activity for Researchers of the Central Laboratory for Organic Agriculture
