@@ -1,57 +1,8 @@
 {
-  "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/Agricultural_Practices_Dep",
-      "destination": "/HTML/Agricultural_Practices_Dep.html"
-    },
-    {
-      "source": "/Collaborations",
-      "destination": "/HTML/Collaborations.html"
-    },
-    {
-      "source": "/Insights_Resources",
-      "destination": "/HTML/Insights_Resources.html"
-    },
-    {
-      "source": "/Main_Services",
-      "destination": "/HTML/Main_Services.html"
-    },
-    {
-      "source": "/OA_Economics_Extension_Dep",
-      "destination": "/HTML/OA_Economics_Extension_Dep.html"
-    },
-    {
-      "source": "/OA_General_Administration",
-      "destination": "/HTML/OA_General_Administration.html"
-    },
-    {
-      "source": "/Pest_Control_Dep",
-      "destination": "/HTML/Pest_Control_Dep.html"
-    },
-    {
-      "source": "/Post_Harvest_Dep",
-      "destination": "/HTML/Post_Harvest_Dep.html"
-    },
-    {
-      "source": "/Previous_Presidents",
-      "destination": "/HTML/Previous_Presidents.html"
-    },
-    {
-      "source": "/Research_Departements",
-      "destination": "/HTML/Research_Departements.html"
-    },
-    {
-      "source": "/Services_Product_1",
-      "destination": "/HTML/Services_Product_1.html"
-    },
-    {
-      "source": "/Services_Product_2",
-      "destination": "/HTML/Services_Product_2.html"
-    },
-    {
-      "source": "/Soil_Fertility_Dep",
-      "destination": "/HTML/Soil_Fertility_Dep.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
