@@ -146,7 +146,7 @@ input.check-toggle-round-flat:checked+label:after {
 }
 
 #Lab_Logo {
-    max-width: 200px;
+    max-width: 175px;
 }
 
 #Lab_Logo:hover {
@@ -184,7 +184,7 @@ input.check-toggle-round-flat:checked+label:after {
 
 #Title_H1_En,
 #Title_H1_Ar {
-    font-size: 50px;
+    font-size: 35px;
     font-family: Omnes-Arabic-HairLine-Bold !important;
 }
 
@@ -689,7 +689,7 @@ nav>ul>li:nth-child(6) {
     }
 
     #Lab_Logo {
-        max-width: 150px;
+        max-width: 125px;
     }
 
     #Title_H1_En,
@@ -775,7 +775,7 @@ nav>ul>li:nth-child(6) {
 
 @media (max-width: 650px) {
     #Navigation_Bar_Section {
-        height: 40vh;
+        height: 50vh;
     }
 
     #Logo_Div {
@@ -985,11 +985,11 @@ nav>ul>li:nth-child(6) {
 
 @media (max-width: 500px) {
     #Navigation_Bar_Section {
-        height: 35vh;
+        height: 45vh;
     }
 
     #Lab_Logo {
-        max-width: 200px;
+        max-width: 225px;
         margin-top: 10px;
     }
 
@@ -1092,7 +1092,7 @@ nav>ul>li:nth-child(6) {
 
 @media (max-width: 400px) {
     #Navigation_Bar_Section {
-        height: 30vh;
+        height: 40vh;
     }
 
     #Lab_Logo {
