@@ -16,20 +16,22 @@ body {
     color: #000;
     text-align: center;
     font-weight: bold;
-    font-size: 35px;
-    margin-top: 50px;
-    line-height: 3rem !important;
+    font-size: 30px;
+    margin-top: 25px;
+    line-height: 2rem !important;
     max-width: 90%;
     margin-right: auto;
     margin-left: auto;
 }
-
+#First_List_Item_Anchor_Ar{
+    font-size: 18px;
+}
 #Training_H2 {
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
-    margin-bottom: 50px;
-    line-height: 3rem !important;
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 2rem !important;
     max-width: 90%;
     margin-right: auto;
     margin-left: auto;
@@ -38,10 +40,10 @@ body {
 #Products_H2 {
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    line-height: 3rem !important;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 2rem !important;
     max-width: 90%;
     margin-right: auto;
     margin-left: auto;
@@ -66,7 +68,7 @@ body {
 
 .tilesWrap {
     padding: 0;
-    margin: 50px auto;
+    margin: 0px auto;
     list-style: none;
     text-align: center;
     width: 100%;
@@ -80,7 +82,7 @@ body {
 
 #Last_Major_List_Item_Ar {
     margin-left: 800px !important;
-    margin-top: -200px !important;
+    margin-top: -75px !important;
 }
 
 #Grid_List_Item_Ar,
@@ -92,7 +94,7 @@ body {
 #Services_Section_Ar .tilesWrap li,
 #Services_Section_En .tilesWrap li {
     display: inline-block;
-    width: 43%;
+    width: 42%;
     min-width: 200px;
     /* max-width: 230px; */
 
@@ -102,7 +104,7 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 18px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     /* min-height: 50vh; */
     height: auto;
     background: #262a2b;
@@ -110,7 +112,7 @@ body {
 }
 
 #Services_Section_Ar .tilesWrap li h2 {
-    font-size: 114px !important;
+    font-size: 70px !important;
     margin: 0;
     position: absolute;
     opacity: 0.15;
@@ -121,7 +123,7 @@ body {
 }
 
 #Services_Section_En .tilesWrap li h2 {
-    font-size: 114px !important;
+    font-size: 70px !important;
     margin: 0;
     position: absolute;
     opacity: 0.15;
@@ -134,20 +136,20 @@ body {
 #Services_Section_Ar .tilesWrap li h3 {
     padding-left: 25px;
     padding-right: 70px;
-    font-size: 25px;
+    font-size: 20px;
     /* color: #b7b7b7; */
     color: white;
     z-index: 100;
     /* margin-bottom: 25px; */
     font-family: Omnes-Arabic-HairLine-Bold !important;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 #Services_Section_En .tilesWrap li h3 {
     padding-top: 50px;
     padding-right: 25px;
     padding-left: 70px;
-    font-size: 25px;
+    font-size: 20px;
     /* color: #b7b7b7; */
     color: white;
     z-index: 100;
@@ -157,18 +159,18 @@ body {
 }
 
 .tilesWrap li h3 {
-    font-size: 30px;
+    font-size: 20px;
     /* color: #b7b7b7; */
     color: white;
     z-index: 100;
-    margin-bottom: 25px;
+    margin-bottom: -50px;
     font-family: Omnes-Arabic-HairLine-Bold !important;
-    line-height: 3rem;
+    line-height: 2rem;
     /* margin-top: 50px; */
 }
 
 .tilesWrap li p {
-    font-size: 25px;
+    font-size: 15px;
     /* line-height: 50px; */
     /* color: #b7b7b7; */
     color: white;
@@ -249,7 +251,7 @@ body {
 }
 
 #First_List_Item_Anchor_En {
-    line-height: 4.25rem;
+    line-height: 3rem;
 }
 
 #Fourth_List_Item_En {
@@ -267,10 +269,10 @@ body {
 
 #Training_Section {
     margin-top: 2rem;
-    margin-bottom: 5rem !important;
+    margin-bottom: 2rem !important;
     width: 90%;
     margin: auto;
-    font-size: 25px;
+    font-size: 18px;
     /* line-height: 3rem; */
 }
 
@@ -457,7 +459,7 @@ header {
 #myList a {
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     transition-duration: 0.75s;
 }
 
@@ -467,6 +469,7 @@ header {
 
 #myList li {
     transition-duration: 0.75s;
+    border-radius: 10px;
 }
 #myList li:hover {
     cursor: pointer;
@@ -525,11 +528,11 @@ header {
 
 @media screen and (max-width : 1250px) {
     #First_List_Item_Anchor_Ar {
-        line-height: 3.7rem !important;
+        line-height: 2rem !important;
     }
 
     #First_List_Item_Anchor_En {
-        line-height: 3.4rem;
+        line-height: 3rem;
     }
 
     #Fourth_List_Item_En {
@@ -595,13 +598,12 @@ header {
 @media screen and (max-width : 1000px) {
 
     #Title_H1,
-    #Training_H2,
-    #Products_H2 {
-        font-size: 35px;
+    #Training_H2{
+        font-size: 30px;
     }
 
     #myList a {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #Services_Section_Ar .tilesWrap li,
@@ -760,8 +762,7 @@ header {
     }
 
     #Title_H1,
-    #Training_H2,
-    #Products_H2 {
+    #Training_H2{
         font-size: 30px;
     }
 }
@@ -826,11 +827,11 @@ header {
     }
 
     .list-type5_En a {
-        font-size: 20px !important;
+        font-size: 15px !important;
     }
 
     .list-type5_Ar a {
-        font-size: 25px !important;
+        font-size: 15px !important;
     }
 
     #Services_Section_Ar .tilesWrap li h2 {
@@ -847,7 +848,7 @@ header {
     }
 
     #Training_Section {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #Services_Section_En .tilesWrap li {
@@ -887,7 +888,7 @@ header {
         /* overflow-x: hidden !important; */
         width: 110%;
         margin-right: -20px !important;
-        margin-top: 50px !important;
+        margin-top: 20px !important;
     }
 
     #Services_Section_En .tilesWrap li {
@@ -978,13 +979,14 @@ header {
 .list-type5_En a {
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .list-type5_Ar a {
     text-decoration: none;
     color: black;
-    font-size: 30px;
+    font-size: 18px;
+    margin: 0 !important;
 }
 
 .list-type5_En li:hover {

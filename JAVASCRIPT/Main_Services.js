@@ -16,13 +16,13 @@ var Services_Section_Ar = `
 <section id="Services_Section_Ar">
     <ul class="tilesWrap">
         <li>
-            <h2>١</h2>
-            <h3>نشاط ارشادي توعوي للمزراعين والمهندسين وذلك بغرض نشر فكر الزراعة العضوية وذلك من خلال :-</h3>
+            <h2 >١</h2>
+            <h3 style="line-height: 3rem;">نشاط ارشادي توعوي للمزراعين والمهندسين وذلك بغرض نشر فكر الزراعة العضوية وذلك من خلال :-</h3>
             <p>
                 <div class="list-type5_Ar">
                     <ol>
                         <li>
-                            <a id="First_List_Item_Anchor_Ar" href="" style="line-height: 4.25rem;">
+                            <a id="First_List_Item_Anchor_Ar" href="" style="line-height: 2rem;">
                                 دورات تدريبية على كيفية إدارة المزارع العضوية شاملة التعريف بالزراعة العضوية
                                 والقوانين المحلية والعالمية المنظمة لها والتعرف على كيفية تدويرالمخلفات الزراعية و
                                 انتاج ( الكمبوست والفيرميكبوست ) التعريف بكيفية استخدام المخصبات الحيوية والمبيدات
@@ -41,7 +41,7 @@ var Services_Section_Ar = `
         </li>
         <li>
             <h2>٢</h2>
-            <h3>يمكن للمواطن الحصول على هذه الخدمات
+            <h3 style="line-height: 3rem;">يمكن للمواطن الحصول على هذه الخدمات
                 من خلال التواصل المباشر مع المعمل المركزى للزراعة العضوية سواء بالحضور الي المقر الرئيسى أو
                 الاتصال التليفونى على الخط الأرضي أو من خلال البريد الالكترونى</h3>
             <p>
@@ -72,7 +72,7 @@ var Services_Section_Ar = `
         </li>
         <li>
             <h2>٣</h2>
-            <h3>إنتاج المركبات المستخدمة كمدخلات إنتاج للمزارع العضوية شاملة :-</h3>
+            <h3 style="line-height: 3rem;">إنتاج المركبات المستخدمة كمدخلات إنتاج للمزارع العضوية شاملة :-</h3>
             <p>
                 <div class="list-type5_Ar">
                     <ol>
@@ -100,7 +100,7 @@ var Services_Section_Ar = `
         </li>
         <li>
             <h2>٤</h2>
-            <h3>إنتاج المركبات المستخدمة كمدخلات إنتاج للمزارع العضوية شاملة :-</h3>
+            <h3 style="line-height: 3rem;">إنتاج المركبات المستخدمة كمدخلات إنتاج للمزارع العضوية شاملة :-</h3>
             <p>
                 <div class="list-type5_Ar">
                     <ol>
@@ -129,7 +129,7 @@ var Services_Section_Ar = `
         </li>
         <li>
             <h2>٥</h2>
-            <h3>إنتاج المركبات المستخدمة كمدخلات إنتاج للمزارع العضوية شاملة :-</h3>
+            <h3 style="line-height: 3rem;">إنتاج المركبات المستخدمة كمدخلات إنتاج للمزارع العضوية شاملة :-</h3>
             <p>
                 <div class="list-type5_Ar">
                     <ol>
@@ -160,7 +160,7 @@ var Services_Section_Ar = `
         </li>
         <li>
             <h2>٦</h2>
-            <h3>التحاليل والقياسات المعملية :-</h3>
+            < style="line-height: 3rem;">التحاليل والقياسات المعملية :-</h3>
             <p>
                 <p style="margin-top: 70px !important;"> التحاليل الميكروبيولوجية :-</p>
                 <div class="list-type5_Ar">
@@ -253,7 +253,7 @@ var Services_Section_En = `
     <ul class="tilesWrap">
         <li>
             <h2>1</h2>
-            <h3>Educational and Awareness Activities for Farmers and Agricultural Engineers to Promote Organic
+            <h3 style="line-height: 2rem;">Educational and Awareness Activities for Farmers and Agricultural Engineers to Promote Organic
                 Farming Through:</h3>
             <p>
                 <div class="list-type5_En">
@@ -276,7 +276,7 @@ var Services_Section_En = `
         </li>
         <li>
             <h2>2</h2>
-            <h3>Citizens can access these services through direct contact with the Central Laboratory for
+            <h3 style="line-height: 2rem;">Citizens can access these services through direct contact with the Central Laboratory for
                 Organic Agriculture, either by visiting the headquarters, calling the landline, or via email.
             </h3>
             <p>
@@ -304,7 +304,7 @@ var Services_Section_En = `
         </li>
         <li>
             <h2>3</h2>
-            <h3>Production of Compounds Used as Inputs for Organic Farming, Including:</h3>
+            <h3 style="line-height: 2rem;">Production of Compounds Used as Inputs for Organic Farming, Including:</h3>
             <p>
                 <div class="list-type5_En" style="line-height: 2rem;">
                     <ol>
@@ -323,7 +323,7 @@ var Services_Section_En = `
         </li>
         <li>
             <h2>4</h2>
-            <h3>Production of Organic Farm Inputs, Including:</h3>
+            <h3 style="line-height: 2rem;">Production of Organic Farm Inputs, Including:</h3>
             <p>
                 <div id="Fourth_List_Item_En" class="list-type5_En">
                     <ol>
@@ -343,7 +343,7 @@ var Services_Section_En = `
         </li>
         <li>
             <h2>5</h2>
-            <h3>Production of Specialized Organic Inputs, Including:</h3>
+            <h3 style="line-height: 2rem;">Production of Specialized Organic Inputs, Including:</h3>
             <p>
                 <div class="list-type5_En">
                     <ol>
@@ -365,7 +365,7 @@ var Services_Section_En = `
         </li>
         <li>
             <h2>6</h2>
-            <h3>Laboratory Analyses and Measurements:</h3>
+            <h3 style="line-height: 2rem;">Laboratory Analyses and Measurements:</h3>
             <p>
                 <p style="margin-top: 70px !important;">Microbiological Analyses:</p>
                 <div class="list-type5_En">
@@ -433,7 +433,7 @@ var Training_Section_Ar = `
                             <label for="sub-group-1-1"><span class="fa fa-angle-left"></span>١- برامج التدريب الداخلي
                                     في المعمل المركزي للزراعة العضوية</label>
                             <ul class="sub-group-list">
-                                <li><a style="line-height: 3rem;" href="#">
+                                <li><a style="line-height: 1.5rem;" href="#">
                                         يعد التدريب والتأهيل المستمر للعاملين في القطاع الزراعي أحد أهم الركائز التي
                                         تضمن تطوير الإنتاج وتحسين جودته. وفي هذا الإطار، ينظم المعمل المركزي للزراعة
                                         العضوية مجموعة من الدورات التدريبية الداخلية التي تستهدف جميع الكوادر المتخصصة،
@@ -471,7 +471,7 @@ var Training_Section_Ar = `
                                     <label for="sub-sub-group-1-2"><span class="fa fa-angle-left"></span>
                                         أهمية هذه الدورات</label>
                                     <ul class="sub-sub-group-list">
-                                        <li><a style="line-height: 3rem;" href="#">
+                                        <li><a style="line-height: 1.5rem;" href="#">
                                                 توفر هذه الدورات فرصة مهمة للمهندسين الزراعيين والكوادر المتخصصة لاكتساب
                                                 مهارات جديدة وتعزيز معرفتهم بالممارسات الحديثة في الزراعة العضوية. كما
                                                 تسهم في نشر الوعي بأهمية الإنتاج الزراعي المستدام، وتحقيق الأمن الغذائي
@@ -486,7 +486,7 @@ var Training_Section_Ar = `
                             <label for="sub-group-1-2"><span class="fa fa-angle-left"></span>٢- برامج التدريب في
                                     المحافظات</label>
                             <ul class="sub-group-list">
-                                <li><a style="line-height: 3rem;" href="#">يقوم المعمل بتنظيم مجموعة من الدورات التدريبية المتخصصة في مجالات
+                                <li><a style="line-height: 1.5rem;" href="#">يقوم المعمل بتنظيم مجموعة من الدورات التدريبية المتخصصة في مجالات
                                                 الزراعة والإنتاج الحيواني، والتي تستهدف مختلف الفئات العاملة في القطاع
                                                 الزراعي، بما في ذلك مهندسي الإرشاد الزراعي، وذلك بهدف تطوير مهاراتهم
                                                 وتعزيز معرفتهم بأحدث التقنيات والأساليب الزراعية. </a></li>
@@ -514,7 +514,7 @@ var Training_Section_Ar = `
                             <label for="sub-group-1-3"><span class="fa fa-angle-left"></span>٣- البرنامج التدريبي
                                     للإدارة العامة للزراعة العضوية</label>
                             <ul class="sub-group-list">
-                                <li><a style="line-height: 3rem;" href="#">في إطار تعزيز مفهوم الزراعة العضوية وتطبيق أحدث الممارسات الزراعية،
+                                <li><a style="line-height: 1.5rem;" href="#">في إطار تعزيز مفهوم الزراعة العضوية وتطبيق أحدث الممارسات الزراعية،
                                                 ينظّم المعمل المركزي للزراعة العضوية بمركز البحوث الزراعية برنامجًا
                                                 تدريبيًا داخليًا يستهدف جميع الكوادر المسؤولة عن التسجيل والمتابعة في
                                                 هذا المجال.</a></li>
@@ -538,7 +538,7 @@ var Training_Section_Ar = `
                     <label for="group-2"><span class="fa fa-angle-left"></span>الإرشاد الزراعي للزراعة العضوية</label>
                     <ul class="group-list">
                         <li>
-                        <li><a style="line-height: 3rem;" href="#">في إطار تعزيز المعرفة بأساليب الزراعة العضوية وتوسيع نطاق تطبيقها، يتم تنفيذ
+                        <li><a style="line-height: 1.5rem;" href="#">في إطار تعزيز المعرفة بأساليب الزراعة العضوية وتوسيع نطاق تطبيقها، يتم تنفيذ
                                         مجموعة من البرامج الإرشادية شمل ورش عمل وندوات توعوية، تستهدف جميع الكوادر من
                                         مهندسي اللجنة والإرشاد الزراعي والمزارعين، وذلك في المعمل المركزي للزراعة
                                         العضوية ومراكز الإرشاد بالمحافظات.</a></li>
@@ -562,7 +562,7 @@ var Training_Section_Ar = `
                         العضوية</label>
                 <ul class="group-list">
                     <li>
-                    <li><a style="line-height: 3rem;" href="#">يتم تنفيذ مجموعة من المدارس الحقلية في العديد من المحافظات بهدف تعزيز الممارسات
+                    <li><a style="line-height: 1.5rem;" href="#">يتم تنفيذ مجموعة من المدارس الحقلية في العديد من المحافظات بهدف تعزيز الممارسات
                                     الزراعية المستدامة، وتدريب الكوادر الزراعية من مهندسي الإرشاد الزراعي
                                     والمزارعين.</a></li>
                     <input id="sub-group-3-1" type="checkbox" hidden />
@@ -575,7 +575,7 @@ var Training_Section_Ar = `
                         <li><a href="#">•	وفي سياق التعامل مع التحديات الزراعية، يتم تقديم دورة تدريبية عن إنتاج الطفيليات تحت نظم الزراعة العضوية، والتي تناولت أهمية استخدام الكائنات الحية الدقيقة لمكافحة الآفات الزراعية بطرق طبيعية ومستدامة.</a></li>
                         <li><a href="#">•	ويشمل البرنامج التدريبي انعقاد فعالية حول إدارة الأراضي تحت نظم الزراعة العضوية، حيث يتم مناقشة الأساليب المثلى لإدارة الأراضي الزراعية وفقًا للمعايير العضوية، بما يضمن الحفاظ على التربة ورفع إنتاجيتها بطريقة صديقة للبيئة.</a></li>
                     </ul>
-                    <li><a style="line-height: 3rem;" href="">تدعم هذه المبادرة التدريبية الشاملة التحول إلى الزراعة العضوية، حيث تزود المتخصصين في
+                    <li><a style="line-height: 1.5rem;" href="">تدعم هذه المبادرة التدريبية الشاملة التحول إلى الزراعة العضوية، حيث تزود المتخصصين في
                                     المجال الزراعي بالتقنيات الحديثة لتعزيز الإنتاج المستدام مع الحفاظ على البيئة.</a>
                     </li>
             </li>
@@ -599,7 +599,7 @@ var Training_Section_En = `
                                 Programs
                                 at the Central Laboratory for Organic Agriculture</label>
                             <ul class="sub-group-list">
-                                <li><a style="line-height: 3rem;" href="#">Continuous training and qualification of agricultural sector workers are
+                                <li><a style="line-height: 1.5rem;" href="#">Continuous training and qualification of agricultural sector workers are
                                         key pillars in improving production quality. In this context, the Central
                                         Laboratory for Organic Agriculture organizes a series of internal training
                                         courses targeting all specialized personnel, particularly agricultural
@@ -662,7 +662,7 @@ var Training_Section_En = `
                                     <label for="sub-sub-group-1-2"><span class="fa fa-angle-right"></span>
                                         Importance of These Courses</label>
                                     <ul class="sub-sub-group-list">
-                                        <li><a style="line-height: 3rem;" href="#">
+                                        <li><a style="line-height: 1.5rem;" href="#">
                                                 These training programs provide an essential opportunity for
                                                 agricultural engineers and specialists to acquire new skills and expand
                                                 their knowledge of modern organic farming practices. They also
@@ -680,7 +680,7 @@ var Training_Section_En = `
                                 the
                                 Governorates</label>
                             <ul class="sub-group-list">
-                                <li><a style="line-height: 3rem;" href="#">The laboratory also organizes specialized training courses across
+                                <li><a style="line-height: 1.5rem;" href="#">The laboratory also organizes specialized training courses across
                                         various governorates, targeting different agricultural professionals, including
                                         agricultural extension engineers. These courses aim to enhance their skills and
                                         knowledge of the latest agricultural techniques and methods.</a></li>
@@ -723,7 +723,7 @@ var Training_Section_En = `
                                 the
                                 General Administration of Organic Agriculture</label>
                             <ul class="sub-group-list">
-                                <li><a style="line-height: 3rem;" href="#">To further promote organic farming and implement the latest agricultural
+                                <li><a style="line-height: 1.5rem;" href="#">To further promote organic farming and implement the latest agricultural
                                         practices, the Central Laboratory for Organic Agriculture at the Agricultural
                                         Research Center offers an internal training program for personnel responsible
                                         for registration and monitoring in this field.</a></li>
@@ -756,7 +756,7 @@ var Training_Section_En = `
                         Farming</label>
                     <ul class="group-list">
                         <li>
-                        <li><a style="line-height: 3rem;" href="#">To expand awareness and implementation of organic farming techniques, various
+                        <li><a style="line-height: 1.5rem;" href="#">To expand awareness and implementation of organic farming techniques, various
                                 extension programs are conducted, including workshops and awareness seminars. These
                                 programs target agricultural engineers, extension officers, and farmers, and are
                                 organized at the Central Laboratory for Organic Agriculture and extension centers across
@@ -793,7 +793,7 @@ var Training_Section_En = `
                     Agriculture</label>
                 <ul class="group-list">
                     <li>
-                    <li><a style="line-height: 3rem;" href="#">Field schools are implemented across various governorates to promote sustainable
+                    <li><a style="line-height: 1.5rem;" href="#">Field schools are implemented across various governorates to promote sustainable
                             agricultural practices and train agricultural extension engineers and farmers.</a></li>
                     <input id="sub-group-3-1" type="checkbox" hidden />
                     <label for="sub-group-3-1"><span class="fa fa-angle-right"></span> The activities include</label>
@@ -817,7 +817,7 @@ var Training_Section_En = `
                                 land management strategies to maintain soil health and increase productivity using
                                 organic standards.</a></li>
                 </ul>
-                <li><a style="line-height: 3rem;" href="">This comprehensive training initiative supports the transition to organic farming,
+                <li><a style="line-height: 1.5rem;" href="">This comprehensive training initiative supports the transition to organic farming,
                 equipping agricultural professionals with modern techniques to enhance sustainable
                 production while preserving the environment.</a></li>
             </li>
