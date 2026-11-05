@@ -4,10 +4,146 @@
     margin: 0;
 }
 
+
 @font-face {
     font-family: Omnes-Arabic-HairLine-Bold;
     src: url(../Fonts/ArbFONTS-OMNES-ARABIC-BOLD.ttf);
 }
+
+/* Placeholder background variables matching your React project classes */
+.bg_Beige { background-color: #f5f5dc; } /* Replace with your actual project beige hex code */
+.bg_Gray  { background-color: #f3f4f6; } /* Replace with your actual project gray hex code */
+
+/* Parent Component Container Context Layout */
+.sticky-image-container {
+  padding: 1.5rem;
+  border-radius: 1.5rem; /* rounded-3xl */
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); /* shadow-2xl */
+  border: 1px solid rgba(14, 116, 144, 0.4); /* border-cyan-700/40 */
+    background-color: rgb(241, 241, 241);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  max-width: 90%;
+  box-sizing: border-box;
+}
+
+/* Base Title Typography */
+.component-header {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Fluid Responsive Typography Sizing matching your clsx branches */
+[dir="ltr"] .component-header { font-size: 1.25rem; }
+[dir="rtl"] .component-header { font-size: 1.5rem; }
+
+@media (min-width: 480px) {
+  [dir="ltr"] .component-header { font-size: 1.5rem; }
+  [dir="rtl"] .component-header { font-size: 1.875rem; }
+}
+@media (min-width: 640px) {
+  [dir="ltr"] .component-header { font-size: 1.875rem; }
+  [dir="rtl"] .component-header { font-size: 2.25rem; }
+}
+@media (min-width: 1024px) {
+  [dir="ltr"] .component-header { font-size: 2.25rem; }
+}
+
+/* Flexbox Split Content Architecture */
+.content-flex-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 768px) {
+  .content-flex-box {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+/* Image Wrapper Layout */
+.image-column-wrapper {
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .image-column-wrapper {
+    width: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1rem; /* md:top-4 */
+    align-self: flex-start;
+  }
+}
+
+/* Next/Image Breakpoint Replacements */
+.responsive-fluid-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.25rem;
+  border: 1px solid #e5e7eb;
+  max-height: 750px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (min-width: 360px) { .responsive-fluid-img {  max-width: 384px; } } /* xxxs:w-96 */
+@media (min-width: 768px) { .responsive-fluid-img {  max-width: 500px; } } /* md:w-[500px] */
+@media (min-width: 1024px) { .responsive-fluid-img { max-width: 700px; } } /* lg:w-[700px] */
+@media (min-width: 1200px) { .responsive-fluid-img { max-width: 800px; } } /* xl:w-[800px] */
+
+/* Text Body Column Properties */
+.scrollable-paragraphs-box {
+  overflow-y: auto;
+  max-height: 500px;
+  padding: 1rem;
+  text-align: justify;
+  line-height: 1.625;
+  width: 100%;
+  font-weight: 900; /* font-black */
+  box-sizing: border-box;
+}
+
+/* LTR vs RTL Text Sizing Scale Contexts */
+[dir="ltr"] .scrollable-paragraphs-box { font-size: 1rem; }
+[dir="rtl"] .scrollable-paragraphs-box { font-size: 1.25rem; }
+
+@media (min-width: 480px) {
+  [dir="ltr"] .scrollable-paragraphs-box { font-size: 1.25rem; }
+  [dir="rtl"] .scrollable-paragraphs-box { font-size: 1.5rem; }
+}
+@media (min-width: 768px) {
+  [dir="ltr"] .scrollable-paragraphs-box { font-size: 1.125rem; }
+  [dir="rtl"] .scrollable-paragraphs-box { font-size: 1.625rem; }
+}
+@media (min-width: 1024px) {
+  [dir="ltr"] .scrollable-paragraphs-box { font-size: 1.5rem; }
+  [dir="rtl"] .scrollable-paragraphs-box { font-size: 1.875rem; }
+}
+
+/* Inner Paragraph Styling tags */
+.scrollable-paragraphs-box p {
+  text-align: center;
+  margin-bottom: 2rem; /* mb-8 */
+  line-height: normal; /* xs:leading-normal */
+}
+
+@media (min-width: 768px) {
+  .scrollable-paragraphs-box p {
+    line-height: 1.625; /* md:leading-relaxed */
+  }
+}
+
 
 /***Certificates Section***/
 
@@ -88,18 +224,19 @@ video {
 #Vision_Img,
 #Mission_Img {
 
-    max-width: 750px;
+    max-width: 500px;
     /* margin-left: auto; */
     /* margin-left: 5%; */
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #Title_H1 {
     color: black;
     /*background-color: rgb(243, 235, 223);*/
-    margin-top: 50px;
-    margin-bottom: 50px;
+    font-size:25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     /*padding: 50px;*/
     /* border-radius: 50px; */
     font-family: Omnes-Arabic-HairLine-Bold !important;
@@ -109,16 +246,43 @@ video {
     margin-right: auto;
 }
 
-#Certificates_Section_H2,
-#Current_Director_H2,
-#Current_Director_Speech_H2,
-#Second_p_H2 {
+#Current_Director_H2{
     color: black;
-    padding: 50px;
-    font-size: 50px;
+    padding: 10px;
+    font-size: 25px;
     font-family: Omnes-Arabic-HairLine-Bold !important;
     width: 90%;
     text-align: center;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+#Current_Director_Speech_H2{
+        color: black;
+    padding: 30px;
+    font-size: 25px;
+    font-family: Omnes-Arabic-HairLine-Bold !important;
+    width: 90%;
+    text-align: center;
+    margin:auto;
+}
+#Certificates_Section_H2{
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: Omnes-Arabic-HairLine-Bold !important;
+    width: 90%;
+    text-align: center;
+    /* margin:auto; */
+}
+#Second_p_H2 {
+    color: black;
+    padding: 25px;
+    font-size: 25px;
+    font-family: Omnes-Arabic-HairLine-Bold !important;
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -131,15 +295,15 @@ video {
     /* background-color: rgb(209, 255, 209); */
     /* background-color: rgb(199, 255, 199); */
     /* background-color: rgb(243, 235, 223); */
-    padding: 50px;
+    padding: 20px;
     border-radius: 50px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Omnes-Arabic-HairLine-Bold !important;
     width: 90%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    line-height: 4rem;
+    line-height: 2.5rem;
 }
 
 
@@ -155,7 +319,7 @@ video {
     color: white;
     width: 90%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 30px;
     /* background-color: black; */
     background-color: rgb(241, 241, 241);
     /* background-color: rgb(199, 255, 199); */
@@ -177,15 +341,15 @@ ul {
 p,
 .LI_En,
 .LI_Ar {
-    margin: 0 0 15px 0;
-    font-size: 40px;
-    line-height: 6rem;
+    margin: 0 0 0 0;
+    font-size: 20px;
+    line-height: 2rem;
 }
 
 .center {
     text-align: center;
-    font-size: 60px;
-    padding-top: 50px;
+    font-size: 30px;
+    padding-top: 20px;
 }
 
 .container {
@@ -201,22 +365,25 @@ p,
 }
 
 .episode__number {
-    font-size: 10vw;
+    font-size: 30px;
     /* font-weight: 600; */
     /* padding: 10px 0; */
     position: sticky;
     top: 0;
     text-align: center;
-    height: calc(10vw + 20px);
+    /* height: calc(10vw + 20px); */
+    height: 50px;
     transition: all 0.2s ease-in;
 }
 
 .episode__number_Ar {
     padding-left: 125px;
+    padding-top: 25px;
 }
 
 .episode__number_En {
     padding-right: 125px;
+    padding-top: 25px;
 }
 
 .episode__content {
@@ -229,7 +396,7 @@ p,
 
 
 .episode__content .story {
-    line-height: 26px;
+    line-height: 6px;
 }
 
 /** Current Director Section**/
@@ -240,7 +407,7 @@ p,
 }
 
 #Current_Director_Image {
-    max-width: 600px;
+    max-width: 400px;
     height: auto;
     margin: auto;
 }
@@ -282,17 +449,17 @@ p,
     }
 
     #Current_Director_Image {
-        max-width: 450px;
+        max-width: 300px;
     }
 
     #Vision_Img,
     #Mission_Img {
 
-        max-width: 600px;
+        max-width: 400px;
         /* margin-left: auto; */
         /* margin-left: 5%; */
-        margin-top: 100px;
-        margin-bottom: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 
@@ -317,11 +484,17 @@ p,
         /* max-height: 200px; */
     }
 
-    #Certificates_Section_H2,
-    #Current_Director_H2,
+#Certificates_Section_H2{
+    color: black;
+    font-size: 30px;
+    font-family: Omnes-Arabic-HairLine-Bold !important;
+    width: 90%;
+    text-align: center;
+    margin:20px;
+}
     #Current_Director_Speech_H2,
     #Second_p_H2 {
-        padding: 50px;
+        /* padding: 50px; */
         font-size: 30px;
     }
 
@@ -334,13 +507,13 @@ p,
     }
 
     #Current_Director_Image {
-        max-width: 350px;
+        max-width: 250px;
     }
 
 
     #Vision_Img,
     #Mission_Img {
-        max-width: 450px;
+        max-width: 350px;
     }
 
     .episode__content {
@@ -364,8 +537,8 @@ p,
     .LI_En,
     .LI_Ar {
         /* margin: 0 0 15px 0; */
-        font-size: 30px;
-        line-height: 3rem;
+        font-size: 20px;
+        line-height: 2rem;
     }
 
     /* .episode__content_Last{
@@ -406,7 +579,7 @@ p,
 
     #Vision_Img,
     #Mission_Img {
-        max-width: 350px;
+        max-width: 300px;
     }
 
 
@@ -436,7 +609,7 @@ p,
     #First_p,
     #Second_p,
     #Current_Director_Speech {
-        font-size: 25px;
+        font-size: 20px;
         padding: 20px;
         line-height: 3rem;
     }
@@ -450,7 +623,7 @@ p,
     }
 
     #Current_Director_Image {
-        max-width: 300px;
+        max-width: 200px;
     }
 
     .center {
@@ -468,8 +641,8 @@ p,
     .LI_En,
     .LI_Ar {
         /* margin: 0 0 15px 0; */
-        font-size: 22px;
-        line-height: 2.5rem;
+        font-size: 20px;
+        line-height: 2rem;
     }
 
     .episode__number_Ar {
@@ -504,11 +677,20 @@ p,
         /* max-height: 200px; */
     }
 
-    #Certificates_Section_H2,
-    #Current_Director_H2,
+    #Current_Director_H2{
+        padding: 0px;
+        font-size: 25px;
+}
+
+    #Certificates_Section_H2{
+        margin-bottom: 75px;
+        margin-top: 75px;
+        padding: 0px;
+        font-size: 25px;
+    }
     #Current_Director_Speech_H2,
     #Second_p_H2 {
-        margin-bottom: 100px;
+        margin-bottom: 25px;
         margin-top: 100px;
         padding: 0px;
         font-size: 25px;

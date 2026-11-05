@@ -5,7 +5,7 @@ var Certificates_Section = document.getElementById("Certificates_Section");
 var Second_p_H2 = document.getElementById("Second_p_H2");
 var Second_p = document.getElementById("Second_p");
 var Activities_Section = document.getElementById("Activities_Section");
-var Current_Director_H2 = document.getElementById("Current_Director_H2");
+// var Current_Director_H2 = document.getElementById("Current_Director_H2");
 var Current_Director_Speech_H2 = document.getElementById("Current_Director_Speech_H2");
 var Current_Director_Speech = document.getElementById("Current_Director_Speech");
 var Our_Mission_Section = document.getElementById("Our_Mission_Section");
@@ -312,10 +312,10 @@ var Current_Director_H2_En = `
 Laboratory Director : <br> <br> Prof. Dr. Saad Abd El-Khalek Jaafar
 `;
 var Current_Director_Speech_H2_Ar = `
-    كلمة مدير المعمل المركزى للزراعة العضوية 
+    كلمة مدير المعمل المركزى للزراعة العضوية الأستاذ الدكتور : سعد عبد الخالق جعفر
 `;
 var Current_Director_Speech_H2_En = `
-    Director's speech
+    Director's speech Prof. Dr. Saad Abd El-Khalek Jaafar
 `;
 
 var Current_Director_Speech_Ar = `
@@ -365,8 +365,8 @@ var Second_p_En = `
         Current_Director_Speech.style.direction = "rtl";
         Current_Director_Speech_H2.innerHTML = Current_Director_Speech_H2_Ar;
         Current_Director_Speech_H2.style.direction = "rtl";
-        Current_Director_H2.innerHTML = Current_Director_H2_Ar;
-        Current_Director_H2.style.direction = "rtl";
+        // Current_Director_H2.innerHTML = Current_Director_H2_Ar;
+        // Current_Director_H2.style.direction = "rtl";
         Second_p_H2.innerHTML = Second_p_H2_Ar;
         Second_p.innerHTML = Second_p_Ar;
         Second_p.style.direction = "rtl";
@@ -393,8 +393,8 @@ var Second_p_En = `
         Current_Director_Speech.style.direction = "ltr";
         Current_Director_Speech_H2.innerHTML = Current_Director_Speech_H2_En;
         Current_Director_Speech_H2.style.direction = "ltr";
-        Current_Director_H2.innerHTML = Current_Director_H2_En;
-        Current_Director_H2.style.direction = "ltr";
+        // Current_Director_H2.innerHTML = Current_Director_H2_En;
+        // Current_Director_H2.style.direction = "ltr";
         Second_p_H2.innerHTML = Second_p_H2_En;
         Second_p.innerHTML = Second_p_En;
         Second_p.style.direction = "ltr";
