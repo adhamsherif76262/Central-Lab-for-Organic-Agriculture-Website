@@ -59,13 +59,13 @@
     /* background-color: #ffb300d8; */
     padding: 50px;
     border-radius: 50px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Omnes-Arabic-HairLine-Bold !important;
     width: 90%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    line-height: 4rem;
+    line-height: 3rem;
 }
 
 #El_Kholasa_Iframe_H2,
@@ -82,7 +82,7 @@
     margin-top: 50px;
     margin-left: 25px;
     margin-right: 25px;
-    font-size: 35px;
+    font-size: 25px;
     color: black;
 }
 
@@ -161,7 +161,7 @@
     #Field_Expirements_Section_H2 {
         margin-left: 25px;
         margin-right: 25px;
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
@@ -185,13 +185,13 @@
     #Field_Expirements_Section_H2 {
         margin-left: 25px;
         margin-right: 25px;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #Introductory_Paragraph {
         padding: 25px;
         font-size: 20px;
-        line-height: 4rem;
+        line-height: 3rem;
     }
 }
 
@@ -215,13 +215,13 @@
     #Field_Expirements_Section_H2 {
         margin-left: 25px;
         margin-right: 25px;
-        /* font-size: 20px; */
+        font-size: 20px;
     }
 
     #Introductory_Paragraph {
         padding: 25px;
         font-size: 18px;
-        line-height: 4rem;
+        line-height: 3rem;
     }
 }
 
