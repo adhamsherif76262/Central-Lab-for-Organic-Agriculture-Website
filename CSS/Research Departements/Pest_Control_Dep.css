@@ -10,7 +10,7 @@
         margin-bottom: 50px;
         margin-left: 25px;
         margin-right: 25px;
-        font-size: 35px;
+        font-size: 30px;
         color: black;
     }
 
@@ -94,8 +94,8 @@
 
     #Department_Specializations_OL_Ar li {
         counter-increment: stepnr;
-        width: 30rem;
-        --borderS: 2rem;
+        width: 21rem;
+        --borderS: 1.5rem;
         aspect-ratio: 1;
         display: flex;
         flex-direction: column;
@@ -119,7 +119,7 @@
         content: counter(stepnr);
         color: var(--accent-color);
         padding-left: 18rem;
-        font-size: 11rem;
+        font-size: 5rem;
         font-weight: bold;
         overflow: hidden;
     }
@@ -127,8 +127,8 @@
     #Department_Specializations_OL_Ar li::before {
         content: counter(stepnr);
         color: var(--accent-color);
-        padding-right: 18rem;
-        font-size: 11rem;
+        padding-right: 14rem;
+        font-size: 5rem;
         font-weight: bold;
         overflow: hidden;
     }
@@ -137,7 +137,7 @@
         content: counter(stepnr);
         color: var(--accent-color);
         padding-left: 15rem !important;
-        font-size: 11rem;
+        font-size: 5rem;
         font-weight: bold;
         overflow: hidden;
     }
@@ -145,8 +145,8 @@
     #Department_Specializations_OL_Ar_Last_LI::before {
         content: counter(stepnr);
         color: var(--accent-color);
-        padding-right: 17rem !important;
-        font-size: 11rem;
+        padding-right: 12rem !important;
+        font-size: 5rem;
         font-weight: bold;
         overflow: hidden;
     }
@@ -180,10 +180,15 @@
         font-weight: bold
     }
 
-    #Department_Specializations_OL_En li .descr,
+    #Department_Specializations_OL_En li .descr{
+        font-size: 18px;
+        font-weight: bold;
+        padding-right:50px;
+    }
     #Department_Specializations_OL_Ar li .descr {
-        font-size: 1.25rem;
-        font-weight: bold
+        font-size: 18px;
+        font-weight: bold;
+        padding-left:25px;
     }
 
     #Department_Specializations_OL_Ar {
@@ -287,7 +292,7 @@
 
     #Research_Publications_UL_Ar li .descr,
     #Research_Publications_UL_En li .descr {
-        font-size: 1.25rem;
+        font-size: 18px;
     }
 
 
@@ -332,8 +337,8 @@
 
         #Department_Specializations_OL_En li {
             counter-increment: stepnr;
-            width: 25rem;
-            --borderS: 1rem;
+            width: 23rem;
+            --borderS: 1.5rem;
             aspect-ratio: 1;
             display: flex;
             flex-direction: column;
@@ -399,7 +404,7 @@
             counter-increment: stepnr;
             width: 22rem;
             --borderS: 1rem;
-            aspect-ratio: 0.65;
+            aspect-ratio: 1;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -409,9 +414,9 @@
 
         #Department_Specializations_OL_Ar li {
             counter-increment: stepnr;
-            width: 20rem;
+            width: 22rem;
             --borderS: 1rem;
-            aspect-ratio: 0.8;
+            aspect-ratio: 1;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -420,27 +425,27 @@
         }
 
         #Department_Specializations_OL_En li::before {
-            padding-left: 14rem !important;
-            font-size: 7rem;
+            padding-left: 16rem !important;
+            font-size: 5rem;
             font-weight: bold;
             overflow: hidden;
         }
 
         #Department_Specializations_OL_Ar li::before {
-            padding-right: 13rem !important;
-            font-size: 8rem;
+            padding-right: 16.5rem !important;
+            font-size: 5rem;
             font-weight: bold;
             overflow: hidden;
         }
 
         #Department_Specializations_OL_En li>*,
         #Department_Specializations_OL_Ar li>* {
-            width: 11rem
+            width: 17rem
         }
 
         #Department_Specializations_OL_En_Last_LI>*,
         #Department_Specializations_OL_Ar_Last_LI>* {
-            width: 10rem !important;
+            width: 12rem !important;
         }
 
         #Department_Specializations_OL_En li::before,
