@@ -5,11 +5,8 @@
     #Research_Publications_H2,
     #Department_Specializations_H2 {
         text-align: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        margin-left: 25px;
-        margin-right: 25px;
-        font-size: 35px;
+        margin: 25px;
+        font-size: 25px;
         color: black;
     }
 
@@ -42,7 +39,7 @@
     }
 
     .ul-circles {
-        --innerSize: 22rem;
+        --innerSize: 20rem;
         --rimSize: 2rem;
 
         display: grid;
@@ -68,9 +65,9 @@
         text-align: center;
         position: relative;
 
-        padding-left: 25px;
-        padding-right: 25px;
-        font-size: 1.5rem;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 20px;
         font-family: Omnes-Arabic-HairLine-Bold;
     }
 
@@ -184,7 +181,7 @@
 
     @media screen and (max-width : 425px) {
         .ul-circles {
-            --innerSize: 18rem !important;
+            --innerSize: 20rem !important;
             --rimSize: 1rem;
             display: grid;
             grid-template-columns: repeat(var(--repeatVal, 1), calc(var(--innerSize)));
@@ -321,7 +318,7 @@
 
     #Research_Publications_UL_Ar li .descr,
     #Research_Publications_UL_En li .descr {
-        font-size: 1.25rem;
+        font-size: 20px;
     }
 
 
@@ -344,7 +341,7 @@
         #Department_Specializations_H2 {
             margin-left: 25px;
             margin-right: 25px;
-            font-size: 30px;
+            font-size: 25px;
         }
     }
 
