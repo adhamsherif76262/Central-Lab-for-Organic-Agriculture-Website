@@ -523,8 +523,8 @@ p,
     p,
     li {
         margin: 0 0 15px 0;
-        font-size: 35px;
-        line-height: 4rem;
+        font-size: 25px;
+        line-height: 2rem;
     }
 
     .En_P,
@@ -560,6 +560,12 @@ p,
         height: 500px;
         margin-top: 50px !important;
         margin: auto;
+    }
+
+    p,
+    li {
+        font-size: 20px;
+        line-height: 2rem;
     }
 
     .pic-ctn>img {
@@ -634,8 +640,8 @@ p,
     p,
     li {
         margin: 0 0 15px 0;
-        font-size: 25px;
-        line-height: 3rem;
+        font-size: 20px;
+        line-height: 2rem;
     }
 
     .LI_En,

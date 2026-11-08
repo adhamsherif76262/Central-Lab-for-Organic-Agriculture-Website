@@ -391,7 +391,7 @@ var Services_Section_En = `
                         <li><a href="">Microbial count of beneficial bacteria and fungi.</a></li>
                         <li><a href="">Identification of bacterial and fungal genera.</a></li>
                         <p>Chemical Analyses:</p>
-                        <li id="Grid_List_Item_En" style="line-height: 3rem;">
+                        <li id="Grid_List_Item_En" style="line-height: 2rem !important;">
                             <a href="">Nitrogen estimation<br></a>
                             <a href="">Total phosphorus estimation<br></a>
                             <a href="">Vitamin estimation<br></a>
@@ -405,7 +405,7 @@ var Services_Section_En = `
         </li>
         <li id="Last_Major_List_Item_En">
             <h2>7</h2>
-            <h3 style="line-height: 3.5rem;">Conducting Economic Feasibility Studies for Companies, Farms, and
+            <h3 style="line-height: 3rem;">Conducting Economic Feasibility Studies for Companies, Farms, and
                 Organic Input Production Units.</h3>
         </li>
     </ul>

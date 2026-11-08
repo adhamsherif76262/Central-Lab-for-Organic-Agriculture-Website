@@ -57,7 +57,6 @@ body {
 
 #Services_Section_En {
     direction: ltr;
-    /* overflow-x: hidden !important; */
 }
 
 #Services_Section_En,
@@ -83,6 +82,7 @@ body {
 #Last_Major_List_Item_Ar {
     margin-left: 800px !important;
     margin-top: -75px !important;
+    min-height: 300px;
 }
 
 #Grid_List_Item_Ar,
@@ -97,6 +97,7 @@ body {
     width: 42%;
     min-width: 200px;
     /* max-width: 230px; */
+    /* overflow: hidden !important; */
 
     /* padding: 100px 75px 50px; */
     position: relative;
@@ -567,7 +568,7 @@ header {
     #Services_Section_En .tilesWrap {
         z-index: 999;
         margin-left: -20px;
-        overflow-x: hidden !important;
+        overflow: hidden !important;
     }
 
     #Services_Section_Ar .tilesWrap li {
@@ -583,6 +584,12 @@ header {
         max-width: 1100px;
         /* overflow-x: hidden !important; */
     }
+    #Training_H2{
+        margin-top:50px;
+    }
+    #First_List_Item_Anchor_En {
+        line-height: 2rem;
+    }
 }
 
 @media screen and (max-width : 1150px) {
@@ -597,9 +604,13 @@ header {
 
 @media screen and (max-width : 1000px) {
 
-    #Title_H1,
+    #Title_H1{
+        font-size: 30px;
+    }
+
     #Training_H2{
         font-size: 30px;
+        margin-top:50px;
     }
 
     #myList a {
@@ -761,7 +772,10 @@ header {
         padding: 0px !important;
     }
 
-    #Title_H1,
+    #Title_H1{
+        font-size: 30px;
+    }
+
     #Training_H2{
         font-size: 30px;
     }
